@@ -1,24 +1,24 @@
-import React from 'react';
+// import React from 'react';
 // import { useAuth } from 'oidc-react';
-import axios from 'axios';
+// import axios from 'axios';
 
-async function doGetRequest(token) {
-  let res = await axios.get("https://api.marvelstrikeforce.com/game/v1/characters", {
-    headers: {
-      "Accept": "application/json",
-      "x-api-key": "17wMKJLRxy3pYDCKG5ciP7VSU45OVumB2biCzzgw",
-      "Authorization": "Bearer " + token
-    }
-  }
+// async function doGetRequest(token) {
+//   let res = await axios.get("https://api.marvelstrikeforce.com/game/v1/characters", {
+//     headers: {
+//       "Accept": "application/json",
+//       "x-api-key": "17wMKJLRxy3pYDCKG5ciP7VSU45OVumB2biCzzgw",
+//       "Authorization": "Bearer " + token
+//     }
+//   }
 
-  );
+//   );
 
-  let data = res.data;
-  // console.log(data)
-  return (data);
-}
+//   let data = res.data;
+//   console.log(data)
+//   return (data);
+// }
 
-var tableData;
+// var tableData;
 
 
 const ApiData = () => {

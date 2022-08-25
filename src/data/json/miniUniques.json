@@ -1,0 +1,220 @@
+{
+  "Mystic": {
+    "14a": {
+      "id": "GEAR_ORANGE_MYSTIC_MAT_C5",
+      "name": "Superior Shoggoth Ichor",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MYSTIC_MAT_C5_9c04207e.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "14b": {
+      "id": "GEAR_ORANGE_MYSTIC_MAT_C9",
+      "name": "Superior Celestial Lattice",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MYSTIC_MAT_C9_16d313ae.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "15a": {
+      "id": "GEAR_ORANGE_MYSTIC_MAT_C8",
+      "name": "Superior Mythic Geode",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MYSTIC_MAT_C8_b60c5efc.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "15b": {
+      "id": "GEAR_ORANGE_MYSTIC_MAT_C6",
+      "name": "Superior Psionic Essence",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MYSTIC_MAT_C6_f19968fc.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "16a": {
+      "id": "GEAR_TEAL_MYSTIC_MAT_C9",
+      "name": "Augmented Celestial Lattice",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MYSTIC_MAT_C9_e83fe4e6.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "16b": {
+      "id": "GEAR_TEAL_MYSTIC_MAT_C5",
+      "name": "Augmented Shoggoth Ichor",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MYSTIC_MAT_C5_99a767de.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "17a": {
+      "id": "GEAR_TEAL_MYSTIC_MAT_C8",
+      "name": "Augmented Mythic Geode",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MYSTIC_MAT_C8_bb36c72c.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "17b": {
+      "id": "GEAR_TEAL_MYSTIC_MAT_C1",
+      "name": "Augmented Sigil",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MYSTIC_MAT_C1_78ba73c2.png",
+      "noDeco": true,
+      "tier": 15
+    }
+  },
+  "Skill": {
+    "14a": "",
+    "14b": "",
+    "15a": "",
+    "15b": "",
+    "16a": "",
+    "16b": "",
+    "17a": "",
+    "17b": ""
+  },
+  "Bio": {
+    "14a": {
+        "id": "GEAR_ORANGE_BIO_MAT_C9",
+        "name": "Superior Molecular Scan",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_BIO_MAT_C9_29289098.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "14b": {
+        "id": "GEAR_ORANGE_BIO_MAT_C5",
+        "name": "Superior Marrow Extract",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_BIO_MAT_C5_73602b37.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "15a": {
+        "id": "GEAR_ORANGE_BIO_MAT_C6",
+        "name": "Superior Hyperphage",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_BIO_MAT_C6_d61bf6d8.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "15b": {
+        "id": "GEAR_ORANGE_BIO_MAT_C8",
+        "name": "Superior Spectral Analysis",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_BIO_MAT_C8_f1dd8f7e.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "16a": {
+        "id": "GEAR_TEAL_BIO_MAT_C9",
+        "name": "Augmented Molecular Scan",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_BIO_MAT_C9_aa2357ae.png",
+        "noDeco": true,
+        "tier": 15
+      },
+    "16b": {
+        "id": "GEAR_TEAL_BIO_MAT_C5",
+        "name": "Augmented Marrow Extract",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_BIO_MAT_C5_7ed575a6.png",
+        "noDeco": true,
+        "tier": 15
+      },
+    "17a": {
+        "id": "GEAR_TEAL_BIO_MAT_C8",
+        "name": "Augmented Spectral Analysis",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_BIO_MAT_C8_5ea2a756.png",
+        "noDeco": true,
+        "tier": 15
+      },
+    "17b": {
+        "id": "GEAR_TEAL_BIO_MAT_C1",
+        "name": "Augmented Syringe",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_BIO_MAT_C1_d5ff4e93.png",
+        "noDeco": true,
+        "tier": 15
+      }
+  },
+  "Tech": {
+    "14a": "",
+    "14b": "",
+    "15a": "",
+    "15b": "",
+    "16a": "",
+    "16b": "",
+    "17a": "",
+    "17b": ""
+  },
+  "Mutant": {
+    "14a": {
+        "id": "GEAR_ORANGE_MUTANT_MAT_C9",
+        "name": "Superior Adaptive Pathogens",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MUTANT_MAT_C9_b56ca10b.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "14b": {
+        "id": "GEAR_ORANGE_MUTANT_MAT_C5",
+        "name": "Superior Isochronal Compound",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MUTANT_MAT_C5_50696dc8.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "15a": {
+        "id": "GEAR_ORANGE_MUTANT_MAT_C6",
+        "name": "Superior Biopolymers",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MUTANT_MAT_C6_99298aa5.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "15b": {
+        "id": "GEAR_ORANGE_MUTANT_MAT_C8",
+        "name": "Superior Phytonutrients",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_MUTANT_MAT_C8_e006a45d.png",
+        "noDeco": true,
+        "tier": 12
+      },
+    "16a": {
+        "id": "GEAR_TEAL_MUTANT_MAT_C9",
+        "name": "Augmented Adaptive Pathogens",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MUTANT_MAT_C9_3d30edf9.png",
+        "noDeco": true,
+        "tier": 15
+      },
+    "16b": {
+        "id": "GEAR_TEAL_MUTANT_MAT_C5",
+        "name": "Augmented Isochronal Compound",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MUTANT_MAT_C5_c2b99147.png",
+        "noDeco": true,
+        "tier": 15
+      },
+    "17a": {
+        "id": "GEAR_TEAL_MUTANT_MAT_C8",
+        "name": "Augmented Phytonutrients",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MUTANT_MAT_C8_21c1471f.png",
+        "noDeco": true,
+        "tier": 15
+      },
+    "17b": {
+        "id": "GEAR_TEAL_MUTANT_MAT_C1",
+        "name": "Augmented Chaotic Ribosomes",
+        "description": "",
+        "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MUTANT_MAT_C1_763dbba6.png",
+        "noDeco": true,
+        "tier": 15
+      }
+  }
+}
