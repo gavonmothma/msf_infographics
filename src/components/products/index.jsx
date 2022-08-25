@@ -69,7 +69,7 @@ const COLUMNS = [
 
 export const Products = () => {
   const columns = useMemo(() => COLUMNS, []);
-  const data = useMemo(() => characterList.Darkhold, []);
+  const data = useMemo(() => characterList.Unlimited, []);
 
   const tableInstance = useTable({
     columns,
