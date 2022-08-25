@@ -1,5 +1,12 @@
 {
     "classes": [
         "Support", "Blaster", "Protector", "Controller", "Brawler"
-    ]
+    ],
+    "classIcons": {
+        "Support": "Iso-8_Icons_Support.png",
+        "Blaster": "Iso-8_Icons_Blaster.png" ,
+        "Protector": "Iso-8_Icons_Protector.png",
+        "Controller": "Iso-8_Icons_Controller.png",
+        "Brawler": "Iso-8_Icons_Brawler.png"
+    }
 }

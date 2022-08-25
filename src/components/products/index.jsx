@@ -5,6 +5,7 @@ var characters = require("../../data/json/characters.json");
 characters = characters.data;
 const requiredCharacters = require("../../data/json/requiredCharacters.json");
 const isoClasses = require("../../data/json/isoClasses.json");
+console.log(isoClasses);
 // const iso8Abilities = require("../../data/json/iso8Abilities.json");
 
 //num is the current trait (Darkhold, Gamma, etc) for which we are searching
@@ -31,7 +32,7 @@ for (let character in characterList) {
   for (let char of characterList[character]) {
     for (let trait of char.traits) {
       for (let iso in isoClasses.classes) {
-        console.log(isoClasses.classes[iso], trait.id);
+        // console.log(isoClasses.classes[iso], trait.id);
         if (isoClasses.classes[iso] === trait.id) {
           char.isoClass = trait.id;
         }
@@ -47,14 +48,10 @@ const COLUMNS = [
     Header: "Portrait",
     accessor: "portrait",
     Cell: (props) => {
-      console.log(props);
+      // console.log(props);
       return (
         <span>
           <div>
-            {props.row.original.gearTiers[12].slots[1].piece.directCost[2].quantity +
-              props.row.original.gearTiers[13].slots[1].piece.directCost[2].quantity +
-              props.row.original.gearTiers[14].slots[1].piece.directCost[2].quantity}
-            <img src={props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.icon} alt="Unique" />
             <img src={props.row.original.portrait} alt="Portrait"></img>
           </div>
         </span>
@@ -62,8 +59,42 @@ const COLUMNS = [
     }
   },
   {
-    Header: "isoClass",
+    Header: "ISO-8 Class",
     accessor: "isoClass"
+  },
+  {
+    Header: "ISO-8 Icon",
+    accessor: "isoIcon",
+    Cell: (props) => {
+      
+      return (
+        <div>
+          <img src={require('../../img/' + isoClasses.classIcons[props.row.original.isoClass])} alt="isoIcon"></img>
+        </div>
+      )
+    }
+  },
+  {
+    Header: "Unique Quantity",
+    accessor: "uniqueQuantity",
+    Cell: (props) => {
+      return (
+        <div>
+          {props.row.original.gearTiers[12].slots[1].piece.directCost[2].quantity +
+            props.row.original.gearTiers[13].slots[1].piece.directCost[2].quantity +
+            props.row.original.gearTiers[14].slots[1].piece.directCost[2].quantity}
+        </div>
+      );
+    }
+  },
+  {
+    Header: "Unique",
+    accessor: "unique",
+    Cell: (props) => {
+      return (
+        <div>{<img src={props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.icon} alt="Unique" />}</div>
+      );
+    }
   }
 ];
 
@@ -94,11 +125,11 @@ export const Products = () => {
         {rows.map((row) => {
           prepareRow(row);
           return (
-            <span {...row.getRowProps()}>
+            <tr {...row.getRowProps()}>
               {row.cells.map((cell) => {
                 return <td {...cell.getCellProps()}>{cell.render("Cell")}</td>;
               })}
-            </span>
+            </tr>
           );
         })}
       </tbody>
