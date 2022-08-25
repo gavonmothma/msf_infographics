@@ -1,0 +1,332 @@
+{
+    "data": [
+      {
+        "id": "AgathaHarkness",
+        "mission": false,
+        "name": "Agatha Harkness",
+        "description": "One of the most powerful witches alive, Agatha Harkness is a centuries-old survivor of the Salem Witch Trials who uses her potent spells to debilitate her enemies.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_AgathaHarkness_ead1f20a.png",
+        "starItems": [
+          {
+            "id": "SHARD_AGATHAHARKNESS"
+          },
+          {
+            "id": "RS_AGATHAHARKNESS_1"
+          },
+          {
+            "id": "RS_AGATHAHARKNESS_2"
+          },
+          {
+            "id": "RS_AGATHAHARKNESS_3"
+          },
+          {
+            "id": "RS_AGATHAHARKNESS_4"
+          },
+          {
+            "id": "RS_AGATHAHARKNESS_5"
+          },
+          {
+            "id": "RS_AGATHAHARKNESS_6"
+          },
+          {
+            "id": "RS_AGATHAHARKNESS_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Villain",
+            "name": "VILLAIN"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mystic",
+            "name": "MYSTIC"
+          },
+          {
+            "id": "Support",
+            "name": "SUPPORT"
+          },
+          {
+            "id": "Darkhold",
+            "name": "DARKHOLD"
+          }
+        ],
+        "eventTraits": [
+          {
+            "id": "Hearts",
+            "isEvent": true,
+            "name": "HEARTS"
+          }
+        ]
+      },
+      {
+        "id": "MorganLeFay",
+        "mission": false,
+        "name": "Morgan Le Fay",
+        "description": "A former pupil to Merlin, Morgan Le Fay is a dominating sorceress that uses her abilities to manipulate the past and present.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_MorganLeFay_ae7d789d.png",
+        "starItems": [
+          {
+            "id": "SHARD_MORGANLEFAY"
+          },
+          {
+            "id": "RS_MORGANLEFAY_1"
+          },
+          {
+            "id": "RS_MORGANLEFAY_2"
+          },
+          {
+            "id": "RS_MORGANLEFAY_3"
+          },
+          {
+            "id": "RS_MORGANLEFAY_4"
+          },
+          {
+            "id": "RS_MORGANLEFAY_5"
+          },
+          {
+            "id": "RS_MORGANLEFAY_6"
+          },
+          {
+            "id": "RS_MORGANLEFAY_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Villain",
+            "name": "VILLAIN"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mystic",
+            "name": "MYSTIC"
+          },
+          {
+            "id": "Controller",
+            "name": "CONTROLLER"
+          },
+          {
+            "id": "Darkhold",
+            "name": "DARKHOLD"
+          },
+          {
+            "id": "Horseman",
+            "name": "HORSEMAN"
+          },
+          {
+            "id": "Legendary",
+            "name": "LEGENDARY"
+          }
+        ],
+        "eventTraits": [
+          {
+            "id": "Spades",
+            "isEvent": true,
+            "name": "SPADES"
+          }
+        ]
+      },
+      {
+        "id": "ScarletWitch",
+        "mission": false,
+        "name": "Scarlet Witch",
+        "description": "A mystical controller that prolongs negative effects and redistributes health across her teammates.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_ScarletWitch_386ef0d7.png",
+        "starItems": [
+          {
+            "id": "SHARD_SCARLETWITCH"
+          },
+          {
+            "id": "RS_SCARLETWITCH_1"
+          },
+          {
+            "id": "RS_SCARLETWITCH_2"
+          },
+          {
+            "id": "RS_SCARLETWITCH_3"
+          },
+          {
+            "id": "RS_SCARLETWITCH_4"
+          },
+          {
+            "id": "RS_SCARLETWITCH_5"
+          },
+          {
+            "id": "RS_SCARLETWITCH_6"
+          },
+          {
+            "id": "RS_SCARLETWITCH_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 2,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mystic",
+            "name": "MYSTIC"
+          },
+          {
+            "id": "Controller",
+            "name": "CONTROLLER"
+          },
+          {
+            "id": "Avenger",
+            "name": "AVENGER"
+          },
+          {
+            "id": "Supernatural",
+            "name": "SUPERNATURAL"
+          },
+          {
+            "id": "Darkhold",
+            "name": "DARKHOLD"
+          }
+        ]
+      },
+      {
+        "id": "StrangeSupreme",
+        "mission": false,
+        "name": "Doctor Strange (Heartless)",
+        "description": "A heartbroken Doctor Strange absorbed countless otherworldly beings in a search for enough power to return his lost love, but found only the destructive might to demolish his foes.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_StrangeSupreme_514d1e83.png",
+        "starItems": [
+          {
+            "id": "SHARD_STRANGESUPREME"
+          },
+          {
+            "id": "RS_STRANGESUPREME_1"
+          },
+          {
+            "id": "RS_STRANGESUPREME_2"
+          },
+          {
+            "id": "RS_STRANGESUPREME_3"
+          },
+          {
+            "id": "RS_STRANGESUPREME_4"
+          },
+          {
+            "id": "RS_STRANGESUPREME_5"
+          },
+          {
+            "id": "RS_STRANGESUPREME_6"
+          },
+          {
+            "id": "RS_STRANGESUPREME_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 2,
+        "traits": [
+          {
+            "id": "Villain",
+            "name": "VILLAIN"
+          },
+          {
+            "id": "Cosmic",
+            "name": "COSMIC"
+          },
+          {
+            "id": "Mystic",
+            "name": "MYSTIC"
+          },
+          {
+            "id": "Blaster",
+            "name": "BLASTER"
+          },
+          {
+            "id": "Darkhold",
+            "name": "DARKHOLD"
+          }
+        ]
+      },
+      {
+        "id": "Wong",
+        "mission": false,
+        "name": "Wong",
+        "description": "Keeper of knowledge within Kamar-Taj and a Master of the Mystic Arts, Wong uses his sorcery to defend and fortify his allies.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Wong_fd9bf7a7.png",
+        "starItems": [
+          {
+            "id": "SHARD_WONG"
+          },
+          {
+            "id": "RS_WONG_1"
+          },
+          {
+            "id": "RS_WONG_2"
+          },
+          {
+            "id": "RS_WONG_3"
+          },
+          {
+            "id": "RS_WONG_4"
+          },
+          {
+            "id": "RS_WONG_5"
+          },
+          {
+            "id": "RS_WONG_6"
+          },
+          {
+            "id": "RS_WONG_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mystic",
+            "name": "MYSTIC"
+          },
+          {
+            "id": "Protector",
+            "name": "PROTECTOR"
+          },
+          {
+            "id": "Darkhold",
+            "name": "DARKHOLD"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "version": 1,
+      "hashes": {
+        "events": "eeee513c42e890e8671b",
+        "drops": "5c9e04644a530dfea5a7",
+        "locs": "598a1e393c07399542fd",
+        "nodes": "54d7587658a35ba961cc",
+        "chars": "a1c2fd4cc7668a4479b3",
+        "other": "35b5607832f9a1b6c5cf",
+        "all": "4b6b64526d776b34c4a2"
+      },
+      "perTotal": 5
+    }
+  }

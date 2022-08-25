@@ -1,0 +1,261 @@
+{
+    "data": {
+      "striker": {
+        "name": "Striker",
+        "icons": [
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_ASSASSIN_36aeccff.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_ASSASSIN_1_817d06b4.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_ASSASSIN_2_10825b53.png"
+        ],
+        "levels": {
+          "1": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>50%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic. \n\nGain +<color=#86e619>5%</color> Damage.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "2": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>50%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\n\nGain +<color=#86e619>5%</color> Damage.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>25%</color> damage for <color=#9055FF>Iso Bonus Attack</color>\nGain +<color=#86e619>5%</color> Damage"
+          },
+          "3": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>75%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\n\nGain +<color=#86e619>10%</color> Damage.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health\nGain <color=#fff568>WAR READY</color>"
+          },
+          "4": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>75%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> Damage.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>25%</color> damage for <color=#9055FF>Iso Bonus Attack</color>\nGain +<color=#86e619>5%</color> Damage"
+          },
+          "5": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>100%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>15%</color> Damage.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>5%</color> Damage"
+          },
+          "6": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>100%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "7": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>100%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "On primary hit, if the target is <color=#9055FF>Vulnerable</color> with a duration of <color=#86e619>2+</color>, Deal <color=#86e619>5%</color> of this character's Max Health to their Primary Target"
+          },
+          "8": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>100%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\nGain <color=#fff568>WAR READY</color>\n\nOn primary hit, if the target has <color=#86e619>2</color> or more <color=#9055FF>Vulnerable</color>, deal <color=#86e619>5%</color> of this character's Max Health to the Primary Target.\n\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health, Armor, Focus, and Resistance"
+          },
+          "9": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>100%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\nGain <color=#fff568>WAR READY</color>\n\nOn primary hit, if the target has <color=#86e619>2</color> or more <color=#9055FF>Vulnerable</color>, deal <color=#86e619>5%</color> of this character's Max Health to the Primary Target.\n\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance.",
+            "nextUpgrade": "Deal +<color=#86e619>10%</color> Max Health and Heal for <color=#86e619>50%</color> of the damage dealt\nGain +<color=#86e619>20%</color> Damage"
+          },
+          "10": {
+            "description": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, make an <color=#9055FF>Iso Bonus Attack</color> at <color=#86e619>100%</color> Damage, then clear <color=#86e619>1</color> <color=#9055FF>Vulnerable</color>. This attack is based on the character's basic.\nGain <color=#fff568>WAR READY</color>\n\nOn primary hit, if the target has <color=#86e619>2</color> or more <color=#9055FF>Vulnerable</color>, deal <color=#86e619>15%</color> of this character's Max Health to the Primary Target and Heal for <color=#86e619>50%</color> of the damage dealt.\n\nGain +<color=#86e619>40%</color> Damage.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance."
+          }
+        }
+      },
+      "fortifier": {
+        "name": "Fortifier",
+        "icons": [
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_FORTIFY_19d87033.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_FORTIFY_1_3cfae287.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_FORTIFY_2_5a6c604a.png"
+        ],
+        "levels": {
+          "1": {
+            "description": "On Spawn, Barrier self for <color=#86e619>10,000</color>.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "2": {
+            "description": "On Spawn, Barrier self for <color=#86e619>10,000</color>.\n\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "+<color=#86e619>10,000</color> Barrier on Spawn \nOn Turn, Barrier self for <color=#86e619>3%</color> of this character's Max Health"
+          },
+          "3": {
+            "description": "On Spawn, Barrier self for <color=#86e619>20,000</color>.\nOn Turn, Barrier self for <color=#86e619>3%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health\nGain <color=#fff568>WAR READY</color>"
+          },
+          "4": {
+            "description": "On Spawn, Barrier self for <color=#86e619>20,000</color>.\nOn Turn, Barrier self for <color=#86e619>3%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "+<color=#86e619>15,000</color> Barrier on Spawn \n+<color=#86e619>4%</color> Barrier on Turn"
+          },
+          "5": {
+            "description": "On Spawn, Barrier self for <color=#86e619>35,000</color>.\nOn Turn, Barrier self for <color=#86e619>7%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "+<color=#86e619>10,000</color> Barrier on Spawn"
+          },
+          "6": {
+            "description": "On Spawn, Barrier self for <color=#86e619>45,000</color>.\nOn Turn, Barrier self for <color=#86e619>7%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "7": {
+            "description": "On Spawn, Barrier self for <color=#86e619>45,000</color>.\nOn Turn, Barrier self for <color=#86e619>7%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "On Turn, gain <color=#fff568>Minor Defense Up</color> for <color=#86e619>2</color> turns\n+<color=#86e619>5%</color> Barrier on Spawn"
+          },
+          "8": {
+            "description": "On Spawn, Barrier self for <color=#86e619>45,000</color> + <color=#86e619>5%</color> of this character's Max Health.\nOn Turn, Barrier self for <color=#86e619>7%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nOn Turn, gain <color=#fff568>Minor Defense Up</color> for <color=#86e619>2</color> turns.\n\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health, Armor, Focus, and Resistance"
+          },
+          "9": {
+            "description": "On Spawn, Barrier self for <color=#86e619>45,000</color> + <color=#86e619>5%</color> of this character's Max Health.\nOn Turn, Barrier self for <color=#86e619>7%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nOn Turn, gain <color=#fff568>Minor Defense Up</color> for <color=#86e619>2</color> turns.\n\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance.",
+            "nextUpgrade": "If this character has Barrier, gain +<color=#86e619>40%</color> Drain\nGain +<color=#86e619>10%</color> Max Barrier\nGain +<color=#86e619>20%</color> Damage"
+          },
+          "10": {
+            "description": "On Spawn, Barrier self for <color=#86e619>45,000</color> + <color=#86e619>5%</color> of this character's Max Health.\nOn Turn, Barrier self for <color=#86e619>7%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nOn Turn, gain <color=#fff568>Minor Defense Up</color> for <color=#86e619>2</color> turns. If this character has Barrier, gain +<color=#86e619>40%</color> Drain.\nGain +<color=#86e619>10%</color> Max Barrier.\n\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance."
+          }
+        }
+      },
+      "healer": {
+        "name": "Healer",
+        "icons": [
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_RESTORATION_42821c3a.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_RESTORATION_1_0e25d901.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_RESTORATION_2_70f725ca.png"
+        ],
+        "levels": {
+          "1": {
+            "description": "On Turn, apply <color=#fff568>Minor Regeneration</color> to the most injured ally.\n\nGain +<color=#86e619>5%</color> Active Healing.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "2": {
+            "description": "On Turn, apply <color=#fff568>Minor Regeneration</color> to the most injured ally.\n\nGain +<color=#86e619>5%</color> Active Healing.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "On Turn, heal most injured ally for +<color=#86e619>5%</color> of this character's Max Health \nGain +<color=#86e619>5%</color> Active Healing"
+          },
+          "3": {
+            "description": "On Turn, apply <color=#fff568>Minor Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> Active Healing.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health\nGain <color=#fff568>WAR READY</color>"
+          },
+          "4": {
+            "description": "On Turn, apply <color=#fff568>Minor Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> Active Healing.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Active Healing"
+          },
+          "5": {
+            "description": "On Turn, apply <color=#fff568>Minor Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Active Healing.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>15%</color> Active Healing"
+          },
+          "6": {
+            "description": "On Turn, apply <color=#fff568>Minor Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>35%</color> Active Healing.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "7": {
+            "description": "On Turn, apply <color=#fff568>Minor Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>35%</color> Active Healing.\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "On turn, apply <color=#fff568>Regeneration</color> instead of <color=#fff568>Minor Regeneration</color>\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>1</color> <color=#fff568>Bleed</color> or <color=#fff568>Minor Bleed</color> from your most injured ally "
+          },
+          "8": {
+            "description": "On Turn, apply <color=#fff568>Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>1</color> <color=#fff568>Bleed</color> or <color=#fff568>Minor Bleed</color> from your most injured ally.\n\nGain +<color=#86e619>35%</color> Active Healing.\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health, Armor, Focus, and Resistance"
+          },
+          "9": {
+            "description": "On Turn, apply <color=#fff568>Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>1</color> <color=#fff568>Bleed</color> or <color=#fff568>Minor Bleed</color> from your most injured ally.\n\nGain +<color=#86e619>35%</color> Active Healing.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance.",
+            "nextUpgrade": "On primary hit, apply <color=#fff568>Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health\nGain +<color=#86e619>20%</color> Damage"
+          },
+          "10": {
+            "description": "On Turn, apply <color=#fff568>Regeneration</color> to the most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health.\nGain <color=#fff568>WAR READY</color>\n\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, apply <color=#fff568>Regeneration</color> to your most injured ally + heal that ally for +<color=#86e619>5%</color> of this character's Max Health + clear <color=#86e619>1</color> <color=#fff568>Bleed</color> or <color=#fff568>Minor Bleed</color> from your most injured ally. The effect prioritizes <color=#fff568>Bleed</color>.\n\nGain +<color=#86e619>35%</color> Active Healing.\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance."
+          }
+        }
+      },
+      "skirmisher": {
+        "name": "Skirmisher",
+        "icons": [
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_SKIRMISH_22339447.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_SKIRMISH_1_07c54d78.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_SKIRMISH_2_a40147b7.png"
+        ],
+        "levels": {
+          "1": {
+            "description": "On primary hit, apply <color=#9055FF>Vulnerable</color> to primary target.\nThese effects can also occur on Assist and counterattacks.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "2": {
+            "description": "On primary hit, apply <color=#9055FF>Vulnerable</color> to primary target.\nGain +<color=#86e619>10%</color> Max Health.\nThese effects can also occur on Assist and counterattacks.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>1</color> positive effect\nThese effects can also occur on Assist and counterattacks"
+          },
+          "3": {
+            "description": "On primary hit, apply <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>1</color> positive effect.\nThese effects can also occur on Assist and counterattacks.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health\nGain <color=#fff568>WAR READY</color>"
+          },
+          "4": {
+            "description": "On primary hit, apply <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>1</color> positive effect.\nThese effects can also occur on Assist and counterattacks.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "On primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>2</color> positive effects\nGain +<color=#86e619>50%</color> Focus"
+          },
+          "5": {
+            "description": "On primary hit, apply <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>2</color> positive effects.\nThese effects can also occur on Assist and counterattacks.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Max Health.\nGain +<color=#86e619>50%</color> Focus.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> damage on Assists"
+          },
+          "6": {
+            "description": "On primary hit, apply <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>2</color> positive effects.\nThese effects can also occur on Assist and counterattacks.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> damage on Assists.\nGain +<color=#86e619>20%</color> Max Health.\nGain +<color=#86e619>50%</color> Focus.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "7": {
+            "description": "On primary hit, apply <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>2</color> positive effects.\nThese effects can also occur on Assist and counterattacks.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> damage on Assists.\nGain +<color=#86e619>30%</color> Max Health.\nGain +<color=#86e619>50%</color> Focus.",
+            "nextUpgrade": "On primary hit, apply <color=#86e619>2</color> <color=#9055FF>Vulnerable</color> + gain <color=#86e619>50%</color> Focus for this attack"
+          },
+          "8": {
+            "description": "On primary hit, apply <color=#86e619>2</color> <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>2</color> positive effects. Gain +<color=#86e619>50%</color> Focus for this attack. \nThese effects can also occur on Assist and counterattacks.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> damage on Assists.\nGain +<color=#86e619>30%</color> Max Health.\nGain +<color=#86e619>50%</color> Focus.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health, Armor, Focus, and Resistance"
+          },
+          "9": {
+            "description": "On primary hit, apply <color=#86e619>2</color> <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, clear <color=#86e619>2</color> positive effects. Gain +<color=#86e619>50%</color> Focus for this attack. \nThese effects can also occur on Assist and counterattacks.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> damage on Assists.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>60%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance.",
+            "nextUpgrade": "On primary hit, Flip positive effect to <color=#fff568>Bleed</color> instead of clearing\nGain +<color=#86e619>20%</color> Damage"
+          },
+          "10": {
+            "description": "On primary hit, apply <color=#86e619>2</color> <color=#9055FF>Vulnerable</color> to primary target.\nOn primary hit, if the target is <color=#9055FF>Vulnerable</color>, flip <color=#86e619>2</color> positive effects to <color=#fff568>Bleed</color>. Gain+<color=#86e619>50%</color> Focus for this attack. \nThese effects can also occur on Assist and counterattacks.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>10%</color> damage on Assists.\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>60%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance."
+          }
+        }
+      },
+      "raider": {
+        "name": "Raider",
+        "icons": [
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_GAMBLER_c96f90e4.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_GAMBLER_1_bb93cc4b.png",
+          "https://assets.marvelstrikeforce.com/imgs/ICON_EXTRA_ABILITY_ISO8_GAMBLER_2_3f02035f.png"
+        ],
+        "levels": {
+          "1": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\n\nGain +<color=#86e619>15%</color> Crit Chance.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health"
+          },
+          "2": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\n\nGain +<color=#86e619>15%</color> Crit Chance.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>5%</color> crit chance\nGain +<color=#86e619>5%</color> crit damage"
+          },
+          "3": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\n\nGain +<color=#86e619>20%</color> Crit Chance.\nGain +<color=#86e619>5%</color> Crit Damage.\nGain +<color=#86e619>10%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health\nGain <color=#fff568>WAR READY</color>"
+          },
+          "4": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>20%</color> Crit Chance.\nGain +<color=#86e619>5%</color> Crit Damage.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>5%</color> crit chance\nGain +<color=#86e619>10%</color> crit damage"
+          },
+          "5": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>25%</color> Crit Chance.\nGain +<color=#86e619>15%</color> Crit Damage.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>5%</color> Crit Chance\nGain +<color=#86e619>5%</color> Crit Damage"
+          },
+          "6": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>30%</color> Crit Chance.\nGain +<color=#86e619>20%</color> Crit Damage.\nGain +<color=#86e619>20%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health."
+          },
+          "7": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\nGain <color=#fff568>WAR READY</color>\n\nGain +<color=#86e619>30%</color> Crit Chance.\nGain +<color=#86e619>20%</color> Crit Damage.\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "On Active Ability Hit, <color=#86e619>20%</color> chance to attack the target for <color=#86e619>30%</color> Piercing"
+          },
+          "8": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\nGain <color=#fff568>WAR READY</color>\n\nOn Active Ability Hit, <color=#86e619>20%</color> chance to Bonus Attack the target for <color=#86e619>30%</color> Piercing + apply <color=#86e619>+1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>3</color>.\n\nGain +<color=#86e619>30%</color> Crit Chance.\nGain +<color=#86e619>20%</color> Crit Damage.\nGain +<color=#86e619>30%</color> Max Health.",
+            "nextUpgrade": "Gain +<color=#86e619>10%</color> Max Health, Armor, Focus, and Resistance"
+          },
+          "9": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>5</color>.\nGain <color=#fff568>WAR READY</color>\n\nOn Active Ability Hit, <color=#86e619>40%</color> chance to Bonus Attack the target for <color=#86e619>60%</color> Piercing + apply <color=#86e619>+1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>5</color>.\n\nGain +<color=#86e619>30%</color> Crit Chance.\nGain +<color=#86e619>20%</color> Crit Damage.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance.",
+            "nextUpgrade": "+<color=#86e619>20%</color> Chance to Bonus Attack\n+<color=#86e619>30%</color> Piercing on bonus attack\nApply <color=#86e619>+1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>5</color>\nGain +<color=#86e619>20%</color> Damage"
+          },
+          "10": {
+            "description": "On Active Ability Crit, apply +<color=#86e619>1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>5</color>.\nGain <color=#fff568>WAR READY</color>\n\nOn Active Ability Hit, <color=#86e619>40%</color> chance to Bonus Attack the target for <color=#86e619>60%</color> Piercing + apply <color=#86e619>+1</color> <color=#9055FF>Vulnerable</color>, up to a maximum of <color=#86e619>5</color>.\n\nGain +<color=#86e619>30%</color> Crit Chance.\nGain +<color=#86e619>20%</color> Crit Damage.\nGain +<color=#86e619>20%</color> Damage.\nGain +<color=#86e619>40%</color> Max Health.\nGain +<color=#86e619>10%</color> Armor.\nGain +<color=#86e619>10%</color> Focus.\nGain +<color=#86e619>10%</color> Resistance."
+          }
+        }
+      }
+    },
+    "meta": {
+      "version": 1,
+      "hashes": {
+        "events": "2e4759049f276676ac5f",
+        "drops": "33c0b56639a88c941f4c",
+        "locs": "c26d3085ae9a1b8f8ae8",
+        "nodes": "54d7587658a35ba961cc",
+        "chars": "b5fe5df9a36f2f1f0cef",
+        "other": "1ba9d04b96ec0b8002ee",
+        "all": "413cd5ae73a6ad02b744"
+      }
+    }
+  }

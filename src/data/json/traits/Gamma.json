@@ -1,0 +1,281 @@
+{
+    "data": [
+      {
+        "id": "Abomination",
+        "mission": false,
+        "name": "Abomination",
+        "description": "Transformed into a hideous monster by Gamma radiation, the Abomination uses his strength and spines to tear into enemies and shred their defenses.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Abomination_d466494d.png",
+        "starItems": [
+          {
+            "id": "SHARD_ABOMINATION"
+          },
+          {
+            "id": "RS_ABOMINATION_1"
+          },
+          {
+            "id": "RS_ABOMINATION_2"
+          },
+          {
+            "id": "RS_ABOMINATION_3"
+          },
+          {
+            "id": "RS_ABOMINATION_4"
+          },
+          {
+            "id": "RS_ABOMINATION_5"
+          },
+          {
+            "id": "RS_ABOMINATION_6"
+          },
+          {
+            "id": "RS_ABOMINATION_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Villain",
+            "name": "VILLAIN"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Bio",
+            "name": "BIO"
+          },
+          {
+            "id": "Brawler",
+            "name": "BRAWLER"
+          },
+          {
+            "id": "Gamma",
+            "name": "GAMMA"
+          }
+        ]
+      },
+      {
+        "id": "AmadeusCho",
+        "mission": false,
+        "name": "Brawn",
+        "description": "Brawn exercises his brilliant mind to control his Hulk persona, supporting his Gamma allies to keep them in the fight.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_AmadeusCho_0c0fc9e1.png",
+        "starItems": [
+          {
+            "id": "SHARD_AMADEUSCHO"
+          },
+          {
+            "id": "RS_AMADEUSCHO_1"
+          },
+          {
+            "id": "RS_AMADEUSCHO_2"
+          },
+          {
+            "id": "RS_AMADEUSCHO_3"
+          },
+          {
+            "id": "RS_AMADEUSCHO_4"
+          },
+          {
+            "id": "RS_AMADEUSCHO_5"
+          },
+          {
+            "id": "RS_AMADEUSCHO_6"
+          },
+          {
+            "id": "RS_AMADEUSCHO_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Bio",
+            "name": "BIO"
+          },
+          {
+            "id": "Support",
+            "name": "SUPPORT"
+          },
+          {
+            "id": "Gamma",
+            "name": "GAMMA"
+          }
+        ]
+      },
+      {
+        "id": "Hulk",
+        "mission": false,
+        "name": "Hulk",
+        "description": "An incredibly tough taunter who gets stronger when damaged.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Hulk_71f97638.png",
+        "starItems": [
+          {
+            "id": "SHARD_HULK"
+          },
+          {
+            "id": "RS_HULK_1"
+          },
+          {
+            "id": "RS_HULK_2"
+          },
+          {
+            "id": "RS_HULK_3"
+          },
+          {
+            "id": "RS_HULK_4"
+          },
+          {
+            "id": "RS_HULK_5"
+          },
+          {
+            "id": "RS_HULK_6"
+          },
+          {
+            "id": "RS_HULK_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 4,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Bio",
+            "name": "BIO"
+          },
+          {
+            "id": "Protector",
+            "name": "PROTECTOR"
+          },
+          {
+            "id": "Wave1Avenger",
+            "name": "WAVE I - AVENGER"
+          },
+          {
+            "id": "Gamma",
+            "name": "GAMMA"
+          }
+        ],
+        "invisibleTraits": [
+          {
+            "id": "Avenger",
+            "name": "AVENGER"
+          },
+          {
+            "id": "Wave1",
+            "alwaysInvisible": true
+          },
+          {
+            "id": "Chargeable",
+            "alwaysInvisible": true
+          }
+        ]
+      },
+      {
+        "id": "SheHulk",
+        "mission": false,
+        "name": "She-Hulk",
+        "description": "Delivering gamma-powered justice, She-Hulk applies negative effects to her foes with every smash.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_SheHulk_ad195ac7.png",
+        "starItems": [
+          {
+            "id": "SHARD_SHEHULK"
+          },
+          {
+            "id": "RS_SHEHULK_1"
+          },
+          {
+            "id": "RS_SHEHULK_2"
+          },
+          {
+            "id": "RS_SHEHULK_3"
+          },
+          {
+            "id": "RS_SHEHULK_4"
+          },
+          {
+            "id": "RS_SHEHULK_5"
+          },
+          {
+            "id": "RS_SHEHULK_6"
+          },
+          {
+            "id": "RS_SHEHULK_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "City",
+            "name": "CITY"
+          },
+          {
+            "id": "Bio",
+            "name": "BIO"
+          },
+          {
+            "id": "Protector",
+            "name": "PROTECTOR"
+          },
+          {
+            "id": "Gamma",
+            "name": "GAMMA"
+          }
+        ],
+        "invisibleTraits": [
+          {
+            "id": "Chargeable",
+            "alwaysInvisible": true
+          }
+        ],
+        "eventTraits": [
+          {
+            "id": "Spades",
+            "isEvent": true,
+            "name": "SPADES"
+          },
+          {
+            "id": "PartyAnimal",
+            "isEvent": true,
+            "name": "PARTY ANIMAL"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "version": 1,
+      "hashes": {
+        "events": "eeee513c42e890e8671b",
+        "drops": "5c9e04644a530dfea5a7",
+        "locs": "598a1e393c07399542fd",
+        "nodes": "54d7587658a35ba961cc",
+        "chars": "a1c2fd4cc7668a4479b3",
+        "other": "35b5607832f9a1b6c5cf",
+        "all": "4b6b64526d776b34c4a2"
+      },
+      "perTotal": 4
+    }
+  }

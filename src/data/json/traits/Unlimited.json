@@ -1,0 +1,429 @@
+{
+    "data": [
+      {
+        "id": "Dazzler",
+        "mission": false,
+        "name": "Dazzler",
+        "description": "International pop diva and super hero, Dazzler's mutant power to convert sound into energy creates light shows that can captivate audiences or protect her fellow X-Men in battle.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Dazzler_21ea8d60.png",
+        "starItems": [
+          {
+            "id": "SHARD_DAZZLER"
+          },
+          {
+            "id": "RS_DAZZLER_1"
+          },
+          {
+            "id": "RS_DAZZLER_2"
+          },
+          {
+            "id": "RS_DAZZLER_3"
+          },
+          {
+            "id": "RS_DAZZLER_4"
+          },
+          {
+            "id": "RS_DAZZLER_5"
+          },
+          {
+            "id": "RS_DAZZLER_6"
+          },
+          {
+            "id": "RS_DAZZLER_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mutant",
+            "name": "MUTANT"
+          },
+          {
+            "id": "Controller",
+            "name": "CONTROLLER"
+          },
+          {
+            "id": "Unlimited",
+            "name": "UNLIMITED X-MEN"
+          }
+        ],
+        "invisibleTraits": [
+          {
+            "id": "Xmen",
+            "name": "X-MEN"
+          },
+          {
+            "id": "Chargeable",
+            "alwaysInvisible": true
+          }
+        ],
+        "eventTraits": [
+          {
+            "id": "Diamonds",
+            "isEvent": true,
+            "name": "DIAMONDS"
+          },
+          {
+            "id": "Hearts",
+            "isEvent": true,
+            "name": "HEARTS"
+          },
+          {
+            "id": "PartyAnimal",
+            "isEvent": true,
+            "name": "PARTY ANIMAL"
+          }
+        ]
+      },
+      {
+        "id": "Fantomex",
+        "mission": false,
+        "name": "Fantomex",
+        "description": "An artificially engineered mutant with three brains and a removable nervous system named E.V.A., Fantomex rains bullets down on his enemies. Lots of bullets.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Fantomex_d972f605.png",
+        "starItems": [
+          {
+            "id": "SHARD_FANTOMEX"
+          },
+          {
+            "id": "RS_FANTOMEX_1"
+          },
+          {
+            "id": "RS_FANTOMEX_2"
+          },
+          {
+            "id": "RS_FANTOMEX_3"
+          },
+          {
+            "id": "RS_FANTOMEX_4"
+          },
+          {
+            "id": "RS_FANTOMEX_5"
+          },
+          {
+            "id": "RS_FANTOMEX_6"
+          },
+          {
+            "id": "RS_FANTOMEX_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 2,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mutant",
+            "name": "MUTANT"
+          },
+          {
+            "id": "Blaster",
+            "name": "BLASTER"
+          },
+          {
+            "id": "Unlimited",
+            "name": "UNLIMITED X-MEN"
+          }
+        ],
+        "invisibleTraits": [
+          {
+            "id": "Xmen",
+            "name": "X-MEN"
+          },
+          {
+            "id": "Chargeable",
+            "alwaysInvisible": true
+          }
+        ],
+        "eventTraits": [
+          {
+            "id": "Clubs",
+            "isEvent": true,
+            "name": "CLUBS"
+          },
+          {
+            "id": "Spades",
+            "isEvent": true,
+            "name": "SPADES"
+          }
+        ]
+      },
+      {
+        "id": "Gambit",
+        "mission": false,
+        "name": "Gambit",
+        "description": "With a dash of Cajun charm, Gambit fights alongside the X-Men using his mutant ability to charge objects with kinetic energy, transforming them into deadly explosives.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Gambit_27e36668.png",
+        "starItems": [
+          {
+            "id": "SHARD_GAMBIT"
+          },
+          {
+            "id": "RS_GAMBIT_1"
+          },
+          {
+            "id": "RS_GAMBIT_2"
+          },
+          {
+            "id": "RS_GAMBIT_3"
+          },
+          {
+            "id": "RS_GAMBIT_4"
+          },
+          {
+            "id": "RS_GAMBIT_5"
+          },
+          {
+            "id": "RS_GAMBIT_6"
+          },
+          {
+            "id": "RS_GAMBIT_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 1,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mutant",
+            "name": "MUTANT"
+          },
+          {
+            "id": "Blaster",
+            "name": "BLASTER"
+          },
+          {
+            "id": "Unlimited",
+            "name": "UNLIMITED X-MEN"
+          }
+        ],
+        "invisibleTraits": [
+          {
+            "id": "Xmen",
+            "name": "X-MEN"
+          },
+          {
+            "id": "Chargeable",
+            "alwaysInvisible": true
+          }
+        ],
+        "eventTraits": [
+          {
+            "id": "Diamonds",
+            "isEvent": true,
+            "name": "DIAMONDS"
+          },
+          {
+            "id": "Clubs",
+            "isEvent": true,
+            "name": "CLUBS"
+          },
+          {
+            "id": "Hearts",
+            "isEvent": true,
+            "name": "HEARTS"
+          },
+          {
+            "id": "Spades",
+            "isEvent": true,
+            "name": "SPADES"
+          },
+          {
+            "id": "PartyAnimal",
+            "isEvent": true,
+            "name": "PARTY ANIMAL"
+          }
+        ]
+      },
+      {
+        "id": "Rogue",
+        "mission": false,
+        "name": "Rogue",
+        "description": "A Southern belle with the mutant power to drain her enemies through physical touch, Rogue tears down her foes' defenses and protects her allies.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Rogue_1bdb8429.png",
+        "starItems": [
+          {
+            "id": "SHARD_ROGUE"
+          },
+          {
+            "id": "RS_ROGUE_1"
+          },
+          {
+            "id": "RS_ROGUE_2"
+          },
+          {
+            "id": "RS_ROGUE_3"
+          },
+          {
+            "id": "RS_ROGUE_4"
+          },
+          {
+            "id": "RS_ROGUE_5"
+          },
+          {
+            "id": "RS_ROGUE_6"
+          },
+          {
+            "id": "RS_ROGUE_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 3,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mutant",
+            "name": "MUTANT"
+          },
+          {
+            "id": "Protector",
+            "name": "PROTECTOR"
+          },
+          {
+            "id": "Unlimited",
+            "name": "UNLIMITED X-MEN"
+          },
+          {
+            "id": "Horseman",
+            "name": "HORSEMAN"
+          },
+          {
+            "id": "Legendary",
+            "name": "LEGENDARY"
+          }
+        ],
+        "invisibleTraits": [
+          {
+            "id": "Xmen",
+            "name": "X-MEN"
+          },
+          {
+            "id": "Chargeable",
+            "alwaysInvisible": true
+          }
+        ]
+      },
+      {
+        "id": "Sunfire",
+        "mission": false,
+        "name": "Sunfire",
+        "description": "Powered by solar radiation, Sunfire channels powerful flames to unleash an explosive blow against the enemy team.",
+        "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Sunfire_7c60daa6.png",
+        "starItems": [
+          {
+            "id": "SHARD_SUNFIRE"
+          },
+          {
+            "id": "RS_SUNFIRE_1"
+          },
+          {
+            "id": "RS_SUNFIRE_2"
+          },
+          {
+            "id": "RS_SUNFIRE_3"
+          },
+          {
+            "id": "RS_SUNFIRE_4"
+          },
+          {
+            "id": "RS_SUNFIRE_5"
+          },
+          {
+            "id": "RS_SUNFIRE_6"
+          },
+          {
+            "id": "RS_SUNFIRE_7"
+          }
+        ],
+        "status": "playable",
+        "unlockStars": 2,
+        "traits": [
+          {
+            "id": "Hero",
+            "name": "HERO"
+          },
+          {
+            "id": "Global",
+            "name": "GLOBAL"
+          },
+          {
+            "id": "Mutant",
+            "name": "MUTANT"
+          },
+          {
+            "id": "Blaster",
+            "name": "BLASTER"
+          },
+          {
+            "id": "Unlimited",
+            "name": "UNLIMITED X-MEN"
+          }
+        ],
+        "invisibleTraits": [
+          {
+            "id": "Xmen",
+            "name": "X-MEN"
+          }
+        ],
+        "eventTraits": [
+          {
+            "id": "Diamonds",
+            "isEvent": true,
+            "name": "DIAMONDS"
+          },
+          {
+            "id": "Clubs",
+            "isEvent": true,
+            "name": "CLUBS"
+          },
+          {
+            "id": "Spades",
+            "isEvent": true,
+            "name": "SPADES"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "version": 1,
+      "hashes": {
+        "events": "eeee513c42e890e8671b",
+        "drops": "5c9e04644a530dfea5a7",
+        "locs": "598a1e393c07399542fd",
+        "nodes": "54d7587658a35ba961cc",
+        "chars": "a1c2fd4cc7668a4479b3",
+        "other": "35b5607832f9a1b6c5cf",
+        "all": "4b6b64526d776b34c4a2"
+      },
+      "perTotal": 5
+    }
+  }
