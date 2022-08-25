@@ -1,11 +1,11 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useMemo } from "react";
 import { useTable } from "react-table";
-import { Typography } from "@mui/material";
+// import { Typography } from "@mui/material";
 var characters = require("../../data/json/characters.json");
 characters = characters.data;
 const requiredCharacters = require("../../data/json/requiredCharacters.json");
 const isoClasses = require("../../data/json/isoClasses.json");
-const iso8Abilities = require("../../data/json/iso8Abilities.json");
+// const iso8Abilities = require("../../data/json/iso8Abilities.json");
 
 //num is the current trait (Darkhold, Gamma, etc) for which we are searching
 var characterList = {};
@@ -80,7 +80,7 @@ export const Products = () => {
 
   return (
     <table {...getTableProps()}>
-      {/* <thead>
+      <thead>
         {headerGroups.map((headerGroup) => (
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map((column) => (
@@ -89,7 +89,7 @@ export const Products = () => {
             <th></th>
           </tr>
         ))}
-      </thead> */}
+      </thead>
       <tbody {...getTableBodyProps()}>
         {rows.map((row) => {
           prepareRow(row);
