@@ -66,14 +66,70 @@
     }
   },
   "Skill": {
-    "14a": "",
-    "14b": "",
-    "15a": "",
-    "15b": "",
-    "16a": "",
-    "16b": "",
-    "17a": "",
-    "17b": ""
+    "14a": {
+      "id": "GEAR_ORANGE_SKILL_MAT_C9",
+      "name": "Superior Performance Tracker",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_SKILL_MAT_C9_15ef86d9.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "14b": {
+      "id": "GEAR_ORANGE_SKILL_MAT_C5",
+      "name": "Superior Alpha Flight Cyphers",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_SKILL_MAT_C5_0df34e62.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "15a": {
+      "id": "GEAR_ORANGE_SKILL_MAT_C6",
+      "name": "Superior Remote Access Codes",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_SKILL_MAT_C6_826a2957.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "15b": {
+      "id": "GEAR_ORANGE_SKILL_MAT_C8",
+      "name": "Superior Microdot",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_SKILL_MAT_C8_c1fbc7d9.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "16a": {
+      "id": "GEAR_TEAL_SKILL_MAT_C9",
+      "name": "Augmented Performance Tracker",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_SKILL_MAT_C9_31aeefcb.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "16b": {
+      "id": "GEAR_TEAL_SKILL_MAT_C5",
+      "name": "Augmented Alpha Flight Cyphers",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_SKILL_MAT_C5_768f8aab.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "17a": {
+      "id": "GEAR_TEAL_SKILL_MAT_C8",
+      "name": "Augmented Microdot",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_SKILL_MAT_C8_0eed9e01.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "17b": {
+      "id": "GEAR_TEAL_SKILL_MAT_C1",
+      "name": "Augmented Encoded Data",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_SKILL_MAT_C1_9ece8252.png",
+      "noDeco": true,
+      "tier": 15
+    }
   },
   "Bio": {
     "14a": {
@@ -142,14 +198,70 @@
       }
   },
   "Tech": {
-    "14a": "",
-    "14b": "",
-    "15a": "",
-    "15b": "",
-    "16a": "",
-    "16b": "",
-    "17a": "",
-    "17b": ""
+    "14a": {
+      "id": "GEAR_ORANGE_TECH_MAT_C9",
+      "name": "Superior Nanites",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_TECH_MAT_C9_1f3e90f2.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "14b": {
+      "id": "GEAR_ORANGE_TECH_MAT_C5",
+      "name": "Superior Tachyon Conductor",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_TECH_MAT_C5_17b1a7a6.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "15a": {
+      "id": "GEAR_ORANGE_TECH_MAT_C6",
+      "name": "Superior Dargonite",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_TECH_MAT_C6_b57b8310.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "15b": {
+      "id": "GEAR_ORANGE_TECH_MAT_C8",
+      "name": "Superior Pressurized Tank",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_ORANGE_TECH_MAT_C8_f902bbb7.png",
+      "noDeco": true,
+      "tier": 12
+    },
+    "16a": {
+      "id": "GEAR_TEAL_TECH_MAT_C9",
+      "name": "Augmented Nanites",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_TECH_MAT_C9_71491e25.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "16b": {
+      "id": "GEAR_TEAL_TECH_MAT_C5",
+      "name": "Augmented Tachyon Conductor",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_TECH_MAT_C5_772f9854.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "17a": {
+      "id": "GEAR_TEAL_TECH_MAT_C8",
+      "name": "Augmented Pressurized Tank",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_TECH_MAT_C8_92fdfc81.png",
+      "noDeco": true,
+      "tier": 15
+    },
+    "17b": {
+      "id": "GEAR_TEAL_TECH_MAT_C1",
+      "name": "Augmented Omnium Ore",
+      "description": "",
+      "icon": "https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_TECH_MAT_C1_e445e769.png",
+      "noDeco": true,
+      "tier": 15
+    }
   },
   "Mutant": {
     "14a": {

@@ -11,21 +11,33 @@ const miniUniques = require("../../data/json/miniUniques.json");
 
 //num is the current trait (Darkhold, Gamma, etc) for which we are searching
 var characterList = {};
+var textList = [];
 requiredCharacters.teams.forEach((num) => {
   characterList[num] = [];
   characters.forEach((char) => {
     char.traits.forEach((trait) => {
       if (trait.id === num) {
+        textList.push(char.id);
         characterList[num].push(char);
       }
     });
   });
 });
+console.log(characterList);
+// console.log(textList.sort());
 
 for (let character in characterList) {
   for (let char of characterList[character]) {
-    let chargear = require("../../data/json/characters/" + char.id + ".json");
-    char.gearTiers = chargear.data.gearTiers;
+    let chargear;
+    try {
+      chargear = require("../../data/json/characters/" + char.id + ".json");
+    } catch (e) {
+      if (e.code !== "MODULE_NOT_FOUND") {
+        throw e;
+      }
+    }
+
+    char.gearTiers = chargear?.data?.gearTiers;
   }
 }
 
@@ -53,22 +65,17 @@ for (let character in characterList) {
   }
 }
 
-console.log(characterList);
-
 var newCharacterList = [];
 
-// characterList.forEach( (team) => {
-//   newCharacterList.push(team)
-// })
-
+//puts all teams into one big object, not separated by team. Will need to change approach in future
 for (let team in characterList) {
-  console.log(characterList[team]);
   characterList[team].forEach((actualTeam) => {
     newCharacterList.push(actualTeam);
   });
 }
 
-console.log(newCharacterList);
+// console.log(newCharacterList);
+
 // const searchString = "GEAR_ORANGE_MYSTIC_MAT_C5";
 // var pieceCount = 0;
 // console.log(characterList.Darkhold[0].gearTiers)
@@ -88,7 +95,7 @@ console.log(newCharacterList);
 // }
 
 // const countPiece = (searchString, searchObject) => {
-//   console.log(searchString, searchObject)
+//   // console.log(searchString, searchObject)
 //   for (let topPiece in searchObject) {
 //     if (searchObject[topPiece].hasOwnProperty('slots')) {
 //       searchObject[topPiece].slots.forEach((midPiece) => {
@@ -139,9 +146,9 @@ const COLUMNS = [
     Cell: (props) => {
       return (
         <div>
-          {props.row.original.gearTiers[12].slots[1].piece.directCost[2].quantity +
-            props.row.original.gearTiers[13].slots[1].piece.directCost[2].quantity +
-            props.row.original.gearTiers[14].slots[1].piece.directCost[2].quantity}
+          {props?.row?.original?.gearTiers[12]?.slots[1]?.piece?.directCost[2]?.quantity +
+            props?.row?.original?.gearTiers[13]?.slots[1]?.piece?.directCost[2]?.quantity +
+            props?.row?.original?.gearTiers[14]?.slots[1]?.piece?.directCost[2]?.quantity}
         </div>
       );
     }
@@ -165,12 +172,12 @@ const COLUMNS = [
       return (
         <div>
           {Object.keys(miniUniques[props.row.original.origin]).map((piece) => {
+            console.log(miniUniques[props.row.original.origin][piece])
             return (
-              // console.log(miniUniques[props.row.original.origin][piece].icon); // https://assets.marvelstrikeforce.com/imgs/ICON_GEAR_TEAL_MYSTIC_MAT_C1_78ba73c2.png
-              // console.log(miniUniques[props.row.original.origin][piece].id); // GEAR_TEAL_MYSTIC_MAT_C1
               <img
                 src={miniUniques[props.row.original.origin][piece].icon}
                 alt={miniUniques[props.row.original.origin][piece].id}
+                key={miniUniques[props.row.original.origin][piece].id}
               />
             );
           })}
