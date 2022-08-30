@@ -15,7 +15,7 @@ var textList = [];
 requiredCharacters.teams.forEach((num) => {
   characterList[num] = [];
   characters.forEach((char) => {
-    char.traits.forEach((trait) => {
+    char.traits?.forEach((trait) => {
       if (trait.id === num) {
         textList.push(char.id);
         characterList[num].push(char);
