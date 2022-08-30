@@ -121,6 +121,7 @@ const COLUMNS = [
           <div>
             <img src={props.row.original.portrait} alt="Portrait"></img>
           </div>
+          <div>{props.row.original.name}</div>
         </span>
       );
     }
@@ -159,8 +160,11 @@ const COLUMNS = [
     Cell: (props) => {
       return (
         <div>
-          {<img src={props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.icon} alt="13Unique" />}
-          {<img src={props.row.original.gearTiers[15].slots[1].piece.directCost[2].item.icon} alt="16Unique" />}
+          <div>
+            {<img src={props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.icon} alt="13Unique" />}
+            {<img src={props.row.original.gearTiers[15].slots[1].piece.directCost[2].item.icon} alt="16Unique" />}
+          </div>
+          <div>{props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.name}</div>
         </div>
       );
     }
@@ -172,7 +176,7 @@ const COLUMNS = [
       return (
         <div>
           {Object.keys(miniUniques[props.row.original.origin]).map((piece) => {
-            console.log(miniUniques[props.row.original.origin][piece])
+            // console.log(miniUniques[props.row.original.origin][piece]);
             return (
               <img
                 src={miniUniques[props.row.original.origin][piece].icon}
@@ -191,12 +195,10 @@ export const Products = () => {
   const columns = useMemo(() => COLUMNS, []);
   const data = useMemo(() => newCharacterList, []);
 
-  const tableInstance = useTable({
+  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({
     columns,
     data
   });
-
-  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = tableInstance;
 
   return (
     <table {...getTableProps()}>
