@@ -1,8 +1,12 @@
 import React, { useMemo } from "react";
 import { useTable } from "react-table";
 // import { Typography } from "@mui/material";
-var characters = require("../../data/json/characters.json");
-characters = characters.data;
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
+import { Container, Row, Col } from "react-bootstrap";
+
+//import static data
+const characters = require("../../data/json/characters.json").data;
 const requiredCharacters = require("../../data/json/requiredCharacters.json");
 const isoClasses = require("../../data/json/isoClasses.json");
 const origins = require("../../data/json/origins.json");
@@ -74,41 +78,31 @@ for (let team in characterList) {
   });
 }
 
-// console.log(newCharacterList);
+var pieceCount = 0;
 
-// const searchString = "GEAR_ORANGE_MYSTIC_MAT_C5";
-// var pieceCount = 0;
-// console.log(characterList.Darkhold[0].gearTiers)
+const pieceFinder = (pieceId, gearObject, subTotal) => {
+  if (gearObject.id === pieceId) {
+    pieceCount += subTotal;
+  }
 
-// const pieceFinder = (pieceId, gearObject, subTotal) => {
-//   if(gearObject.id === pieceId) {
-//     console.log(gearObject)
-//     pieceCount += subTotal;
-//   }
+  if (gearObject.hasOwnProperty("directCost")) {
+    gearObject.directCost.forEach((subPiece) => {
+      pieceFinder(pieceId, subPiece.item, subPiece.quantity * (subTotal || 1));
+    });
+  }
+};
 
-//   if (gearObject.hasOwnProperty('directCost')) {
-//     gearObject.directCost.forEach((subPiece) => {
-//       pieceFinder(pieceId, subPiece.item, subPiece.quantity)
-//     })
-
-//   }
-// }
-
-// const countPiece = (searchString, searchObject) => {
-//   // console.log(searchString, searchObject)
-//   for (let topPiece in searchObject) {
-//     if (searchObject[topPiece].hasOwnProperty('slots')) {
-//       searchObject[topPiece].slots.forEach((midPiece) => {
-//         if(midPiece.piece.hasOwnProperty('directCost')) {
-//           pieceFinder(searchString, midPiece.piece, 0)
-//         }
-//       })
-//     }
-//   }
-// }
-
-// countPiece(searchString, characterList.Darkhold[0]?.gearTiers);
-// console.log(pieceCount)
+const countPiece = (searchString, searchObject) => {
+  for (let topPiece in searchObject) {
+    if (searchObject[topPiece].hasOwnProperty("slots")) {
+      searchObject[topPiece].slots.forEach((midPiece) => {
+        if (midPiece.piece.hasOwnProperty("directCost")) {
+          pieceFinder(searchString, midPiece.piece, 0);
+        }
+      });
+    }
+  }
+};
 
 const COLUMNS = [
   {
@@ -142,29 +136,38 @@ const COLUMNS = [
     }
   },
   {
-    Header: "Unique Quantity",
-    accessor: "uniqueQuantity",
-    Cell: (props) => {
-      return (
-        <div>
-          {props?.row?.original?.gearTiers[12]?.slots[1]?.piece?.directCost[2]?.quantity +
-            props?.row?.original?.gearTiers[13]?.slots[1]?.piece?.directCost[2]?.quantity +
-            props?.row?.original?.gearTiers[14]?.slots[1]?.piece?.directCost[2]?.quantity}
-        </div>
-      );
-    }
-  },
-  {
     Header: "Unique",
     accessor: "unique",
     Cell: (props) => {
       return (
         <div>
-          <div>
-            {<img src={props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.icon} alt="13Unique" />}
-            {<img src={props.row.original.gearTiers[15].slots[1].piece.directCost[2].item.icon} alt="16Unique" />}
-          </div>
-          <div>{props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.name}</div>
+          <Container>
+            <Row>
+              <Col md="auto">
+                <figure className="position-relative">
+                  {<img src={props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.icon} alt="13Unique" />}
+                  <figcaption>
+                    {props?.row?.original?.gearTiers[12]?.slots[1]?.piece?.directCost[2]?.quantity +
+                      props?.row?.original?.gearTiers[13]?.slots[1]?.piece?.directCost[2]?.quantity +
+                      props?.row?.original?.gearTiers[14]?.slots[1]?.piece?.directCost[2]?.quantity}
+                  </figcaption>
+                </figure>
+              </Col>
+              <Col md="auto">
+                <figure className="position-relative">
+                  {<img src={props.row.original.gearTiers[15].slots[1].piece.directCost[2].item.icon} alt="16Unique" />}
+                  <figcaption>
+                    {props?.row?.original?.gearTiers[15]?.slots[1]?.piece?.directCost[2]?.quantity +
+                      props?.row?.original?.gearTiers[16]?.slots[1]?.piece?.directCost[2]?.quantity}
+                  </figcaption>
+                </figure>
+              </Col>
+              <Row>
+                <Col md="auto">{props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.name}</Col>
+              </Row>
+              {/* <div>{props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.name}</div> */}
+            </Row>
+          </Container>
         </div>
       );
     }
@@ -175,16 +178,26 @@ const COLUMNS = [
     Cell: (props) => {
       return (
         <div>
-          {Object.keys(miniUniques[props.row.original.origin]).map((piece) => {
-            // console.log(miniUniques[props.row.original.origin][piece]);
-            return (
-              <img
-                src={miniUniques[props.row.original.origin][piece].icon}
-                alt={miniUniques[props.row.original.origin][piece].id}
-                key={miniUniques[props.row.original.origin][piece].id}
-              />
-            );
-          })}
+          <Container>
+            <Row>
+              {Object.keys(miniUniques[props.row.original.origin]).map((piece) => {
+                pieceCount = 0;
+                countPiece(miniUniques[props.row.original.origin][piece].id, props.row.original.gearTiers);
+                return (
+                  <Col md="auto">
+                    <figure className="position-relative">
+                      <img
+                        src={miniUniques[props.row.original.origin][piece].icon}
+                        alt={miniUniques[props.row.original.origin][piece].id}
+                        key={miniUniques[props.row.original.origin][piece].id}
+                      />
+                      <figcaption>{pieceCount}</figcaption>
+                    </figure>
+                  </Col>
+                );
+              })}
+            </Row>
+          </Container>
         </div>
       );
     }
