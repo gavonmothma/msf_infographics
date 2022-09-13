@@ -1050,6 +1050,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
       ]
     },
     {
@@ -1572,6 +1579,13 @@
         {
           "id": "NewWarrior",
           "name": "NEW WARRIOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -2313,6 +2327,13 @@
           "id": "Mercenary",
           "name": "MERCENARY"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
       ]
     },
     {
@@ -2645,6 +2666,11 @@
           "id": "DDLiveTrait",
           "isEvent": true,
           "name": "HEAVY METAL"
+        },
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -3193,6 +3219,13 @@
           "id": "DarkHunter",
           "name": "DARK HUNTER"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
       ]
     },
     {
@@ -3645,6 +3678,11 @@
           "id": "DDLiveTrait",
           "isEvent": true,
           "name": "HEAVY METAL"
+        },
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -3706,6 +3744,13 @@
         {
           "id": "WebWarrior",
           "name": "WEB-WARRIOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -4319,6 +4364,13 @@
           "name": "ASGARDIAN"
         }
       ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
+      ],
       "summonIds": [
         "Greg"
       ]
@@ -4465,6 +4517,11 @@
           "id": "DDLiveTrait",
           "isEvent": true,
           "name": "HEAVY METAL"
+        },
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -5296,6 +5353,11 @@
           "id": "IronWilled",
           "isEvent": true,
           "name": "IRON-WILLED"
+        },
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -5750,6 +5812,14 @@
         {
           "id": "Protector",
           "name": "PROTECTOR"
+        },
+        {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
+        },
+        {
+          "id": "Underworld",
+          "name": "UNDERWORLD"
         }
       ],
       "summonIds": [
@@ -7439,6 +7509,13 @@
           "id": "Legendary",
           "name": "LEGENDARY"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
       ]
     },
     {
@@ -7496,6 +7573,72 @@
           "id": "FantasticFour",
           "name": "FANTASTIC FOUR"
         }
+      ]
+    },
+    {
+      "id": "MrNegative",
+      "mission": false,
+      "name": "Mister Negative",
+      "description": "An underworld boss whose Darkforce abilities can flip enemies' positive effects, creating openings for his gang of Inner Demons' debilitating attacks.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_MrNegative_a79eb89e.png",
+      "starItems": [
+        {
+          "id": "SHARD_MRNEGATIVE"
+        },
+        {
+          "id": "RS_MRNEGATIVE_1"
+        },
+        {
+          "id": "RS_MRNEGATIVE_2"
+        },
+        {
+          "id": "RS_MRNEGATIVE_3"
+        },
+        {
+          "id": "RS_MRNEGATIVE_4"
+        },
+        {
+          "id": "RS_MRNEGATIVE_5"
+        },
+        {
+          "id": "RS_MRNEGATIVE_6"
+        },
+        {
+          "id": "RS_MRNEGATIVE_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "City",
+          "name": "CITY"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Controller",
+          "name": "CONTROLLER"
+        },
+        {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
+        },
+        {
+          "id": "Underworld",
+          "name": "UNDERWORLD"
+        }
+      ],
+      "summonIds": [
+        "InnerDemon_Cyclops",
+        "InnerDemon_Demon",
+        "InnerDemon_Dragon"
       ]
     },
     {
@@ -8055,6 +8198,13 @@
           "name": "LEGENDARY"
         }
       ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
+      ],
       "summonIds": [
         "S_ShieldSupport_Stealth",
         "S_ShieldTank_Stun"
@@ -8235,6 +8385,10 @@
         {
           "id": "Hand",
           "name": "HAND"
+        },
+        {
+          "id": "Underworld",
+          "name": "UNDERWORLD"
         }
       ],
       "summonIds": [
@@ -9120,6 +9274,77 @@
       ]
     },
     {
+      "id": "RedHulk",
+      "mission": false,
+      "name": "Red Hulk",
+      "description": "A gamma-charged Thaddeus \"Thunderbolt\" Ross, Red Hulk is a legendary Brawler who applies Trauma and destroys enemies with devastating blows.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_RedHulk_f6d56863.png",
+      "starItems": [
+        {
+          "id": "SHARD_REDHULK"
+        },
+        {
+          "id": "RS_REDHULK_1"
+        },
+        {
+          "id": "RS_REDHULK_2"
+        },
+        {
+          "id": "RS_REDHULK_3"
+        },
+        {
+          "id": "RS_REDHULK_4"
+        },
+        {
+          "id": "RS_REDHULK_5"
+        },
+        {
+          "id": "RS_REDHULK_6"
+        },
+        {
+          "id": "RS_REDHULK_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Bio",
+          "name": "BIO"
+        },
+        {
+          "id": "Brawler",
+          "name": "BRAWLER"
+        },
+        {
+          "id": "Gamma",
+          "name": "GAMMA"
+        },
+        {
+          "id": "Horseman",
+          "name": "HORSEMAN"
+        },
+        {
+          "id": "Legendary",
+          "name": "LEGENDARY"
+        }
+      ],
+      "invisibleTraits": [
+        {
+          "id": "Chargeable",
+          "alwaysInvisible": true
+        }
+      ]
+    },
+    {
       "id": "RedSkull",
       "mission": false,
       "name": "Red Skull",
@@ -9700,6 +9925,11 @@
           "id": "DDLiveTrait",
           "isEvent": true,
           "name": "HEAVY METAL"
+        },
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -9765,6 +9995,13 @@
         {
           "id": "Darkhold",
           "name": "DARKHOLD"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -9997,6 +10234,13 @@
         {
           "id": "HeroesForHire",
           "name": "HEROES FOR HIRE"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -10620,6 +10864,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
       ]
     },
     {
@@ -10858,6 +11109,128 @@
       ]
     },
     {
+      "id": "SpiderMan2099",
+      "mission": false,
+      "name": "Spider-Man 2099",
+      "description": "Fighting crime in our time from the far-flung future, Miguel O'Hara uses his powers to exploit enemy weaknesses as the Spider-Man of tomorrow!",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_SpiderMan2099_e36a48b6.png",
+      "starItems": [
+        {
+          "id": "SHARD_SPIDERMAN2099"
+        },
+        {
+          "id": "RS_SPIDERMAN2099_1"
+        },
+        {
+          "id": "RS_SPIDERMAN2099_2"
+        },
+        {
+          "id": "RS_SPIDERMAN2099_3"
+        },
+        {
+          "id": "RS_SPIDERMAN2099_4"
+        },
+        {
+          "id": "RS_SPIDERMAN2099_5"
+        },
+        {
+          "id": "RS_SPIDERMAN2099_6"
+        },
+        {
+          "id": "RS_SPIDERMAN2099_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "City",
+          "name": "CITY"
+        },
+        {
+          "id": "Bio",
+          "name": "BIO"
+        },
+        {
+          "id": "Controller",
+          "name": "CONTROLLER"
+        },
+        {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
+        },
+        {
+          "id": "TangledWeb",
+          "name": "TANGLED WEB"
+        }
+      ]
+    },
+    {
+      "id": "SpiderManNoir",
+      "mission": false,
+      "name": "Spider-Man (Noir)",
+      "description": "Spider-Man (Noir) is a stealthy, Tommy Gun-wielding hero that grants additional damage to his allies while laying down heavy fire.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_SpiderManNoir_784aae26.png",
+      "starItems": [
+        {
+          "id": "SHARD_SPIDERMANNOIR"
+        },
+        {
+          "id": "RS_SPIDERMANNOIR_1"
+        },
+        {
+          "id": "RS_SPIDERMANNOIR_2"
+        },
+        {
+          "id": "RS_SPIDERMANNOIR_3"
+        },
+        {
+          "id": "RS_SPIDERMANNOIR_4"
+        },
+        {
+          "id": "RS_SPIDERMANNOIR_5"
+        },
+        {
+          "id": "RS_SPIDERMANNOIR_6"
+        },
+        {
+          "id": "RS_SPIDERMANNOIR_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "City",
+          "name": "CITY"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Blaster",
+          "name": "BLASTER"
+        },
+        {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
+        },
+        {
+          "id": "TangledWeb",
+          "name": "TANGLED WEB"
+        }
+      ]
+    },
+    {
       "id": "SpiderPunk",
       "mission": false,
       "name": "Spider-Punk",
@@ -10922,6 +11295,67 @@
           "id": "DDLiveTrait",
           "isEvent": true,
           "name": "HEAVY METAL"
+        }
+      ]
+    },
+    {
+      "id": "SpiderWeaver",
+      "mission": false,
+      "name": "Spider-Weaver",
+      "description": "A Navajo weaver, Ajei Benally was chosen to safeguard the Web of Life and Destiny, pulling the threads of fate to protect herself and her allies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_SpiderWeaver_b040589a.png",
+      "starItems": [
+        {
+          "id": "SHARD_SPIDERWEAVER"
+        },
+        {
+          "id": "RS_SPIDERWEAVER_1"
+        },
+        {
+          "id": "RS_SPIDERWEAVER_2"
+        },
+        {
+          "id": "RS_SPIDERWEAVER_3"
+        },
+        {
+          "id": "RS_SPIDERWEAVER_4"
+        },
+        {
+          "id": "RS_SPIDERWEAVER_5"
+        },
+        {
+          "id": "RS_SPIDERWEAVER_6"
+        },
+        {
+          "id": "RS_SPIDERWEAVER_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Protector",
+          "name": "PROTECTOR"
+        },
+        {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
+        },
+        {
+          "id": "TangledWeb",
+          "name": "TANGLED WEB"
         }
       ]
     },
@@ -11253,7 +11687,7 @@
     {
       "id": "StrangeSupreme",
       "mission": false,
-      "name": "Doctor Strange (Heartless)",
+      "name": "Strange (Heartless)",
       "description": "A heartbroken Doctor Strange absorbed countless otherworldly beings in a search for enough power to return his lost love, but found only the destructive might to demolish his foes.",
       "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_StrangeSupreme_514d1e83.png",
       "starItems": [
@@ -11617,6 +12051,13 @@
           "id": "Symbiote",
           "name": "SYMBIOTE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
       ]
     },
     {
@@ -11673,6 +12114,10 @@
         {
           "id": "Mercenary",
           "name": "MERCENARY"
+        },
+        {
+          "id": "Underworld",
+          "name": "UNDERWORLD"
         }
       ]
     },
@@ -12040,6 +12485,10 @@
         {
           "id": "SinisterSix",
           "name": "SINISTER SIX"
+        },
+        {
+          "id": "Underworld",
+          "name": "UNDERWORLD"
         }
       ],
       "summonByIds": [
@@ -12309,6 +12758,11 @@
           "id": "IronWilled",
           "isEvent": true,
           "name": "IRON-WILLED"
+        },
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -12515,6 +12969,11 @@
           "id": "IronWilled",
           "isEvent": true,
           "name": "IRON-WILLED"
+        },
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
         }
       ]
     },
@@ -12958,6 +13417,13 @@
           "id": "Darkhold",
           "name": "DARKHOLD"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Vigilant",
+          "isEvent": true,
+          "name": "VIGILANT"
+        }
       ]
     },
     {
@@ -13336,14 +13802,14 @@
   "meta": {
     "version": 1,
     "hashes": {
-      "events": "e410be63a91d841c02d9",
-      "drops": "6764dafddcda5b7aac8d",
-      "locs": "7f8a4455d09fefba44b6",
-      "nodes": "1d03534caa1e70d6bd97",
-      "chars": "2d822d9acc94b47e93c0",
-      "other": "dc3edde3b52af999f4d6",
-      "all": "ecd1edc0b2072248e22b"
+      "events": "e9f55ed6a4cb516eeec1",
+      "drops": "924c8847abe10edbe5e4",
+      "locs": "bd7c69f4857c1a41b3d6",
+      "nodes": "94751b1c8b9ff637eaf8",
+      "chars": "d250ac4e7efd5a29d394",
+      "other": "524d822c315d4db891d1",
+      "all": "68f1b6bcb5ba3dc8d180"
     },
-    "perTotal": 212
+    "perTotal": 217
   }
 }

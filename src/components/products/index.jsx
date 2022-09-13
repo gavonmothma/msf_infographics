@@ -165,7 +165,6 @@ const COLUMNS = [
               <Row>
                 <Col md="auto">{props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.name}</Col>
               </Row>
-              {/* <div>{props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.name}</div> */}
             </Row>
           </Container>
         </div>
