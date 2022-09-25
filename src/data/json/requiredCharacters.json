@@ -1,3 +1,4 @@
 {
-    "teams": ["DarkHunter", "WebWarrior", "Darkhold", "Inhuman", "AForce", "YoungAvenger", "Unlimited", "Wave1Avenger", "Ravager", "Asgard", "Gamma", "BionicAvenger", "TangledWeb"]
+    "teams": ["DarkHunter", "WebWarrior", "Darkhold", "Inhuman", "AForce", "YoungAvenger", "Unlimited", "Wave1Avenger", "Ravager", "Asgard", "Gamma", "BionicAvenger"],
+    "characters": ["SpiderWeaver"]
 }

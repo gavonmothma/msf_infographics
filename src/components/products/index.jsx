@@ -11,39 +11,48 @@ const requiredCharacters = require("../../data/json/requiredCharacters.json");
 const isoClasses = require("../../data/json/isoClasses.json");
 const origins = require("../../data/json/origins.json");
 const miniUniques = require("../../data/json/miniUniques.json");
+// const brawnPoints = require("../../data/json/events/TotallyAwesomeBrawn.json");
+// console.log(brawnPoints)
 // const iso8Abilities = require("../../data/json/iso8Abilities.json");
 
 //num is the current trait (Darkhold, Gamma, etc) for which we are searching
 var characterList = {};
-var textList = [];
 requiredCharacters.teams.forEach((num) => {
   characterList[num] = [];
   characters.forEach((char) => {
     char.traits?.forEach((trait) => {
       if (trait.id === num) {
-        textList.push(char.id);
         characterList[num].push(char);
       }
     });
   });
 });
-console.log(characterList);
-// console.log(textList.sort());
 
-for (let character in characterList) {
-  for (let char of characterList[character]) {
-    let chargear;
-    try {
-      chargear = require("../../data/json/characters/" + char.id + ".json");
-    } catch (e) {
-      if (e.code !== "MODULE_NOT_FOUND") {
-        throw e;
+characterList["Other"] = [];
+requiredCharacters.characters.forEach((num) => {
+  characters.forEach((char) => {
+      if (char.id === num) {
+        characterList["Other"].push(char);
       }
-    }
+  });
+});
 
-    char.gearTiers = chargear?.data?.gearTiers;
-  }
-}
+
+
+// for (let character in characterList) {
+//   for (let char of characterList[character]) {
+//     let chargear;
+//     try {
+//       chargear = require("../../data/json/characters/" + char.id + ".json");
+//     } catch (e) {
+//       if (e.code !== "MODULE_NOT_FOUND") {
+//         throw e;
+//       }
+//     }
+
+//     char.gearTiers = chargear?.data?.gearTiers;
+//   }
+// }
 
 for (let character in characterList) {
   for (let char of characterList[character]) {
@@ -183,7 +192,7 @@ const COLUMNS = [
                 pieceCount = 0;
                 countPiece(miniUniques[props.row.original.origin][piece].id, props.row.original.gearTiers);
                 return (
-                  <Col md="auto">
+                  <Col md="auto" key={miniUniques[props.row.original.origin][piece].id}>
                     <figure className="position-relative">
                       <img
                         src={miniUniques[props.row.original.origin][piece].icon}
