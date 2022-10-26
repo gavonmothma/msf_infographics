@@ -4,6 +4,8 @@ import { AuthProvider } from "oidc-react";
 import ApiData from "./components/auth/ApiData";
 import { Products } from "./components/products";
 
+const enableLogin = 0;
+
 const oidcConfig = {
   clientId: "94883fe1-6f58-418c-91f0-3c85ae50e094",
   redirectUri: "http://localhost:3000/callback",
@@ -17,7 +19,7 @@ const oidcConfig = {
 };
 
 function App() {
-  if (6 === 5) {
+  if (enableLogin) {
     return (
       <AuthProvider {...oidcConfig}>
         <div className="App">

@@ -3,6 +3,7 @@ import { useAuth } from "oidc-react";
 import { Container, Row, Col } from "react-bootstrap";
 import axios from "axios";
 // import { useSortBy } from "react-table";
+const enableLogin = 0;
 
 async function doGetRequest(token) {
   console.log("DoGetRequest");
@@ -17,9 +18,7 @@ async function doGetRequest(token) {
 }
 
 async function doGetCharacter(token, character) {
-  // console.log("DoGetRequest");
   let res = await axios.get(
-    // https://api.marvelstrikeforce.com/game/v1/characters/Abomination?costumes=none&abilityKits=none&pieceDirectCost=none&pieceFlatCost=full
     "https://api.marvelstrikeforce.com/game/v1/characters/" + character + "?costumes=none&abilityKits=none&pieceDirectCost=full",
     {
       headers: {
@@ -62,7 +61,7 @@ const ApiData = () => {
     doGetRequest(userData.access_token)
       .then((num) => {
         console.log(num.data);
-        if ("getcharacter" === 1) {
+        if (enableLogin) {
           num.data.forEach((character) => {
             doGetCharacter(userData.access_token, character.id)
               .then((res) => {
@@ -88,9 +87,12 @@ const ApiData = () => {
         });
         console.log(num.data);
         num.data.forEach((inventory) => {
+          if (inventory.item.id === 'ISOITEM_BLUE_CONTROLLER_ARMOR_6') {
+            console.log(inventory.quantity)
+          }
           ISOTable.push(
             <Row key={inventory.item.id}>
-              <Col>{inventory.quantity}</Col>
+              <Col>{inventory.quantity}{" "}{Math.floor(inventory.quantity/81)}{" characters "}{(inventory.quantity>80? inventory.quantity-(Math.floor(inventory.quantity/81)*81) : 81-inventory.quantity)}</Col>
               <Col>
                 <img src={inventory.item.icon} alt="ISO"></img>
               </Col>

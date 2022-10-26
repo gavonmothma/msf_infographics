@@ -1,6 +1,5 @@
 import React, { useMemo } from "react";
 import { useTable } from "react-table";
-// import { Typography } from "@mui/material";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -11,9 +10,7 @@ const requiredCharacters = require("../../data/json/requiredCharacters.json");
 const isoClasses = require("../../data/json/isoClasses.json");
 const origins = require("../../data/json/origins.json");
 const miniUniques = require("../../data/json/miniUniques.json");
-// const brawnPoints = require("../../data/json/events/TotallyAwesomeBrawn.json");
-// console.log(brawnPoints)
-// const iso8Abilities = require("../../data/json/iso8Abilities.json");
+
 
 //num is the current trait (Darkhold, Gamma, etc) for which we are searching
 var characterList = {};
@@ -37,22 +34,20 @@ requiredCharacters.characters.forEach((num) => {
   });
 });
 
+for (let character in characterList) {
+  for (let char of characterList[character]) {
+    let chargear;
+    try {
+      chargear = require("../../data/json/characters/" + char.id + ".json");
+    } catch (e) {
+      if (e.code !== "MODULE_NOT_FOUND") {
+        throw e;
+      }
+    }
 
-
-// for (let character in characterList) {
-//   for (let char of characterList[character]) {
-//     let chargear;
-//     try {
-//       chargear = require("../../data/json/characters/" + char.id + ".json");
-//     } catch (e) {
-//       if (e.code !== "MODULE_NOT_FOUND") {
-//         throw e;
-//       }
-//     }
-
-//     char.gearTiers = chargear?.data?.gearTiers;
-//   }
-// }
+    char.gearTiers = chargear?.data?.gearTiers;
+  }
+}
 
 for (let character in characterList) {
   for (let char of characterList[character]) {
@@ -118,7 +113,6 @@ const COLUMNS = [
     Header: "Portrait",
     accessor: "portrait",
     Cell: (props) => {
-      // console.log(props);
       return (
         <span>
           <div>
@@ -154,7 +148,7 @@ const COLUMNS = [
             <Row>
               <Col md="auto">
                 <figure className="position-relative">
-                  {<img src={props.row.original.gearTiers[12].slots[1].piece.directCost[2].item.icon} alt="13Unique" />}
+                  {<img src={props?.row?.original?.gearTiers[12]?.slots[1]?.piece?.directCost[2]?.item?.icon} alt="13Unique" />}
                   <figcaption>
                     {props?.row?.original?.gearTiers[12]?.slots[1]?.piece?.directCost[2]?.quantity +
                       props?.row?.original?.gearTiers[13]?.slots[1]?.piece?.directCost[2]?.quantity +
