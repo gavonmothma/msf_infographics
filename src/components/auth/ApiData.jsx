@@ -16,7 +16,7 @@ async function doGetRequest(token) {
   });
   return res.data;
 }
-
+//hello
 async function doGetCharacter(token, character) {
   let res = await axios.get(
     "https://api.marvelstrikeforce.com/game/v1/characters/" + character + "?costumes=none&abilityKits=none&pieceDirectCost=full",

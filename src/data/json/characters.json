@@ -662,9 +662,9 @@
       ],
       "eventTraits": [
         {
-          "id": "IronWilled",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "IRON-WILLED"
+          "name": "VOYAGER"
         }
       ]
     },
@@ -914,6 +914,13 @@
           "id": "DarkHunter",
           "name": "DARK HUNTER"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
+        }
       ]
     },
     {
@@ -1048,6 +1055,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -1108,13 +1122,6 @@
         {
           "id": "Legendary",
           "name": "LEGENDARY"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -1186,18 +1193,6 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        },
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
         }
       ]
     },
@@ -1341,18 +1336,6 @@
           "id": "Wave1",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        },
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -1466,13 +1449,6 @@
         {
           "id": "Mercenary",
           "name": "MERCENARY"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -1616,13 +1592,6 @@
           "id": "Wave1",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        }
       ]
     },
     {
@@ -1751,6 +1720,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -1868,13 +1844,6 @@
         {
           "id": "NewWarrior",
           "name": "NEW WARRIOR"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ]
     },
@@ -2118,13 +2087,6 @@
           "id": "Shield",
           "name": "S.H.I.E.L.D."
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -2239,13 +2201,6 @@
           "id": "Inhuman",
           "name": "INHUMAN"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -2302,13 +2257,6 @@
         {
           "id": "BlackOrder",
           "name": "BLACK ORDER"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
         }
       ]
     },
@@ -2495,6 +2443,18 @@
           "id": "Shadowland",
           "name": "SHADOWLAND"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
+        },
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -2551,13 +2511,6 @@
         {
           "id": "Deathseed",
           "name": "DEATH SEED"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -2687,13 +2640,6 @@
           "id": "Mercenary",
           "name": "MERCENARY"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -2756,13 +2702,6 @@
         {
           "id": "Avenger",
           "name": "AVENGER"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
         }
       ]
     },
@@ -2963,6 +2902,13 @@
           "id": "Supernatural",
           "name": "SUPERNATURAL"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -3019,13 +2965,6 @@
         {
           "id": "DarkHunter",
           "name": "DARK HUNTER"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ]
     },
@@ -3506,6 +3445,13 @@
           "id": "Shadowland",
           "name": "SHADOWLAND"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
+        }
       ]
     },
     {
@@ -3570,9 +3516,9 @@
       ],
       "eventTraits": [
         {
-          "id": "Vigilant",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "VIGILANT"
+          "name": "VOYAGER"
         }
       ]
     },
@@ -3694,6 +3640,13 @@
           "id": "PowerArmor",
           "name": "POWER ARMOR"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -3760,13 +3713,6 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
         }
       ]
     },
@@ -3896,13 +3842,6 @@
           "id": "InfinityWatch",
           "name": "INFINITY WATCH"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        }
       ]
     },
     {
@@ -3959,6 +3898,13 @@
         {
           "id": "PymTech",
           "name": "PYM TECH"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -4027,13 +3973,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -4094,13 +4033,6 @@
         {
           "id": "WebWarrior",
           "name": "WEB-WARRIOR"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ]
     },
@@ -4216,6 +4148,13 @@
           "id": "GotG",
           "name": "GUARDIAN"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -4276,6 +4215,13 @@
         {
           "id": "Minion",
           "name": "MINION"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
         }
       ]
     },
@@ -4338,6 +4284,13 @@
           "id": "Minion",
           "name": "MINION"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
+        }
       ]
     },
     {
@@ -4398,6 +4351,13 @@
         {
           "id": "Minion",
           "name": "MINION"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
         }
       ]
     },
@@ -4460,6 +4420,13 @@
           "id": "Minion",
           "name": "MINION"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
+        }
       ]
     },
     {
@@ -4520,6 +4487,13 @@
         {
           "id": "Minion",
           "name": "MINION"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
         }
       ]
     },
@@ -4592,13 +4566,6 @@
           "id": "Wave1",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        }
       ]
     },
     {
@@ -4655,18 +4622,6 @@
         {
           "id": "Asgard",
           "name": "ASGARDIAN"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        },
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
         }
       ]
     },
@@ -4728,18 +4683,6 @@
         {
           "id": "Undying",
           "name": "UNDYING"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        },
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ],
       "summonIds": [
@@ -4819,13 +4762,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        }
       ]
     },
     {
@@ -4888,13 +4824,6 @@
         {
           "id": "Avenger",
           "name": "AVENGER"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ]
     },
@@ -5445,11 +5374,6 @@
           "id": "KnowhereHeist",
           "isEvent": true,
           "name": "KNOWHERE HEIST"
-        },
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -5512,6 +5436,13 @@
           "id": "HeroesForHire",
           "name": "HEROES FOR HIRE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
+        }
       ]
     },
     {
@@ -5568,13 +5499,6 @@
         {
           "id": "PowerArmor",
           "name": "POWER ARMOR"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
         }
       ]
     },
@@ -5658,14 +5582,9 @@
       ],
       "eventTraits": [
         {
-          "id": "DDLiveTrait",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "AVENGING ASGARD"
-        },
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
+          "name": "VOYAGER"
         }
       ]
     },
@@ -5730,23 +5649,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        },
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        },
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -5807,13 +5709,6 @@
         {
           "id": "AForce",
           "name": "A-FORCE"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
         }
       ]
     },
@@ -5945,18 +5840,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        },
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -6017,9 +5900,9 @@
       ],
       "eventTraits": [
         {
-          "id": "Chosen",
+          "id": "MartialArtist",
           "isEvent": true,
-          "name": "CHOSEN"
+          "name": "MARTIAL ARTIST"
         }
       ]
     },
@@ -6155,18 +6038,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        },
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -6227,13 +6098,6 @@
         {
           "id": "Underworld",
           "name": "UNDERWORLD"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ],
       "summonIds": [
@@ -6735,18 +6599,6 @@
           "id": "WeaponX",
           "name": "WEAPON X"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        },
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -6803,13 +6655,6 @@
         {
           "id": "Asgard",
           "name": "ASGARDIAN"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
         }
       ],
       "summonIds": [
@@ -6870,13 +6715,6 @@
         {
           "id": "XFactor",
           "name": "X-FACTOR"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -6995,13 +6833,6 @@
         {
           "id": "Marauders",
           "name": "MARAUDER"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -7138,18 +6969,6 @@
           "id": "Legendary",
           "name": "LEGENDARY"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        },
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -7281,13 +7100,6 @@
           "name": "AVENGER"
         }
       ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
-      ],
       "summonIds": [
         "ShieldDmg_Defense"
       ]
@@ -7352,13 +7164,6 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ]
     },
@@ -7839,9 +7644,9 @@
       ],
       "eventTraits": [
         {
-          "id": "Covert",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "COVERT"
+          "name": "VOYAGER"
         }
       ]
     },
@@ -7965,13 +7770,6 @@
           "id": "Legendary",
           "name": "LEGENDARY"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -8028,6 +7826,13 @@
         {
           "id": "FantasticFour",
           "name": "FANTASTIC FOUR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -8219,13 +8024,6 @@
           "id": "Avenger",
           "name": "AVENGER"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        }
       ]
     },
     {
@@ -8282,6 +8080,13 @@
         {
           "id": "XFactor",
           "name": "X-FACTOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ],
       "summonIds": [
@@ -8414,13 +8219,6 @@
           "id": "Marauders",
           "name": "MARAUDER"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -8488,13 +8286,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -8547,13 +8338,6 @@
         {
           "id": "Brawler",
           "name": "BRAWLER"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -8611,13 +8395,6 @@
         {
           "id": "InfinityWatch",
           "name": "INFINITY WATCH"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
         }
       ]
     },
@@ -8733,13 +8510,6 @@
           "id": "Deathseed",
           "name": "DEATH SEED"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -8808,9 +8578,9 @@
       ],
       "eventTraits": [
         {
-          "id": "Vigilant",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "VIGILANT"
+          "name": "VOYAGER"
         }
       ],
       "summonIds": [
@@ -8992,6 +8762,13 @@
           "name": "UNDERWORLD"
         }
       ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
+        }
+      ],
       "summonIds": [
         "S_HandDmg_Bonus",
         "S_HandDmg_Unbuff"
@@ -9062,13 +8839,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -9135,13 +8905,6 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -9331,6 +9094,13 @@
           "id": "XFactor",
           "name": "X-FACTOR"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -9454,6 +9224,13 @@
         {
           "id": "Xmen",
           "name": "X-MEN"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "MartialArtist",
+          "isEvent": true,
+          "name": "MARTIAL ARTIST"
         }
       ]
     },
@@ -9894,13 +9671,6 @@
           "id": "Military",
           "name": "MILITARY"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -10220,6 +9990,11 @@
       ],
       "eventTraits": [
         {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        },
+        {
           "id": "KnowhereHeist",
           "isEvent": true,
           "name": "KNOWHERE HEIST"
@@ -10425,13 +10200,6 @@
           "id": "WeaponX",
           "name": "WEAPON X"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
-        }
       ]
     },
     {
@@ -10556,13 +10324,6 @@
           "id": "WebWarrior",
           "name": "WEB-WARRIOR"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -10627,13 +10388,6 @@
         {
           "id": "Darkhold",
           "name": "DARKHOLD"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ]
     },
@@ -10867,13 +10621,6 @@
           "id": "HeroesForHire",
           "name": "HEROES FOR HIRE"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -10937,13 +10684,6 @@
           "id": "Avenger",
           "name": "AVENGER"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -11000,13 +10740,6 @@
         {
           "id": "XFactor",
           "name": "X-FACTOR"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Chosen",
-          "isEvent": true,
-          "name": "CHOSEN"
         }
       ]
     },
@@ -11132,6 +10865,13 @@
           "id": "Minion",
           "name": "MINION"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -11256,6 +10996,13 @@
         {
           "id": "Minion",
           "name": "MINION"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -11514,13 +11261,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -11577,13 +11317,6 @@
         {
           "id": "Asgard",
           "name": "ASGARDIAN"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
         }
       ]
     },
@@ -11642,13 +11375,6 @@
           "id": "WeaponX",
           "name": "WEAPON X"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        }
       ]
     },
     {
@@ -11701,6 +11427,13 @@
         {
           "id": "Blaster",
           "name": "BLASTER"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -11762,6 +11495,13 @@
         {
           "id": "WebWarrior",
           "name": "WEB-WARRIOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -12064,13 +11804,6 @@
           "id": "AForce",
           "name": "A-FORCE"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -12265,13 +11998,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        }
       ]
     },
     {
@@ -12338,6 +12064,13 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -12640,6 +12373,13 @@
           "id": "Blaster",
           "name": "BLASTER"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
+        }
       ]
     },
     {
@@ -12700,13 +12440,6 @@
         {
           "id": "Symbiote",
           "name": "SYMBIOTE"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
         }
       ]
     },
@@ -12879,13 +12612,6 @@
           "id": "Protector",
           "name": "PROTECTOR"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        }
       ]
     },
     {
@@ -12946,9 +12672,9 @@
       ],
       "eventTraits": [
         {
-          "id": "Chosen",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "CHOSEN"
+          "name": "VOYAGER"
         }
       ]
     },
@@ -13024,13 +12750,6 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
         }
       ]
     },
@@ -13527,23 +13246,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "AVENGING ASGARD"
-        },
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        },
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -13668,13 +13370,6 @@
           "id": "Avenger",
           "name": "AVENGER"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        }
       ]
     },
     {
@@ -13738,18 +13433,6 @@
           "id": "Avenger",
           "name": "AVENGER"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "IronWilled",
-          "isEvent": true,
-          "name": "IRON-WILLED"
-        },
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -13810,6 +13493,13 @@
         {
           "id": "SinisterSix",
           "name": "SINISTER SIX"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ],
       "summonByIds": [
@@ -13882,9 +13572,9 @@
       ],
       "eventTraits": [
         {
-          "id": "IronWilled",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "IRON-WILLED"
+          "name": "VOYAGER"
         }
       ]
     },
@@ -13946,9 +13636,9 @@
       ],
       "eventTraits": [
         {
-          "id": "IronWilled",
+          "id": "Voyager",
           "isEvent": true,
-          "name": "IRON-WILLED"
+          "name": "VOYAGER"
         }
       ]
     },
@@ -14006,6 +13696,13 @@
         {
           "id": "Shadowland",
           "name": "SHADOWLAND"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -14071,13 +13768,6 @@
         {
           "id": "Rebirth",
           "name": "REBIRTH"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
         }
       ]
     },
@@ -14203,13 +13893,6 @@
           "id": "Darkhold",
           "name": "DARKHOLD"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Vigilant",
-          "isEvent": true,
-          "name": "VIGILANT"
-        }
       ]
     },
     {
@@ -14328,13 +14011,6 @@
           "id": "Military",
           "name": "MILITARY"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "Covert",
-          "isEvent": true,
-          "name": "COVERT"
-        }
       ]
     },
     {
@@ -14397,6 +14073,13 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Voyager",
+          "isEvent": true,
+          "name": "VOYAGER"
         }
       ]
     },
@@ -14652,13 +14335,13 @@
   "meta": {
     "version": 1,
     "hashes": {
-      "events": "a503cbf738b1118233af",
-      "drops": "71c4f8a3cd75f57b2e99",
-      "locs": "f3d2cb8f7c0535728e4f",
-      "nodes": "2db9efd881ed9b8daae2",
-      "chars": "d50c0f79846272358648",
-      "other": "7edf8ca6eebe8a8289ef",
-      "all": "ba0f7dd292498dcb89ad"
+      "events": "aa3f34d367a8fd11d422",
+      "drops": "811d6a6f9694c63418ce",
+      "locs": "912a276ef6587880d551",
+      "nodes": "40d5177c9c776031352f",
+      "chars": "20fdd23d0379eede8551",
+      "other": "0f2ecccb065fa500b298",
+      "all": "5a5691a392310decbc80"
     },
     "perTotal": 227
   }
