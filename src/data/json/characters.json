@@ -58,6 +58,63 @@
       ]
     },
     {
+      "id": "AbsorbingMan",
+      "mission": false,
+      "name": "Absorbing Man",
+      "description": "Given the ability to absorb the properties of any material he touches, Absorbing Man takes and flips his allies negative status effects while stealing his enemy's positive status effects.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_AbsorbingMan_8b59ac51.png",
+      "starItems": [
+        {
+          "id": "SHARD_ABSORBINGMAN"
+        },
+        {
+          "id": "RS_ABSORBINGMAN_1"
+        },
+        {
+          "id": "RS_ABSORBINGMAN_2"
+        },
+        {
+          "id": "RS_ABSORBINGMAN_3"
+        },
+        {
+          "id": "RS_ABSORBINGMAN_4"
+        },
+        {
+          "id": "RS_ABSORBINGMAN_5"
+        },
+        {
+          "id": "RS_ABSORBINGMAN_6"
+        },
+        {
+          "id": "RS_ABSORBINGMAN_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Protector",
+          "name": "PROTECTOR"
+        },
+        {
+          "id": "MastersOfEvil",
+          "name": "MASTERS OF EVIL"
+        }
+      ]
+    },
+    {
       "id": "AdamWarlock",
       "mission": false,
       "name": "Adam Warlock",
@@ -172,6 +229,13 @@
         {
           "id": "Darkhold",
           "name": "DARKHOLD"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
         }
       ]
     },
@@ -788,6 +852,66 @@
           "id": "PymTech",
           "name": "PYM TECH"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
+        }
+      ]
+    },
+    {
+      "id": "Apocalypse",
+      "mission": false,
+      "name": "Apocalypse",
+      "description": "The first mutant, En Sabah Nur, Apocalypse has arrived! With his incalculable power he destroys enemy defenses and grants Safeguard and Immunity to his allies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Apocalypse_a29770e5.png",
+      "starItems": [
+        {
+          "id": "SHARD_APOCALYPSE"
+        },
+        {
+          "id": "RS_APOCALYPSE_1"
+        },
+        {
+          "id": "RS_APOCALYPSE_2"
+        },
+        {
+          "id": "RS_APOCALYPSE_3"
+        },
+        {
+          "id": "RS_APOCALYPSE_4"
+        },
+        {
+          "id": "RS_APOCALYPSE_5"
+        },
+        {
+          "id": "RS_APOCALYPSE_6"
+        },
+        {
+          "id": "RS_APOCALYPSE_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 5,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Mutant",
+          "name": "MUTANT"
+        },
+        {
+          "id": "Support",
+          "name": "SUPPORT"
+        }
       ]
     },
     {
@@ -1260,6 +1384,13 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
         }
       ]
     },
@@ -2511,6 +2642,13 @@
         {
           "id": "Deathseed",
           "name": "DEATH SEED"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
         }
       ]
     },
@@ -3901,6 +4039,11 @@
         }
       ],
       "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
+        },
         {
           "id": "Voyager",
           "isEvent": true,
@@ -5843,6 +5986,70 @@
       ]
     },
     {
+      "id": "KangTheConqueror",
+      "mission": false,
+      "name": "Kang the Conqueror",
+      "description": "A time-traveling mastermind from the 30th century, Kang uses his futuristic arsenal to bypass Defense Up and further his ultimate goal of conquering time itself.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_KangTheConqueror_411ede1a.png",
+      "starItems": [
+        {
+          "id": "SHARD_KANGTHECONQUEROR"
+        },
+        {
+          "id": "RS_KANGTHECONQUEROR_1"
+        },
+        {
+          "id": "RS_KANGTHECONQUEROR_2"
+        },
+        {
+          "id": "RS_KANGTHECONQUEROR_3"
+        },
+        {
+          "id": "RS_KANGTHECONQUEROR_4"
+        },
+        {
+          "id": "RS_KANGTHECONQUEROR_5"
+        },
+        {
+          "id": "RS_KANGTHECONQUEROR_6"
+        },
+        {
+          "id": "RS_KANGTHECONQUEROR_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Tech",
+          "name": "TECH"
+        },
+        {
+          "id": "Blaster",
+          "name": "BLASTER"
+        },
+        {
+          "id": "MastersOfEvil",
+          "name": "MASTERS OF EVIL"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
+        }
+      ]
+    },
+    {
       "id": "Karnak",
       "mission": false,
       "name": "Karnak",
@@ -7647,6 +7854,63 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        }
+      ]
+    },
+    {
+      "id": "Moonstone",
+      "mission": false,
+      "name": "Moonstone",
+      "description": "Moonstone is a manipulative hypnotist that uses energy blasts to apply Stun and Trauma to her opponents.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Moonstone_84b2b72c.png",
+      "starItems": [
+        {
+          "id": "SHARD_MOONSTONE"
+        },
+        {
+          "id": "RS_MOONSTONE_1"
+        },
+        {
+          "id": "RS_MOONSTONE_2"
+        },
+        {
+          "id": "RS_MOONSTONE_3"
+        },
+        {
+          "id": "RS_MOONSTONE_4"
+        },
+        {
+          "id": "RS_MOONSTONE_5"
+        },
+        {
+          "id": "RS_MOONSTONE_6"
+        },
+        {
+          "id": "RS_MOONSTONE_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Bio",
+          "name": "BIO"
+        },
+        {
+          "id": "Controller",
+          "name": "CONTROLLER"
+        },
+        {
+          "id": "MastersOfEvil",
+          "name": "MASTERS OF EVIL"
         }
       ]
     },
@@ -11625,6 +11889,13 @@
           "id": "TangledWeb",
           "name": "TANGLED WEB"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
+        }
       ]
     },
     {
@@ -11803,6 +12074,13 @@
         {
           "id": "AForce",
           "name": "A-FORCE"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
         }
       ]
     },
@@ -11997,6 +12275,13 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
         }
       ]
     },
@@ -12990,6 +13275,13 @@
           "id": "Kree",
           "name": "KREE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
+        }
       ]
     },
     {
@@ -13636,6 +13928,11 @@
       ],
       "eventTraits": [
         {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
+        },
+        {
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
@@ -14077,6 +14374,11 @@
       ],
       "eventTraits": [
         {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "QUANTUM"
+        },
+        {
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
@@ -14335,14 +14637,14 @@
   "meta": {
     "version": 1,
     "hashes": {
-      "events": "aa3f34d367a8fd11d422",
-      "drops": "811d6a6f9694c63418ce",
-      "locs": "912a276ef6587880d551",
-      "nodes": "40d5177c9c776031352f",
-      "chars": "20fdd23d0379eede8551",
-      "other": "0f2ecccb065fa500b298",
-      "all": "5a5691a392310decbc80"
+      "events": "3e27f1baf6744e6327fc",
+      "drops": "473273faa632bbb70ff0",
+      "locs": "c9d0bf5416f736942d35",
+      "nodes": "ace3534012939a7b4625",
+      "chars": "951b59429a6f23af5d89",
+      "other": "a91064fa7e3360c578fd",
+      "all": "0c9755e231ee7cf82073"
     },
-    "perTotal": 227
+    "perTotal": 231
   }
 }
