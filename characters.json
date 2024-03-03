@@ -1,0 +1,1029 @@
+{
+	"data": [
+		{
+			"id": "Abomination",
+			"mission": false
+		},
+		{
+			"id": "AbsorbingMan",
+			"mission": false
+		},
+		{
+			"id": "AdamWarlock",
+			"mission": false
+		},
+		{
+			"id": "AgathaHarkness",
+			"mission": false
+		},
+		{
+			"id": "AgentVenom",
+			"mission": false
+		},
+		{
+			"id": "AimControl_Infect",
+			"mission": false
+		},
+		{
+			"id": "AimDmg_Offense",
+			"mission": false
+		},
+		{
+			"id": "AimDmg_Speed",
+			"mission": false
+		},
+		{
+			"id": "AimSupport_Heal",
+			"mission": false
+		},
+		{
+			"id": "AimTank_Taunt",
+			"mission": false
+		},
+		{
+			"id": "AmadeusCho",
+			"mission": false
+		},
+		{
+			"id": "AmericaChavez",
+			"mission": false
+		},
+		{
+			"id": "AntiVenom",
+			"mission": false
+		},
+		{
+			"id": "AntMan",
+			"mission": false
+		},
+		{
+			"id": "Apocalypse",
+			"mission": false
+		},
+		{
+			"id": "Archangel",
+			"mission": false
+		},
+		{
+			"id": "BaronMordo",
+			"mission": false
+		},
+		{
+			"id": "Beast",
+			"mission": false
+		},
+		{
+			"id": "BetaRayBill",
+			"mission": false
+		},
+		{
+			"id": "Bishop",
+			"mission": false
+		},
+		{
+			"id": "BlackBolt",
+			"mission": false
+		},
+		{
+			"id": "BlackCat",
+			"mission": false
+		},
+		{
+			"id": "BlackPanther",
+			"mission": false
+		},
+		{
+			"id": "BlackPantherBC",
+			"mission": false
+		},
+		{
+			"id": "BlackWidow",
+			"mission": false
+		},
+		{
+			"id": "Blob",
+			"mission": false
+		},
+		{
+			"id": "BuckyBarnes",
+			"mission": false
+		},
+		{
+			"id": "Bullseye",
+			"mission": false
+		},
+		{
+			"id": "Cable",
+			"mission": false
+		},
+		{
+			"id": "CaptainAmerica",
+			"mission": false
+		},
+		{
+			"id": "CaptainAmericaWW2",
+			"mission": false
+		},
+		{
+			"id": "CaptainCarter",
+			"mission": false
+		},
+		{
+			"id": "CaptainMarvel",
+			"mission": false
+		},
+		{
+			"id": "Carnage",
+			"mission": false
+		},
+		{
+			"id": "Cloak",
+			"mission": false
+		},
+		{
+			"id": "ColleenWing",
+			"mission": false
+		},
+		{
+			"id": "Colossus",
+			"mission": false
+		},
+		{
+			"id": "CorvusGlaive",
+			"mission": false
+		},
+		{
+			"id": "Cosmo",
+			"mission": false
+		},
+		{
+			"id": "Coulson",
+			"mission": false
+		},
+		{
+			"id": "Crossbones",
+			"mission": false
+		},
+		{
+			"id": "Crystal",
+			"mission": false
+		},
+		{
+			"id": "CullObsidian",
+			"mission": false
+		},
+		{
+			"id": "Cyclops",
+			"mission": false
+		},
+		{
+			"id": "Dagger",
+			"mission": false
+		},
+		{
+			"id": "Daredevil",
+			"mission": false
+		},
+		{
+			"id": "DarkBeast",
+			"mission": false
+		},
+		{
+			"id": "Dazzler",
+			"mission": false
+		},
+		{
+			"id": "Deadpool",
+			"mission": false
+		},
+		{
+			"id": "Deathlok",
+			"mission": false
+		},
+		{
+			"id": "Deathpool",
+			"mission": false
+		},
+		{
+			"id": "DoctorOctopus",
+			"mission": false
+		},
+		{
+			"id": "DoctorStrange",
+			"mission": false
+		},
+		{
+			"id": "DoctorVoodoo",
+			"mission": false
+		},
+		{
+			"id": "Domino",
+			"mission": false
+		},
+		{
+			"id": "Doom",
+			"mission": false
+		},
+		{
+			"id": "Dormammu",
+			"mission": false
+		},
+		{
+			"id": "Drax",
+			"mission": false
+		},
+		{
+			"id": "EbonyMaw",
+			"mission": false
+		},
+		{
+			"id": "Echo",
+			"mission": false
+		},
+		{
+			"id": "Electro",
+			"mission": false
+		},
+		{
+			"id": "Elektra",
+			"mission": false
+		},
+		{
+			"id": "ElsaBloodstone",
+			"mission": false
+		},
+		{
+			"id": "EmmaFrost",
+			"mission": false
+		},
+		{
+			"id": "Falcon",
+			"mission": false
+		},
+		{
+			"id": "Fantomex",
+			"mission": false
+		},
+		{
+			"id": "Firestar",
+			"mission": false
+		},
+		{
+			"id": "Gambit",
+			"mission": false
+		},
+		{
+			"id": "Gamora",
+			"mission": false
+		},
+		{
+			"id": "Ghost",
+			"mission": false
+		},
+		{
+			"id": "GhostRider",
+			"mission": false
+		},
+		{
+			"id": "GhostRiderRobbie",
+			"mission": false
+		},
+		{
+			"id": "GhostSpider",
+			"mission": false
+		},
+		{
+			"id": "Graviton",
+			"mission": false
+		},
+		{
+			"id": "Groot",
+			"mission": false
+		},
+		{
+			"id": "Gwenpool",
+			"mission": false
+		},
+		{
+			"id": "HandControl_HealBlock",
+			"mission": false
+		},
+		{
+			"id": "HandDmg_Bonus",
+			"mission": false
+		},
+		{
+			"id": "HandDmg_Unbuff",
+			"mission": false
+		},
+		{
+			"id": "HandSupport_Heal",
+			"mission": false
+		},
+		{
+			"id": "HandTank_Stealth",
+			"mission": false
+		},
+		{
+			"id": "Hawkeye",
+			"mission": false
+		},
+		{
+			"id": "Heimdall",
+			"mission": false
+		},
+		{
+			"id": "Hela",
+			"mission": false
+		},
+		{
+			"id": "Hulk",
+			"mission": false
+		},
+		{
+			"id": "Hulkbuster",
+			"mission": false
+		},
+		{
+			"id": "HumanTorch",
+			"mission": false
+		},
+		{
+			"id": "HydraDmg_AoE",
+			"mission": false
+		},
+		{
+			"id": "HydraDmg_Buff",
+			"mission": false
+		},
+		{
+			"id": "HydraDmg_Single",
+			"mission": false
+		},
+		{
+			"id": "HydraSupport_Heal",
+			"mission": false
+		},
+		{
+			"id": "HydraTank_Taunt",
+			"mission": false
+		},
+		{
+			"id": "Iceman",
+			"mission": false
+		},
+		{
+			"id": "Ikaris",
+			"mission": false
+		},
+		{
+			"id": "InvisibleWoman",
+			"mission": false
+		},
+		{
+			"id": "IronFist",
+			"mission": false
+		},
+		{
+			"id": "IronFistOrson",
+			"mission": false
+		},
+		{
+			"id": "Ironheart",
+			"mission": false
+		},
+		{
+			"id": "IronMan",
+			"mission": false
+		},
+		{
+			"id": "JaneThor",
+			"mission": false
+		},
+		{
+			"id": "JessicaJones",
+			"mission": false
+		},
+		{
+			"id": "Jubilee",
+			"mission": false
+		},
+		{
+			"id": "Juggernaut",
+			"mission": false
+		},
+		{
+			"id": "KamalaKhan",
+			"mission": false
+		},
+		{
+			"id": "KangTheConqueror",
+			"mission": false
+		},
+		{
+			"id": "Karnak",
+			"mission": false
+		},
+		{
+			"id": "KateBishop",
+			"mission": false
+		},
+		{
+			"id": "Killmonger",
+			"mission": false
+		},
+		{
+			"id": "Kingpin",
+			"mission": false
+		},
+		{
+			"id": "KittyPryde",
+			"mission": false
+		},
+		{
+			"id": "Korath",
+			"mission": false
+		},
+		{
+			"id": "Korg",
+			"mission": false
+		},
+		{
+			"id": "KreeControl_Assist",
+			"mission": false
+		},
+		{
+			"id": "KreeDmg_Offense",
+			"mission": false
+		},
+		{
+			"id": "KreeDmg_Speed",
+			"mission": false
+		},
+		{
+			"id": "KreeSupport_HoT",
+			"mission": false
+		},
+		{
+			"id": "KreeTank_Counter",
+			"mission": false
+		},
+		{
+			"id": "LadyDeathstrike",
+			"mission": false
+		},
+		{
+			"id": "Loki",
+			"mission": false
+		},
+		{
+			"id": "LokiTeen",
+			"mission": false
+		},
+		{
+			"id": "Longshot",
+			"mission": false
+		},
+		{
+			"id": "LukeCage",
+			"mission": false
+		},
+		{
+			"id": "MadelynePryor",
+			"mission": false
+		},
+		{
+			"id": "Magik",
+			"mission": false
+		},
+		{
+			"id": "Magneto",
+			"mission": false
+		},
+		{
+			"id": "Mantis",
+			"mission": false
+		},
+		{
+			"id": "MariaHill",
+			"mission": false
+		},
+		{
+			"id": "MBaku",
+			"mission": false
+		},
+		{
+			"id": "MercDmg_General",
+			"mission": false
+		},
+		{
+			"id": "MercDmg_Single",
+			"mission": false
+		},
+		{
+			"id": "MercSupport_Buffs",
+			"mission": false
+		},
+		{
+			"id": "MercTank_Debuff",
+			"mission": false
+		},
+		{
+			"id": "Minerva",
+			"mission": false
+		},
+		{
+			"id": "MistyKnight",
+			"mission": false
+		},
+		{
+			"id": "Moondragon",
+			"mission": false
+		},
+		{
+			"id": "MoonKnight",
+			"mission": false
+		},
+		{
+			"id": "Moonstone",
+			"mission": false
+		},
+		{
+			"id": "Morbius",
+			"mission": false
+		},
+		{
+			"id": "MorganLeFay",
+			"mission": false
+		},
+		{
+			"id": "MrFantastic",
+			"mission": false
+		},
+		{
+			"id": "MrNegative",
+			"mission": false
+		},
+		{
+			"id": "MrSinister",
+			"mission": false
+		},
+		{
+			"id": "MsMarvel",
+			"mission": false
+		},
+		{
+			"id": "MultipleMan",
+			"mission": false
+		},
+		{
+			"id": "Mysterio",
+			"mission": false
+		},
+		{
+			"id": "Mystique",
+			"mission": false
+		},
+		{
+			"id": "Nakia",
+			"mission": false
+		},
+		{
+			"id": "Namor",
+			"mission": false
+		},
+		{
+			"id": "Nebula",
+			"mission": false
+		},
+		{
+			"id": "Negasonic",
+			"mission": false
+		},
+		{
+			"id": "Nemesis",
+			"mission": false
+		},
+		{
+			"id": "NickFury",
+			"mission": false
+		},
+		{
+			"id": "NicoMinoru",
+			"mission": false
+		},
+		{
+			"id": "NightNurse",
+			"mission": false
+		},
+		{
+			"id": "Nobu",
+			"mission": false
+		},
+		{
+			"id": "Nova",
+			"mission": false
+		},
+		{
+			"id": "Okoye",
+			"mission": false
+		},
+		{
+			"id": "OmegaRed",
+			"mission": false
+		},
+		{
+			"id": "Phoenix",
+			"mission": false
+		},
+		{
+			"id": "Photon",
+			"mission": false
+		},
+		{
+			"id": "PhylaVell",
+			"mission": false
+		},
+		{
+			"id": "Polaris",
+			"mission": false
+		},
+		{
+			"id": "ProximaMidnight",
+			"mission": false
+		},
+		{
+			"id": "Psylocke",
+			"mission": false
+		},
+		{
+			"id": "Punisher",
+			"mission": false
+		},
+		{
+			"id": "Pyro",
+			"mission": false
+		},
+		{
+			"id": "Quake",
+			"mission": false
+		},
+		{
+			"id": "Quicksilver",
+			"mission": false
+		},
+		{
+			"id": "RavagerDmg_AoE",
+			"mission": false
+		},
+		{
+			"id": "RavagerSupport_Heal",
+			"mission": false
+		},
+		{
+			"id": "RavagerTank_Taunt",
+			"mission": false
+		},
+		{
+			"id": "RedGuardian",
+			"mission": false
+		},
+		{
+			"id": "RedHulk",
+			"mission": false
+		},
+		{
+			"id": "RedSkull",
+			"mission": false
+		},
+		{
+			"id": "Rescue",
+			"mission": false
+		},
+		{
+			"id": "Rhino",
+			"mission": false
+		},
+		{
+			"id": "RocketRaccoon",
+			"mission": false
+		},
+		{
+			"id": "Rogue",
+			"mission": false
+		},
+		{
+			"id": "Ronan",
+			"mission": false
+		},
+		{
+			"id": "Sabretooth",
+			"mission": false
+		},
+		{
+			"id": "SamWilson",
+			"mission": false
+		},
+		{
+			"id": "ScarletSpider",
+			"mission": false
+		},
+		{
+			"id": "ScarletWitch",
+			"mission": false
+		},
+		{
+			"id": "ScientistSupreme",
+			"mission": false
+		},
+		{
+			"id": "Scream",
+			"mission": false
+		},
+		{
+			"id": "Sersi",
+			"mission": false
+		},
+		{
+			"id": "ShangChi",
+			"mission": false
+		},
+		{
+			"id": "SharonCarter",
+			"mission": false
+		},
+		{
+			"id": "Shatterstar",
+			"mission": false
+		},
+		{
+			"id": "SheHulk",
+			"mission": false
+		},
+		{
+			"id": "ShieldDmg_AoE",
+			"mission": false
+		},
+		{
+			"id": "ShieldDmg_Defense",
+			"mission": false
+		},
+		{
+			"id": "ShieldSupport_Heal",
+			"mission": false
+		},
+		{
+			"id": "ShieldSupport_Stealth",
+			"mission": false
+		},
+		{
+			"id": "ShieldTank_Stun",
+			"mission": false
+		},
+		{
+			"id": "Shocker",
+			"mission": false
+		},
+		{
+			"id": "Shuri",
+			"mission": false
+		},
+		{
+			"id": "Sif",
+			"mission": false
+		},
+		{
+			"id": "SilverSamurai",
+			"mission": false
+		},
+		{
+			"id": "SilverSurfer",
+			"mission": false
+		},
+		{
+			"id": "SpiderMan",
+			"mission": false
+		},
+		{
+			"id": "SpiderMan2099",
+			"mission": false
+		},
+		{
+			"id": "SpiderManBigTime",
+			"mission": false
+		},
+		{
+			"id": "SpiderManNoir",
+			"mission": false
+		},
+		{
+			"id": "SpiderPunk",
+			"mission": false
+		},
+		{
+			"id": "SpiderWeaver",
+			"mission": false
+		},
+		{
+			"id": "SpiderWoman",
+			"mission": false
+		},
+		{
+			"id": "SquirrelGirl",
+			"mission": false
+		},
+		{
+			"id": "StarLord",
+			"mission": false
+		},
+		{
+			"id": "StarLord_Annihilation",
+			"mission": false
+		},
+		{
+			"id": "Stature",
+			"mission": false
+		},
+		{
+			"id": "Storm",
+			"mission": false
+		},
+		{
+			"id": "StrangeSupreme",
+			"mission": false
+		},
+		{
+			"id": "Stryfe",
+			"mission": false
+		},
+		{
+			"id": "Sunfire",
+			"mission": false
+		},
+		{
+			"id": "SuperSkrull",
+			"mission": false
+		},
+		{
+			"id": "Swarm",
+			"mission": false
+		},
+		{
+			"id": "Sybil",
+			"mission": false
+		},
+		{
+			"id": "Sylvie",
+			"mission": false
+		},
+		{
+			"id": "SymbioteSpiderMan",
+			"mission": false
+		},
+		{
+			"id": "Taskmaster",
+			"mission": false
+		},
+		{
+			"id": "TChalla",
+			"mission": false
+		},
+		{
+			"id": "Thanos",
+			"mission": false
+		},
+		{
+			"id": "Thing",
+			"mission": false
+		},
+		{
+			"id": "Thor",
+			"mission": false
+		},
+		{
+			"id": "Thor_InfinityWar",
+			"mission": false
+		},
+		{
+			"id": "Titania",
+			"mission": false
+		},
+		{
+			"id": "Toad",
+			"mission": false
+		},
+		{
+			"id": "UltGreenGoblin",
+			"mission": false
+		},
+		{
+			"id": "Ultimus",
+			"mission": false
+		},
+		{
+			"id": "Ultron",
+			"mission": false
+		},
+		{
+			"id": "UltSpiderMan",
+			"mission": false
+		},
+		{
+			"id": "UnionJack",
+			"mission": false
+		},
+		{
+			"id": "USAgent",
+			"mission": false
+		},
+		{
+			"id": "Vahl",
+			"mission": false
+		},
+		{
+			"id": "Valkyrie",
+			"mission": false
+		},
+		{
+			"id": "Venom",
+			"mission": false
+		},
+		{
+			"id": "Vision",
+			"mission": false
+		},
+		{
+			"id": "VivVision",
+			"mission": false
+		},
+		{
+			"id": "Vulture",
+			"mission": false
+		},
+		{
+			"id": "WarMachine",
+			"mission": false
+		},
+		{
+			"id": "Wasp",
+			"mission": false
+		},
+		{
+			"id": "WhiteTiger",
+			"mission": false
+		},
+		{
+			"id": "WinterSoldier",
+			"mission": false
+		},
+		{
+			"id": "Wolverine",
+			"mission": false
+		},
+		{
+			"id": "Wong",
+			"mission": false
+		},
+		{
+			"id": "X23",
+			"mission": false
+		},
+		{
+			"id": "Yelena",
+			"mission": false
+		},
+		{
+			"id": "Yellowjacket",
+			"mission": false
+		},
+		{
+			"id": "Yondu",
+			"mission": false
+		},
+		{
+			"id": "YoYo",
+			"mission": false
+		},
+		{
+			"id": "Zemo",
+			"mission": false
+		},
+		{
+			"id": "ZombieIronMan",
+			"mission": false
+		}
+	],
+	"meta": {
+		"version": 1,
+		"hashes": {
+			"events": "c22014f1e2ec7722616d",
+			"drops": "023f00344fcd0ff47ea8",
+			"locs": "6db6b2065f8b66c5c534",
+			"nodes": "4ee5cf94f3dc104ebf45",
+			"chars": "ee2cfa57c666114965e3",
+			"other": "96a12d376488e7437f8b",
+			"all": "82e0ef80ec2b0ed638ac"
+		},
+		"perTotal": 253
+	}
+}

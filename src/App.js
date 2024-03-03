@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 import "./App.css";
 import { AuthProvider } from "oidc-react";
-import ApiData from "./components/auth/ApiData";
+// import ApiData from "./components/auth/ApiData";
 import { Products } from "./components/products";
-import { Bctrials } from "./components/bctrials";
+// import { Bctrials } from "./components/bctrials";
 
 const enableLogin = 0;
 
