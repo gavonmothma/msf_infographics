@@ -55,6 +55,18 @@
           "id": "Gamma",
           "name": "GAMMA"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
       ]
     },
     {
@@ -111,6 +123,13 @@
         {
           "id": "MastersOfEvil",
           "name": "MASTERS OF EVIL"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
         }
       ]
     },
@@ -173,6 +192,13 @@
           "id": "Legendary",
           "name": "LEGENDARY"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
       ]
     },
     {
@@ -233,9 +259,9 @@
       ],
       "eventTraits": [
         {
-          "id": "DDLiveTrait",
+          "id": "Clubs",
           "isEvent": true,
-          "name": "QUANTUM"
+          "name": "CLUBS"
         }
       ]
     },
@@ -291,12 +317,23 @@
           "name": "BLASTER"
         },
         {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
+        },
+        {
           "id": "Symbiote",
           "name": "SYMBIOTE"
         },
         {
           "id": "Rebirth",
           "name": "REBIRTH"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -660,6 +697,13 @@
           "id": "Gamma",
           "name": "GAMMA"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        }
       ]
     },
     {
@@ -729,6 +773,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -791,6 +840,13 @@
           "id": "Symbiote",
           "name": "SYMBIOTE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
+        }
       ]
     },
     {
@@ -851,13 +907,10 @@
         {
           "id": "PymTech",
           "name": "PYM TECH"
-        }
-      ],
-      "eventTraits": [
+        },
         {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
+          "id": "Infestation",
+          "name": "INFESTATION"
         }
       ]
     },
@@ -911,6 +964,12 @@
         {
           "id": "Support",
           "name": "SUPPORT"
+        }
+      ],
+      "invisibleTraits": [
+        {
+          "id": "Chargeable",
+          "alwaysInvisible": true
         }
       ]
     },
@@ -976,6 +1035,13 @@
         {
           "id": "Legendary",
           "name": "LEGENDARY"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -1115,6 +1181,67 @@
       ]
     },
     {
+      "id": "BetaRayBill",
+      "mission": false,
+      "name": "Beta Ray Bill",
+      "description": "An adopted son of Asgard, Beta Ray Bill shows his enemies Stormbreaker's might by calling down lightning upon them and acting as a shield for his allies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_BetaRayBill_5aa11433.png",
+      "starItems": [
+        {
+          "id": "SHARD_BETARAYBILL"
+        },
+        {
+          "id": "RS_BETARAYBILL_1"
+        },
+        {
+          "id": "RS_BETARAYBILL_2"
+        },
+        {
+          "id": "RS_BETARAYBILL_3"
+        },
+        {
+          "id": "RS_BETARAYBILL_4"
+        },
+        {
+          "id": "RS_BETARAYBILL_5"
+        },
+        {
+          "id": "RS_BETARAYBILL_6"
+        },
+        {
+          "id": "RS_BETARAYBILL_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Protector",
+          "name": "PROTECTOR"
+        },
+        {
+          "id": "Bifrost",
+          "name": "BIFROST"
+        },
+        {
+          "id": "Asgard",
+          "name": "ASGARDIAN"
+        }
+      ]
+    },
+    {
       "id": "Bishop",
       "mission": false,
       "name": "Bishop",
@@ -1185,6 +1312,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ]
     },
@@ -1385,13 +1517,6 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
-        }
       ]
     },
     {
@@ -1456,6 +1581,10 @@
         {
           "id": "Military",
           "name": "MILITARY"
+        },
+        {
+          "id": "Infestation",
+          "name": "INFESTATION"
         }
       ],
       "invisibleTraits": [
@@ -1523,6 +1652,63 @@
         {
           "id": "Brotherhood",
           "name": "BROTHERHOOD"
+        }
+      ]
+    },
+    {
+      "id": "BuckyBarnes",
+      "mission": false,
+      "name": "Bucky Barnes",
+      "description": "The teenage best friend of Steve Rogers, Bucky Barnes, charges the front lines along with the other Invaders, unleashing multiple attacks on their foes.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_BuckyBarnes_a7c742c4.png",
+      "starItems": [
+        {
+          "id": "SHARD_BUCKYBARNES"
+        },
+        {
+          "id": "RS_BUCKYBARNES_1"
+        },
+        {
+          "id": "RS_BUCKYBARNES_2"
+        },
+        {
+          "id": "RS_BUCKYBARNES_3"
+        },
+        {
+          "id": "RS_BUCKYBARNES_4"
+        },
+        {
+          "id": "RS_BUCKYBARNES_5"
+        },
+        {
+          "id": "RS_BUCKYBARNES_6"
+        },
+        {
+          "id": "RS_BUCKYBARNES_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Skill",
+          "name": "SKILL"
+        },
+        {
+          "id": "Blaster",
+          "name": "BLASTER"
+        },
+        {
+          "id": "Invader",
+          "name": "INVADER"
         }
       ]
     },
@@ -1723,6 +1909,70 @@
           "id": "Wave1",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
+      ]
+    },
+    {
+      "id": "CaptainAmericaWW2",
+      "mission": false,
+      "name": "Captain America (WWII)",
+      "description": "A tanky Captain America generates ability energy and applies buffs to his team while rallying them to perform devastating assists.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_CaptainAmericaWW2_6cd2ce8e.png",
+      "starItems": [
+        {
+          "id": "SHARD_CAPTAINAMERICAWW2"
+        },
+        {
+          "id": "RS_CAPTAINAMERICAWW2_1"
+        },
+        {
+          "id": "RS_CAPTAINAMERICAWW2_2"
+        },
+        {
+          "id": "RS_CAPTAINAMERICAWW2_3"
+        },
+        {
+          "id": "RS_CAPTAINAMERICAWW2_4"
+        },
+        {
+          "id": "RS_CAPTAINAMERICAWW2_5"
+        },
+        {
+          "id": "RS_CAPTAINAMERICAWW2_6"
+        },
+        {
+          "id": "RS_CAPTAINAMERICAWW2_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Skill",
+          "name": "SKILL"
+        },
+        {
+          "id": "Controller",
+          "name": "CONTROLLER"
+        },
+        {
+          "id": "Invader",
+          "name": "INVADER"
+        }
       ]
     },
     {
@@ -1779,6 +2029,13 @@
         {
           "id": "Rebirth",
           "name": "REBIRTH"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -1857,6 +2114,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ]
     },
@@ -1919,6 +2181,13 @@
           "id": "Symbiote",
           "name": "SYMBIOTE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        }
       ]
     },
     {
@@ -1975,6 +2244,13 @@
         {
           "id": "NewWarrior",
           "name": "NEW WARRIOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ]
     },
@@ -2160,6 +2436,74 @@
       ]
     },
     {
+      "id": "Cosmo",
+      "mission": false,
+      "name": "Cosmo",
+      "description": "A once ordinary dog that gained powers from cosmic rays and became an animal astronaut, Cosmo proves herself to be a Commander's best friend by clearing enemy buffs and ally debuffs.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Cosmo_b4fdf024.png",
+      "starItems": [
+        {
+          "id": "SHARD_COSMO"
+        },
+        {
+          "id": "RS_COSMO_1"
+        },
+        {
+          "id": "RS_COSMO_2"
+        },
+        {
+          "id": "RS_COSMO_3"
+        },
+        {
+          "id": "RS_COSMO_4"
+        },
+        {
+          "id": "RS_COSMO_5"
+        },
+        {
+          "id": "RS_COSMO_6"
+        },
+        {
+          "id": "RS_COSMO_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Bio",
+          "name": "BIO"
+        },
+        {
+          "id": "Support",
+          "name": "SUPPORT"
+        },
+        {
+          "id": "GotG",
+          "name": "GUARDIAN"
+        },
+        {
+          "id": "Knowhere",
+          "name": "KNOWHERE"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
+      ]
+    },
+    {
       "id": "Coulson",
       "mission": false,
       "name": "Agent Coulson",
@@ -2331,6 +2675,13 @@
         {
           "id": "Inhuman",
           "name": "INHUMAN"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ]
     },
@@ -2513,6 +2864,13 @@
           "id": "NewWarrior",
           "name": "NEW WARRIOR"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        }
       ]
     },
     {
@@ -2646,9 +3004,9 @@
       ],
       "eventTraits": [
         {
-          "id": "DDLiveTrait",
+          "id": "Spades",
           "isEvent": true,
-          "name": "QUANTUM"
+          "name": "SPADES"
         }
       ]
     },
@@ -2778,6 +3136,18 @@
           "id": "Mercenary",
           "name": "MERCENARY"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        },
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
       ]
     },
     {
@@ -2897,6 +3267,19 @@
         {
           "id": "NewWarrior",
           "name": "NEW WARRIOR"
+        }
+      ],
+      "invisibleTraits": [
+        {
+          "id": "Chargeable",
+          "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
         }
       ]
     },
@@ -3852,6 +4235,81 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        },
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
+      ]
+    },
+    {
+      "id": "Firestar",
+      "mission": false,
+      "name": "Firestar",
+      "description": "A mutant with Amazing Friends, Firestar generates scorching heat and flames using microwaves to pierce enemy defenses.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Firestar_040b4085.png",
+      "starItems": [
+        {
+          "id": "SHARD_FIRESTAR"
+        },
+        {
+          "id": "RS_FIRESTAR_1"
+        },
+        {
+          "id": "RS_FIRESTAR_2"
+        },
+        {
+          "id": "RS_FIRESTAR_3"
+        },
+        {
+          "id": "RS_FIRESTAR_4"
+        },
+        {
+          "id": "RS_FIRESTAR_5"
+        },
+        {
+          "id": "RS_FIRESTAR_6"
+        },
+        {
+          "id": "RS_FIRESTAR_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "City",
+          "name": "CITY"
+        },
+        {
+          "id": "Mutant",
+          "name": "MUTANT"
+        },
+        {
+          "id": "Blaster",
+          "name": "BLASTER"
+        },
+        {
+          "id": "NewWarrior",
+          "name": "NEW WARRIOR"
+        }
+      ],
+      "invisibleTraits": [
+        {
+          "id": "Chargeable",
+          "alwaysInvisible": true
+        }
       ]
     },
     {
@@ -3919,6 +4377,28 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        },
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        },
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        },
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
+        }
       ]
     },
     {
@@ -3980,6 +4460,13 @@
           "id": "InfinityWatch",
           "name": "INFINITY WATCH"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
       ]
     },
     {
@@ -4039,11 +4526,6 @@
         }
       ],
       "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
-        },
         {
           "id": "Voyager",
           "isEvent": true,
@@ -4116,6 +4598,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        }
       ]
     },
     {
@@ -4176,6 +4665,13 @@
         {
           "id": "WebWarrior",
           "name": "WEB-WARRIOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
         }
       ]
     },
@@ -4294,9 +4790,83 @@
       ],
       "eventTraits": [
         {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "B.K.T."
+        },
+        {
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
+      ]
+    },
+    {
+      "id": "Gwenpool",
+      "mission": false,
+      "name": "Gwenpool",
+      "description": "Hey, Commander, Gwendolyn Poole here! First of all? Huge fan! Second, you can count on me to charge up my New Warrior buddies and unleash mayhem on the battlefield!",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Gwenpool_bc7cbdd3.png",
+      "starItems": [
+        {
+          "id": "SHARD_GWENPOOL"
+        },
+        {
+          "id": "RS_GWENPOOL_1"
+        },
+        {
+          "id": "RS_GWENPOOL_2"
+        },
+        {
+          "id": "RS_GWENPOOL_3"
+        },
+        {
+          "id": "RS_GWENPOOL_4"
+        },
+        {
+          "id": "RS_GWENPOOL_5"
+        },
+        {
+          "id": "RS_GWENPOOL_6"
+        },
+        {
+          "id": "RS_GWENPOOL_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "City",
+          "name": "CITY"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Brawler",
+          "name": "BRAWLER"
+        },
+        {
+          "id": "NewWarrior",
+          "name": "NEW WARRIOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -4828,6 +5398,13 @@
           "name": "UNDYING"
         }
       ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
+      ],
       "summonIds": [
         "Greg"
       ]
@@ -4905,6 +5482,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        }
       ]
     },
     {
@@ -4967,6 +5551,13 @@
         {
           "id": "Avenger",
           "name": "AVENGER"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
         }
       ]
     },
@@ -5393,6 +5984,13 @@
           "id": "Xmen",
           "name": "X-MEN"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
       ]
     },
     {
@@ -5517,6 +6115,11 @@
           "id": "KnowhereHeist",
           "isEvent": true,
           "name": "KNOWHERE HEIST"
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ]
     },
@@ -5585,6 +6188,63 @@
           "id": "MartialArtist",
           "isEvent": true,
           "name": "MARTIAL ARTIST"
+        }
+      ]
+    },
+    {
+      "id": "IronFistOrson",
+      "mission": false,
+      "name": "Iron Fist (WWII)",
+      "description": "Orson Randall uses his Chi to heal allies and empower his guns to fight the AXIS in WWII.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_IronFistOrson_e312d26b.png",
+      "starItems": [
+        {
+          "id": "SHARD_IRONFISTORSON"
+        },
+        {
+          "id": "RS_IRONFISTORSON_1"
+        },
+        {
+          "id": "RS_IRONFISTORSON_2"
+        },
+        {
+          "id": "RS_IRONFISTORSON_3"
+        },
+        {
+          "id": "RS_IRONFISTORSON_4"
+        },
+        {
+          "id": "RS_IRONFISTORSON_5"
+        },
+        {
+          "id": "RS_IRONFISTORSON_6"
+        },
+        {
+          "id": "RS_IRONFISTORSON_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Skill",
+          "name": "SKILL"
+        },
+        {
+          "id": "Support",
+          "name": "SUPPORT"
+        },
+        {
+          "id": "Invader",
+          "name": "INVADER"
         }
       ]
     },
@@ -5728,6 +6388,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ]
     },
@@ -5791,6 +6456,13 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ]
     },
@@ -5920,6 +6592,13 @@
           "id": "Xmen",
           "name": "X-MEN"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        }
       ]
     },
     {
@@ -6043,9 +6722,9 @@
       ],
       "eventTraits": [
         {
-          "id": "DDLiveTrait",
+          "id": "Diamonds",
           "isEvent": true,
-          "name": "QUANTUM"
+          "name": "DIAMONDS"
         }
       ]
     },
@@ -6382,6 +7061,11 @@
           "id": "KnowhereHeist",
           "isEvent": true,
           "name": "KNOWHERE HEIST"
+        },
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
         }
       ]
     },
@@ -6447,6 +7131,70 @@
       ]
     },
     {
+      "id": "Korg",
+      "mission": false,
+      "name": "Korg",
+      "description": "A rock-steady friend of Thor's, Korg bolsters his Knowhere allies' defenses and calls on them for devastating assists.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Korg_0c5ec179.png",
+      "starItems": [
+        {
+          "id": "SHARD_KORG"
+        },
+        {
+          "id": "RS_KORG_1"
+        },
+        {
+          "id": "RS_KORG_2"
+        },
+        {
+          "id": "RS_KORG_3"
+        },
+        {
+          "id": "RS_KORG_4"
+        },
+        {
+          "id": "RS_KORG_5"
+        },
+        {
+          "id": "RS_KORG_6"
+        },
+        {
+          "id": "RS_KORG_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Bio",
+          "name": "BIO"
+        },
+        {
+          "id": "Protector",
+          "name": "PROTECTOR"
+        },
+        {
+          "id": "Knowhere",
+          "name": "KNOWHERE"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
+      ]
+    },
+    {
       "id": "KreeControl_Assist",
       "mission": false,
       "name": "Kree Noble",
@@ -6504,6 +7252,13 @@
         {
           "id": "Minion",
           "name": "MINION"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ]
     },
@@ -6688,6 +7443,13 @@
           "id": "Minion",
           "name": "MINION"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
       ]
     },
     {
@@ -6806,6 +7568,13 @@
           "id": "WeaponX",
           "name": "WEAPON X"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -6862,10 +7631,82 @@
         {
           "id": "Asgard",
           "name": "ASGARDIAN"
+        },
+        {
+          "id": "Bifrost",
+          "name": "BIFROST"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ],
       "summonIds": [
         "LokiMinion"
+      ]
+    },
+    {
+      "id": "LokiTeen",
+      "mission": false,
+      "name": "Loki (Teen)",
+      "description": "A teenage version of Loki that applies regeneration to his allied Loki variants and hides a wicked bite up his sleeve.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_LokiTeen_76e71c3c.png",
+      "starItems": [
+        {
+          "id": "SHARD_LOKITEEN"
+        },
+        {
+          "id": "RS_LOKITEEN_1"
+        },
+        {
+          "id": "RS_LOKITEEN_2"
+        },
+        {
+          "id": "RS_LOKITEEN_3"
+        },
+        {
+          "id": "RS_LOKITEEN_4"
+        },
+        {
+          "id": "RS_LOKITEEN_5"
+        },
+        {
+          "id": "RS_LOKITEEN_6"
+        },
+        {
+          "id": "RS_LOKITEEN_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Support",
+          "name": "SUPPORT"
+        },
+        {
+          "id": "Bifrost",
+          "name": "BIFROST"
+        },
+        {
+          "id": "Asgard",
+          "name": "ASGARDIAN"
+        }
       ]
     },
     {
@@ -6922,6 +7763,13 @@
         {
           "id": "XFactor",
           "name": "X-FACTOR"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
         }
       ]
     },
@@ -7109,6 +7957,13 @@
           "alwaysInvisible": true
         }
       ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
+      ],
       "summonIds": [
         "DarkPhoenix"
       ]
@@ -7175,6 +8030,13 @@
         {
           "id": "Legendary",
           "name": "LEGENDARY"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -7677,6 +8539,18 @@
           "id": "Kree",
           "name": "KREE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "B.K.T."
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
       ]
     },
     {
@@ -7790,6 +8664,13 @@
         {
           "id": "InfinityWatch",
           "name": "INFINITY WATCH"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -7912,6 +8793,13 @@
           "id": "MastersOfEvil",
           "name": "MASTERS OF EVIL"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -7964,6 +8852,10 @@
         {
           "id": "Mystic",
           "name": "MYSTIC"
+        },
+        {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
         },
         {
           "id": "DarkHunter",
@@ -8034,6 +8926,13 @@
           "id": "Legendary",
           "name": "LEGENDARY"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        }
       ]
     },
     {
@@ -8097,6 +8996,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ]
     },
@@ -8288,6 +9192,13 @@
           "id": "Avenger",
           "name": "AVENGER"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
       ]
     },
     {
@@ -8351,6 +9262,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ],
       "summonIds": [
@@ -8482,6 +9398,13 @@
         {
           "id": "Marauders",
           "name": "MARAUDER"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -8659,6 +9582,10 @@
         {
           "id": "InfinityWatch",
           "name": "INFINITY WATCH"
+        },
+        {
+          "id": "GotG",
+          "name": "GUARDIAN"
         }
       ]
     },
@@ -8774,6 +9701,13 @@
           "id": "Deathseed",
           "name": "DEATH SEED"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -8838,6 +9772,10 @@
         {
           "id": "Legendary",
           "name": "LEGENDARY"
+        },
+        {
+          "id": "Invader",
+          "name": "INVADER"
         }
       ],
       "eventTraits": [
@@ -8906,6 +9844,13 @@
         {
           "id": "AForce",
           "name": "A-FORCE"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -9036,6 +9981,67 @@
       "summonIds": [
         "S_HandDmg_Bonus",
         "S_HandDmg_Unbuff"
+      ]
+    },
+    {
+      "id": "Nova",
+      "mission": false,
+      "name": "Nova",
+      "description": "Last of the Nova Corps, Richard Rider uses the Nova Force to clear away enemy defenses and keeps his allies healed through the fight.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Nova_22eaa4a3.png",
+      "starItems": [
+        {
+          "id": "SHARD_NOVA"
+        },
+        {
+          "id": "RS_NOVA_1"
+        },
+        {
+          "id": "RS_NOVA_2"
+        },
+        {
+          "id": "RS_NOVA_3"
+        },
+        {
+          "id": "RS_NOVA_4"
+        },
+        {
+          "id": "RS_NOVA_5"
+        },
+        {
+          "id": "RS_NOVA_6"
+        },
+        {
+          "id": "RS_NOVA_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Bio",
+          "name": "BIO"
+        },
+        {
+          "id": "Blaster",
+          "name": "BLASTER"
+        },
+        {
+          "id": "Knowhere",
+          "name": "KNOWHERE"
+        },
+        {
+          "id": "Legendary",
+          "name": "LEGENDARY"
+        }
       ]
     },
     {
@@ -9170,6 +10176,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -9301,6 +10314,13 @@
           "id": "Kree",
           "name": "KREE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
       ]
     },
     {
@@ -9364,6 +10384,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ]
     },
@@ -9495,6 +10520,16 @@
           "id": "MartialArtist",
           "isEvent": true,
           "name": "MARTIAL ARTIST"
+        },
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        },
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -9610,6 +10645,13 @@
           "id": "Brotherhood",
           "name": "BROTHERHOOD"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
       ]
     },
     {
@@ -9671,6 +10713,68 @@
           "id": "Inhuman",
           "name": "INHUMAN"
         }
+      ]
+    },
+    {
+      "id": "Quicksilver",
+      "mission": false,
+      "name": "Quicksilver",
+      "description": "Quicksilver, the twin brother of Wanda Maximoff, is a supersonic speedster with undodgeable piercing attacks that wear down his enemies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Quicksilver_dc53a7c7.png",
+      "starItems": [
+        {
+          "id": "SHARD_QUICKSILVER"
+        },
+        {
+          "id": "RS_QUICKSILVER_1"
+        },
+        {
+          "id": "RS_QUICKSILVER_2"
+        },
+        {
+          "id": "RS_QUICKSILVER_3"
+        },
+        {
+          "id": "RS_QUICKSILVER_4"
+        },
+        {
+          "id": "RS_QUICKSILVER_5"
+        },
+        {
+          "id": "RS_QUICKSILVER_6"
+        },
+        {
+          "id": "RS_QUICKSILVER_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Brawler",
+          "name": "BRAWLER"
+        }
+      ],
+      "invisibleTraits": [
+        {
+          "id": "Chargeable",
+          "alwaysInvisible": true
+        }
+      ],
+      "summonIds": [
+        "ScarletWitch"
       ]
     },
     {
@@ -10006,6 +11110,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        }
       ]
     },
     {
@@ -10254,6 +11365,11 @@
       ],
       "eventTraits": [
         {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "B.K.T."
+        },
+        {
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
@@ -10262,6 +11378,11 @@
           "id": "KnowhereHeist",
           "isEvent": true,
           "name": "KNOWHERE HEIST"
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ]
     },
@@ -10338,6 +11459,13 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -10394,6 +11522,13 @@
         {
           "id": "Kree",
           "name": "KREE"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ],
       "summonIds": [
@@ -10463,6 +11598,13 @@
         {
           "id": "WeaponX",
           "name": "WEAPON X"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -10588,6 +11730,13 @@
           "id": "WebWarrior",
           "name": "WEB-WARRIOR"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -10653,6 +11802,9 @@
           "id": "Darkhold",
           "name": "DARKHOLD"
         }
+      ],
+      "summonByIds": [
+        "Quicksilver"
       ]
     },
     {
@@ -10771,6 +11923,13 @@
           "id": "Symbiote",
           "name": "SYMBIOTE"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        }
       ]
     },
     {
@@ -10827,6 +11986,13 @@
         {
           "id": "Eternal",
           "name": "ETERNAL"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
         }
       ]
     },
@@ -11005,6 +12171,18 @@
           "id": "XFactor",
           "name": "X-FACTOR"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        },
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
       ]
     },
     {
@@ -11067,6 +12245,18 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
         }
       ]
     },
@@ -11639,6 +12829,13 @@
           "id": "WeaponX",
           "name": "WEAPON X"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
+        }
       ]
     },
     {
@@ -11698,6 +12895,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ]
     },
@@ -11766,6 +12968,11 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        },
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -11827,6 +13034,80 @@
         {
           "id": "TangledWeb",
           "name": "TANGLED WEB"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
+        }
+      ]
+    },
+    {
+      "id": "SpiderManBigTime",
+      "mission": false,
+      "name": "Spider-Man (Big Time)",
+      "description": "While working at Horizon Labs, Peter Parker developed a new suit with a Stealth Mode, making him harder to hit, and an Anti-Sound Mode to catch his opponents unaware.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_SpiderManBigTime_22bf8cc3.png",
+      "starItems": [
+        {
+          "id": "SHARD_SPIDERMANBIGTIME"
+        },
+        {
+          "id": "RS_SPIDERMANBIGTIME_1"
+        },
+        {
+          "id": "RS_SPIDERMANBIGTIME_2"
+        },
+        {
+          "id": "RS_SPIDERMANBIGTIME_3"
+        },
+        {
+          "id": "RS_SPIDERMANBIGTIME_4"
+        },
+        {
+          "id": "RS_SPIDERMANBIGTIME_5"
+        },
+        {
+          "id": "RS_SPIDERMANBIGTIME_6"
+        },
+        {
+          "id": "RS_SPIDERMANBIGTIME_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "City",
+          "name": "CITY"
+        },
+        {
+          "id": "Tech",
+          "name": "TECH"
+        },
+        {
+          "id": "Controller",
+          "name": "CONTROLLER"
+        },
+        {
+          "id": "SpiderVerse",
+          "name": "SPIDER-VERSE"
+        },
+        {
+          "id": "Infestation",
+          "name": "INFESTATION"
+        }
+      ],
+      "invisibleTraits": [
+        {
+          "id": "Chargeable",
+          "alwaysInvisible": true
         }
       ]
     },
@@ -11892,9 +13173,9 @@
       ],
       "eventTraits": [
         {
-          "id": "DDLiveTrait",
+          "id": "Spades",
           "isEvent": true,
-          "name": "QUANTUM"
+          "name": "SPADES"
         }
       ]
     },
@@ -11957,6 +13238,13 @@
           "id": "WebWarrior",
           "name": "WEB-WARRIOR"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -12018,6 +13306,13 @@
           "id": "TangledWeb",
           "name": "TANGLED WEB"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
+        }
       ]
     },
     {
@@ -12074,13 +13369,6 @@
         {
           "id": "AForce",
           "name": "A-FORCE"
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
         }
       ]
     },
@@ -12209,9 +13497,80 @@
       ],
       "eventTraits": [
         {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "B.K.T."
+        },
+        {
           "id": "KnowhereHeist",
           "isEvent": true,
           "name": "KNOWHERE HEIST"
+        },
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
+      ]
+    },
+    {
+      "id": "StarLord_Annihilation",
+      "mission": false,
+      "name": "Star-Lord (Annihilation)",
+      "description": "A resurrected Peter Quill that uses his trusty Terran machine guns to unleash a deadly volley against his enemies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_StarLord_Annihilation_afe3ce49.png",
+      "starItems": [
+        {
+          "id": "SHARD_STARLORD_ANNIHILATION"
+        },
+        {
+          "id": "RS_STARLORD_ANNIHILATION_1"
+        },
+        {
+          "id": "RS_STARLORD_ANNIHILATION_2"
+        },
+        {
+          "id": "RS_STARLORD_ANNIHILATION_3"
+        },
+        {
+          "id": "RS_STARLORD_ANNIHILATION_4"
+        },
+        {
+          "id": "RS_STARLORD_ANNIHILATION_5"
+        },
+        {
+          "id": "RS_STARLORD_ANNIHILATION_6"
+        },
+        {
+          "id": "RS_STARLORD_ANNIHILATION_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Skill",
+          "name": "SKILL"
+        },
+        {
+          "id": "Brawler",
+          "name": "BRAWLER"
+        },
+        {
+          "id": "GotG",
+          "name": "GUARDIAN"
+        },
+        {
+          "id": "Knowhere",
+          "name": "KNOWHERE"
         }
       ]
     },
@@ -12275,13 +13634,6 @@
         {
           "id": "Chargeable",
           "alwaysInvisible": true
-        }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
         }
       ]
     },
@@ -12414,6 +13766,13 @@
           "id": "Darkhold",
           "name": "DARKHOLD"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
+        }
       ]
     },
     {
@@ -12470,6 +13829,13 @@
         {
           "id": "Marauders",
           "name": "MARAUDER"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -12537,6 +13903,59 @@
       ]
     },
     {
+      "id": "SuperSkrull",
+      "mission": false,
+      "name": "Super Skrull",
+      "description": "With the combined powers of Earth's Fantastic Four, Super Skrull packs a punch and camouflages seamlessly into his team, becoming more heroic - or villainous - depending on who is around.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_SuperSkrull_472556f4.png",
+      "starItems": [
+        {
+          "id": "SHARD_SUPERSKRULL"
+        },
+        {
+          "id": "RS_SUPERSKRULL_1"
+        },
+        {
+          "id": "RS_SUPERSKRULL_2"
+        },
+        {
+          "id": "RS_SUPERSKRULL_3"
+        },
+        {
+          "id": "RS_SUPERSKRULL_4"
+        },
+        {
+          "id": "RS_SUPERSKRULL_5"
+        },
+        {
+          "id": "RS_SUPERSKRULL_6"
+        },
+        {
+          "id": "RS_SUPERSKRULL_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 5,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Bio",
+          "name": "BIO"
+        },
+        {
+          "id": "Brawler",
+          "name": "BRAWLER"
+        }
+      ]
+    },
+    {
       "id": "Swarm",
       "mission": false,
       "name": "Swarm",
@@ -12594,6 +14013,10 @@
         {
           "id": "SinisterSix",
           "name": "SINISTER SIX"
+        },
+        {
+          "id": "Infestation",
+          "name": "INFESTATION"
         }
       ],
       "invisibleTraits": [
@@ -12664,6 +14087,74 @@
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
+        }
+      ]
+    },
+    {
+      "id": "Sylvie",
+      "mission": false,
+      "name": "Sylvie",
+      "description": "Fighting the TVA alongside Loki, Sylvie's mind-control abilities turn her enemies against each other while her swift daggers cut them into ribbons.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Sylvie_fc6b92c7.png",
+      "starItems": [
+        {
+          "id": "SHARD_SYLVIE"
+        },
+        {
+          "id": "RS_SYLVIE_1"
+        },
+        {
+          "id": "RS_SYLVIE_2"
+        },
+        {
+          "id": "RS_SYLVIE_3"
+        },
+        {
+          "id": "RS_SYLVIE_4"
+        },
+        {
+          "id": "RS_SYLVIE_5"
+        },
+        {
+          "id": "RS_SYLVIE_6"
+        },
+        {
+          "id": "RS_SYLVIE_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Villain",
+          "name": "VILLAIN"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Controller",
+          "name": "CONTROLLER"
+        },
+        {
+          "id": "Bifrost",
+          "name": "BIFROST"
+        },
+        {
+          "id": "Asgard",
+          "name": "ASGARDIAN"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -12897,6 +14388,19 @@
           "id": "Protector",
           "name": "PROTECTOR"
         }
+      ],
+      "invisibleTraits": [
+        {
+          "id": "Thanos_BlackOrder",
+          "alwaysInvisible": true
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "DDLiveTrait",
+          "isEvent": true,
+          "name": "B.K.T."
+        }
       ]
     },
     {
@@ -13039,6 +14543,71 @@
       ]
     },
     {
+      "id": "Thor_InfinityWar",
+      "mission": false,
+      "name": "Thor (Infinity War)",
+      "description": "Thor, the God of Thunder, wields Stormbreaker to face cosmic threats, dealing heavy damage and breaking down enemy Protectors.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Thor_InfinityWar_a5f8fad1.png",
+      "starItems": [
+        {
+          "id": "SHARD_THOR_INFINITYWAR"
+        },
+        {
+          "id": "RS_THOR_INFINITYWAR_1"
+        },
+        {
+          "id": "RS_THOR_INFINITYWAR_2"
+        },
+        {
+          "id": "RS_THOR_INFINITYWAR_3"
+        },
+        {
+          "id": "RS_THOR_INFINITYWAR_4"
+        },
+        {
+          "id": "RS_THOR_INFINITYWAR_5"
+        },
+        {
+          "id": "RS_THOR_INFINITYWAR_6"
+        },
+        {
+          "id": "RS_THOR_INFINITYWAR_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Brawler",
+          "name": "BRAWLER"
+        },
+        {
+          "id": "Avenger",
+          "name": "AVENGER"
+        },
+        {
+          "id": "Asgard",
+          "name": "ASGARDIAN"
+        },
+        {
+          "id": "Knowhere",
+          "name": "KNOWHERE"
+        }
+      ]
+    },
+    {
       "id": "Titania",
       "mission": false,
       "name": "Titania",
@@ -13092,6 +14661,13 @@
         {
           "id": "MastersOfEvil",
           "name": "MASTERS OF EVIL"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
         }
       ]
     },
@@ -13275,13 +14851,6 @@
           "id": "Kree",
           "name": "KREE"
         }
-      ],
-      "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
-        }
       ]
     },
     {
@@ -13418,6 +14987,77 @@
           "id": "Avenger",
           "name": "AVENGER"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Spades",
+          "isEvent": true,
+          "name": "SPADES"
+        }
+      ]
+    },
+    {
+      "id": "UnionJack",
+      "mission": false,
+      "name": "Union Jack",
+      "description": "The first to take the mantle of Union Jack, adventurer and British superspy James Montgomery Falsworth charges up his attacks to blast away his enemies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_UnionJack_7ba4dd51.png",
+      "starItems": [
+        {
+          "id": "SHARD_UNIONJACK"
+        },
+        {
+          "id": "RS_UNIONJACK_1"
+        },
+        {
+          "id": "RS_UNIONJACK_2"
+        },
+        {
+          "id": "RS_UNIONJACK_3"
+        },
+        {
+          "id": "RS_UNIONJACK_4"
+        },
+        {
+          "id": "RS_UNIONJACK_5"
+        },
+        {
+          "id": "RS_UNIONJACK_6"
+        },
+        {
+          "id": "RS_UNIONJACK_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Global",
+          "name": "GLOBAL"
+        },
+        {
+          "id": "Skill",
+          "name": "SKILL"
+        },
+        {
+          "id": "Blaster",
+          "name": "BLASTER"
+        },
+        {
+          "id": "Invader",
+          "name": "INVADER"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
       ]
     },
     {
@@ -13474,6 +15114,81 @@
         {
           "id": "Rebirth",
           "name": "REBIRTH"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
+      ]
+    },
+    {
+      "id": "Vahl",
+      "mission": false,
+      "name": "Vahl",
+      "description": "Allied to a fledgling Phoenix Force and the last Asgardian of their universe, Vahl utilizes Asgardian relics to revive their allies and deal devastating blows to their enemies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Vahl_f3b025f1.png",
+      "starItems": [
+        {
+          "id": "SHARD_VAHL"
+        },
+        {
+          "id": "RS_VAHL_1"
+        },
+        {
+          "id": "RS_VAHL_2"
+        },
+        {
+          "id": "RS_VAHL_3"
+        },
+        {
+          "id": "RS_VAHL_4"
+        },
+        {
+          "id": "RS_VAHL_5"
+        },
+        {
+          "id": "RS_VAHL_6"
+        },
+        {
+          "id": "RS_VAHL_7"
+        }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        {
+          "id": "Hero",
+          "name": "HERO"
+        },
+        {
+          "id": "Cosmic",
+          "name": "COSMIC"
+        },
+        {
+          "id": "Mystic",
+          "name": "MYSTIC"
+        },
+        {
+          "id": "Brawler",
+          "name": "BRAWLER"
+        },
+        {
+          "id": "Bifrost",
+          "name": "BIFROST"
+        },
+        {
+          "id": "Asgard",
+          "name": "ASGARDIAN"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -13538,6 +15253,18 @@
           "id": "Chargeable",
           "alwaysInvisible": true
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        },
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
+        }
       ]
     },
     {
@@ -13598,6 +15325,13 @@
         {
           "id": "Symbiote",
           "name": "SYMBIOTE"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Clubs",
+          "isEvent": true,
+          "name": "CLUBS"
         }
       ]
     },
@@ -13662,6 +15396,13 @@
           "id": "Avenger",
           "name": "AVENGER"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        }
       ]
     },
     {
@@ -13724,6 +15465,18 @@
         {
           "id": "Avenger",
           "name": "AVENGER"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
+        },
+        {
+          "id": "Proud",
+          "isEvent": true,
+          "name": "PROUD"
         }
       ]
     },
@@ -13928,11 +15681,6 @@
       ],
       "eventTraits": [
         {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
-        },
-        {
           "id": "Voyager",
           "isEvent": true,
           "name": "VOYAGER"
@@ -14066,6 +15814,13 @@
           "id": "Rebirth",
           "name": "REBIRTH"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Diamonds",
+          "isEvent": true,
+          "name": "DIAMONDS"
+        }
       ]
     },
     {
@@ -14189,6 +15944,13 @@
         {
           "id": "Darkhold",
           "name": "DARKHOLD"
+        }
+      ],
+      "eventTraits": [
+        {
+          "id": "Hearts",
+          "isEvent": true,
+          "name": "HEARTS"
         }
       ]
     },
@@ -14364,6 +16126,10 @@
         {
           "id": "PymTech",
           "name": "PYM TECH"
+        },
+        {
+          "id": "Infestation",
+          "name": "INFESTATION"
         }
       ],
       "invisibleTraits": [
@@ -14373,11 +16139,6 @@
         }
       ],
       "eventTraits": [
-        {
-          "id": "DDLiveTrait",
-          "isEvent": true,
-          "name": "QUANTUM"
-        },
         {
           "id": "Voyager",
           "isEvent": true,
@@ -14511,6 +16272,13 @@
           "id": "Inhuman",
           "name": "INHUMAN"
         }
+      ],
+      "eventTraits": [
+        {
+          "id": "Intergalactic",
+          "isEvent": true,
+          "name": "INTERGALACTIC"
+        }
       ]
     },
     {
@@ -14637,14 +16405,14 @@
   "meta": {
     "version": 1,
     "hashes": {
-      "events": "3e27f1baf6744e6327fc",
-      "drops": "473273faa632bbb70ff0",
-      "locs": "c9d0bf5416f736942d35",
-      "nodes": "ace3534012939a7b4625",
-      "chars": "951b59429a6f23af5d89",
-      "other": "a91064fa7e3360c578fd",
-      "all": "0c9755e231ee7cf82073"
+      "events": "7f881513efc99e10b98d",
+      "drops": "4c8d652e50ca96ca04a1",
+      "locs": "91ec29b4455ea6d9c8be",
+      "nodes": "71022af9ea4c219e8f5a",
+      "chars": "6066d6c222bd61ad8345",
+      "other": "dbf4ac9b3fbe4d509010",
+      "all": "eb8383eaee658cf8d843"
     },
-    "perTotal": 231
+    "perTotal": 249
   }
 }

@@ -11,6 +11,9 @@ const isoClasses = require("../../data/json/isoClasses.json");
 const origins = require("../../data/json/origins.json");
 const miniUniques = require("../../data/json/miniUniques.json");
 
+// console.log(characters)
+// console.log(requiredCharacters)
+
 
 //num is the current trait (Darkhold, Gamma, etc) for which we are searching
 var characterList = {};
@@ -34,6 +37,8 @@ requiredCharacters.characters.forEach((num) => {
   });
 });
 
+// console.log(characterList)
+
 for (let character in characterList) {
   for (let char of characterList[character]) {
     let chargear;
@@ -49,6 +54,7 @@ for (let character in characterList) {
   }
 }
 
+//Adds ISO class to characters
 for (let character in characterList) {
   for (let char of characterList[character]) {
     for (let trait of char.traits) {
@@ -61,6 +67,7 @@ for (let character in characterList) {
   }
 }
 
+//Adds traits to characters
 for (let character in characterList) {
   for (let char of characterList[character]) {
     for (let trait of char.traits) {
@@ -73,7 +80,10 @@ for (let character in characterList) {
   }
 }
 
+//Adds Safety attack to characters
+
 var newCharacterList = [];
+console.log(characterList)
 
 //puts all teams into one big object, not separated by team. Will need to change approach in future
 for (let team in characterList) {

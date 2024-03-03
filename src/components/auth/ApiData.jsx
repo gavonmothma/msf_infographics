@@ -86,19 +86,58 @@ const ApiData = () => {
           return 0;
         });
         console.log(num.data);
-        num.data.forEach((inventory) => {
-          if (inventory.item.id === 'ISOITEM_BLUE_CONTROLLER_ARMOR_6') {
-            console.log(inventory.quantity)
-          }
+        for (let iso of num.data) {
+          const quantity = iso.item.id.split("_").pop()
+          iso.item.slot = iso.item.id.split("_")[iso.item.id.split("_").length - 2]
+          iso.item.isoclass = iso.item.id.split("_")[iso.item.id.split("_").length - 3]
+          iso.item.color = iso.item.id.split("_")[iso.item.id.split("_").length - 4]
+          quantity === "6" ? iso.item.subquantity=1
+            : quantity === "7" ? iso.item.subquantity=3
+            : quantity === "8" ? iso.item.subquantity=9
+            : quantity === "9" ? iso.item.subquantity=27
+            : iso.item.subquantity=81
+        }
+        var blasters = num.data.filter(subline=>{
+          return subline.item.isoclass === "BLASTER"
+        })
+        var blueblasters = blasters.filter(subline=>{
+          return subline.item.color === "BLUE"
+        })
+        var greenblasters = blasters.filter(subline=>{
+          return subline.item.color === "GREEN"
+        })
+        console.log(blasters)
+        console.log(blueblasters)
+        console.log(greenblasters)
+        console.log(num.data);
+
+        greenblasters.forEach((inventory) => {
           ISOTable.push(
             <Row key={inventory.item.id}>
-              <Col>{inventory.quantity}{" "}{Math.floor(inventory.quantity/81)}{" characters "}{(inventory.quantity>80? inventory.quantity-(Math.floor(inventory.quantity/81)*81) : 81-inventory.quantity)}</Col>
               <Col>
-                <img src={inventory.item.icon} alt="ISO"></img>
+                <Row>{Math.floor(inventory.quantity/81)}{" characters "}</Row>
+                <Row>{(inventory.quantity>80? 81-(inventory.quantity-(Math.floor(inventory.quantity/81)*81)) : 81-inventory.quantity)}{" iso for additional character"}</Row>
+              </Col>
+              <Col>
+                <img src={inventory.item.icon} alt="ISO"></img>{" "}{inventory.quantity}
               </Col>
             </Row>
           );
         });
+        blueblasters.forEach((inventory) => {
+          ISOTable.push(
+            <Row key={inventory.item.id}>
+              <Col>
+                <Row>{Math.floor(inventory.quantity/81)}{" characters "}</Row>
+                <Row>{(inventory.quantity>80? 81-(inventory.quantity-(Math.floor(inventory.quantity/81)*81)) : 81-inventory.quantity)}{" iso for additional character"}</Row>
+              </Col>
+              <Col>
+                <img src={inventory.item.icon} alt="ISO"></img>{" "}{inventory.quantity}
+              </Col>
+            </Row>
+          );
+        });
+
         setIsoTable(ISOTable);
       })
       .catch((err) => {

@@ -3,6 +3,7 @@ import "./App.css";
 import { AuthProvider } from "oidc-react";
 import ApiData from "./components/auth/ApiData";
 import { Products } from "./components/products";
+import { Bctrials } from "./components/bctrials";
 
 const enableLogin = 0;
 
@@ -24,8 +25,9 @@ function App() {
       <AuthProvider {...oidcConfig}>
         <div className="App">
           <header className="App-header">
-            <ApiData />
-            <Products />
+            {/* <Bctrials /> */}
+            {/* <ApiData /> */}
+            {/* <Products /> */}
           </header>
         </div>
       </AuthProvider>
@@ -34,6 +36,7 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
+          {/* <Bctrials />  */}
           <Products />
         </header>
       </div>
