@@ -3,6 +3,8 @@ import { useTable } from "react-table";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import { Container, Row, Col } from "react-bootstrap";
+import JsonView from "react18-json-view";
+import "react18-json-view/src/style.css";
 
 //import static data
 import characters from "../../data/json/characters.json";
@@ -10,8 +12,11 @@ import characters from "../../data/json/characters.json";
 import isoClasses from "../../data/json/isoClasses.json";
 import origins from "../../data/json/origins.json";
 import miniUniques from "../../data/json/miniUniques.json";
+import combatData from "../../../data/Config/combat_data/characters.json";
 import { useState } from "react";
 import { useEffect } from "react";
+console.log(combatData.Data);
+console.log(combatData.Data.Abomination);
 
 export const Products = () => {
   const [fullCharacterList, setFullCharacterList] = useState(() => {
@@ -42,6 +47,27 @@ export const Products = () => {
         }
       }
     }
+
+    //Adds safetyAttacks to characters
+    // for (let char of characterList) {
+    //   for (let toon in combatData.Data) {
+    //     console.log(toon)
+    //     // for (let iso in origins.origin) {
+    //     //   if (origins.origin[iso] === trait.id) {
+    //     //     char.origin = trait.id;
+    //     //   }
+    //     // }
+    //   }
+    // }
+    for (let char of characterList) {
+      for (let toon of Object.keys(combatData.Data)) {
+        // console.log(combatData.Data[toon].safety);
+        if (char.id === toon) {
+          char.safety = combatData.Data[toon].safety.actions;
+        }
+      }
+    }
+    console.log(characterList);
     return characterList;
   });
 
@@ -121,6 +147,22 @@ export const Products = () => {
               <img src={props.row.original.portrait} alt="Portrait"></img>
             </div>
             <div>{props.row.original.name}</div>
+          </span>
+        );
+      },
+    },
+    {
+      Header: "ISO Attack",
+      accessor: "safety",
+      Cell: (props) => {
+        return (
+          <span className="safetyAttack">
+            <JsonView
+              src={props?.row?.original?.safety}
+              displaySize='collapsed'
+              collapsed={true}
+              
+            />
           </span>
         );
       },

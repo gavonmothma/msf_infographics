@@ -1,6 +1,10 @@
-figcaption {
+.figcaption {
     position: absolute;
     top: 4.75rem;
     left: 2.8rem;
     
+}
+
+.safetyAttack {
+    border: solid 0px red
 }
