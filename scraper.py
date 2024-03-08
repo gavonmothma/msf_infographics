@@ -24,4 +24,4 @@ for toon in characters['data']:
     with open("./temp/" + toon['id'] + ".json", "w") as outfile:
         outfile.write(json_object)
 
-print ("Now run mv ./temp/* ./src/data/json/characters/")
+print ("Now run mv ./temp/* ./public/data/json/characters/")

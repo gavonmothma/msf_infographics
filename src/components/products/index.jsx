@@ -46,7 +46,7 @@ export const Products = () => {
   });
 
   useEffect(() => {
-    const fetchData = (characterList) => {
+    const fetchGearData = (characterList) => {
       return new Promise((resolve, reject) => {
         for (let char of characterList) {
           let chargear;
@@ -70,7 +70,7 @@ export const Products = () => {
       });
     };
 
-    fetchData(characters.data)
+    fetchGearData(characters.data)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
