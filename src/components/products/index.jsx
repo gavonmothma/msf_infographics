@@ -15,8 +15,6 @@ import miniUniques from "../../data/json/miniUniques.json";
 import combatData from "../../../data/Config/combat_data/characters.json";
 import { useState } from "react";
 import { useEffect } from "react";
-console.log(combatData.Data);
-console.log(combatData.Data.Abomination);
 
 export const Products = () => {
   const [fullCharacterList, setFullCharacterList] = useState(() => {
@@ -67,7 +65,6 @@ export const Products = () => {
         }
       }
     }
-    console.log(characterList);
     return characterList;
   });
 
@@ -154,16 +151,17 @@ export const Products = () => {
     {
       Header: "ISO Attack",
       accessor: "safety",
+      className: "safetyAttack",
       Cell: (props) => {
         return (
-          <span className="safetyAttack">
+          <div className="safetyAttack">
             <JsonView
               src={props?.row?.original?.safety}
               displaySize='collapsed'
               collapsed={true}
               
             />
-          </span>
+          </div>
         );
       },
     },
