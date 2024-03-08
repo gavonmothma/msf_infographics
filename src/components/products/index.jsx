@@ -158,7 +158,7 @@ export const Products = () => {
             <JsonView
               src={props?.row?.original?.safety}
               displaySize='collapsed'
-              collapsed={true}
+              collapsed={1}
               
             />
           </div>
