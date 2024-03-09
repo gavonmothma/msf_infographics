@@ -24,6 +24,7 @@ export const Products = () => {
     for (let char of characters.data) {
       characterList.push(char);
     }
+
     //Adds ISO class to characters
     for (let char of characterList) {
       for (let trait of char.traits) {
