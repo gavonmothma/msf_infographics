@@ -303,6 +303,7 @@ export const Products = () => {
   if (!fullCharacterList) return;
   const columns = useMemo(() => COLUMNS, []);
   const data = useMemo(() => fullCharacterList, []);
+  console.log(fullCharacterList)
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({
