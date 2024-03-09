@@ -74,7 +74,6 @@ export const Products = () => {
       return new Promise((resolve, reject) => {
         for (let char of characterList) {
           let chargear;
-          if (char.id === "Hawkeye") return;
           fetch("/characters/" + char.id + ".json")
             .then((response) => response.json())
             .then((data) => {
