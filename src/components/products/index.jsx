@@ -7,11 +7,11 @@ import JsonView from "react18-json-view";
 import "react18-json-view/src/style.css";
 
 //import static data
-import characters from "../../data/json/characters.json";
+import characters from      "../../data/json/characters.json";
 // import requiredCharacters from "../../data/json/requiredCharacters.json";
-import isoClasses from "../../data/json/isoClasses.json";
-import origins from "../../data/json/origins.json";
-import miniUniques from "../../data/json/miniUniques.json";
+import isoClasses from      "../../data/json/isoClasses.json";
+import origins from         "../../data/json/origins.json";
+import miniUniques from     "../../data/json/miniUniques.json";
 import combatData from "../../../data/Config/combat_data/characters.json";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -192,7 +192,7 @@ export const Products = () => {
           <div>
             <Container>
               <Row>
-                <Col md="auto">
+                {/* <Col md="auto">
                   <figure className="position-relative">
                     {
                       <img
@@ -216,7 +216,7 @@ export const Products = () => {
                         : "loading"}
                     </figcaption>
                   </figure>
-                </Col>
+                </Col> */}
                 <Col md="auto">
                   <figure className="position-relative">
                     {
@@ -230,74 +230,74 @@ export const Products = () => {
                         alt="16Unique"
                       />
                     }
-                    <figcaption>
+                    {/* <figcaption>
                       {props?.row?.original?.gearTiers
                         ? props?.row?.original?.gearTiers[15]?.slots[1]?.piece
                             ?.directCost[2]?.quantity +
                           props?.row?.original?.gearTiers[16]?.slots[1]?.piece
                             ?.directCost[2]?.quantity
                         : "loading"}
-                    </figcaption>
+                    </figcaption> */}
                   </figure>
                 </Col>
-                <Row>
+                {/* <Row>
                   <Col md="auto">
                     {props?.row?.original?.gearTiers
                       ? props.row.original.gearTiers[12].slots[1].piece
                           .directCost[2].item.name
                       : "loading"}
                   </Col>
-                </Row>
+                </Row> */}
               </Row>
             </Container>
           </div>
         );
       },
     },
-    {
-      Header: "Mini Uniques",
-      accessor: "miniunique",
-      Cell: (props) => {
-        return (
-          <div>
-            <Container>
-              <Row>
-                {Object.keys(miniUniques[props.row.original.origin]).map(
-                  (piece) => {
-                    pieceCount = 0;
-                    countPiece(
-                      miniUniques[props.row.original.origin][piece].id,
-                      props.row.original.gearTiers
-                    );
-                    return (
-                      <Col
-                        md="auto"
-                        key={miniUniques[props.row.original.origin][piece].id}
-                      >
-                        <figure className="position-relative">
-                          <img
-                            src={
-                              miniUniques[props.row.original.origin][piece].icon
-                            }
-                            alt={
-                              miniUniques[props.row.original.origin][piece].id
-                            }
-                            key={
-                              miniUniques[props.row.original.origin][piece].id
-                            }
-                          />
-                          <figcaption>{pieceCount}</figcaption>
-                        </figure>
-                      </Col>
-                    );
-                  }
-                )}
-              </Row>
-            </Container>
-          </div>
-        );
-      },
-    },
+    // {
+    //   Header: "Mini Uniques",
+    //   accessor: "miniunique",
+    //   Cell: (props) => {
+    //     return (
+    //       <div>
+    //         <Container>
+    //           <Row>
+    //             {Object.keys(miniUniques[props.row.original.origin]).map(
+    //               (piece) => {
+    //                 pieceCount = 0;
+    //                 countPiece(
+    //                   miniUniques[props.row.original.origin][piece].id,
+    //                   props.row.original.gearTiers
+    //                 );
+    //                 return (
+    //                   <Col
+    //                     md="auto"
+    //                     key={miniUniques[props.row.original.origin][piece].id}
+    //                   >
+    //                     <figure className="position-relative">
+    //                       <img
+    //                         src={
+    //                           miniUniques[props.row.original.origin][piece].icon
+    //                         }
+    //                         alt={
+    //                           miniUniques[props.row.original.origin][piece].id
+    //                         }
+    //                         key={
+    //                           miniUniques[props.row.original.origin][piece].id
+    //                         }
+    //                       />
+    //                       <figcaption>{pieceCount}</figcaption>
+    //                     </figure>
+    //                   </Col>
+    //                 );
+    //               }
+    //             )}
+    //           </Row>
+    //         </Container>
+    //       </div>
+    //     );
+    //   },
+    // },
   ];
 
   if (!fullCharacterList) return;
