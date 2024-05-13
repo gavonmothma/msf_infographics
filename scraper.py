@@ -7,7 +7,7 @@ with open('./characters.json', 'r') as openfile:
 headers = {
     'Accept': 'application/json',
     'x-api-key': '17wMKJLRxy3pYDCKG5ciP7VSU45OVumB2biCzzgw',
-    'Authorization': 'Bearer LF_8OX0465awZBSlh-doRseHMGyU9ULxUwPfEbHu2yk.Rn4-xxxx3m32QDbUIwLhEEMHTwtpfxZH2V0O3O20tlA',
+    'Authorization': 'Bearer Ta5dZEdbwBrzNeauv0IkiyYTWCF-LjIXOJg5Zyy1v68.2unchiUqxG6lQdbzqdYRfKm0ggWmhnnsJaw2vBoOoLc',
 }
 
 params = {
@@ -24,4 +24,4 @@ for toon in characters['data']:
     with open("./temp/" + toon['id'] + ".json", "w") as outfile:
         outfile.write(json_object)
 
-print ("Now run mv ./temp/* ./public/data/json/characters/")
+print ("Now run mv ./temp/* ./public/characters/")

@@ -3208,6 +3208,13 @@
 					"id": "Inhuman",
 					"name": "INHUMAN"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
+				}
 			]
 		},
 		{
@@ -3426,6 +3433,76 @@
 				{
 					"id": "NewWarrior",
 					"name": "NEW WARRIOR"
+				}
+			]
+		},
+		{
+			"id": "Daken",
+			"mission": false,
+			"name": "Daken",
+			"description": "After years of abuse, mistrust, and manipulation by his kidnappers, the son of Wolverine uses mutant senses, healing factor, and claws to viciously hunt down his enemies.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Daken_fad050d8.png",
+			"starItems": [
+				{
+					"id": "SHARD_DAKEN"
+				},
+				{
+					"id": "RS_DAKEN_1"
+				},
+				{
+					"id": "RS_DAKEN_2"
+				},
+				{
+					"id": "RS_DAKEN_3"
+				},
+				{
+					"id": "RS_DAKEN_4"
+				},
+				{
+					"id": "RS_DAKEN_5"
+				},
+				{
+					"id": "RS_DAKEN_6"
+				},
+				{
+					"id": "RS_DAKEN_7"
+				},
+				{
+					"id": "PD_DAKEN_1"
+				},
+				{
+					"id": "PD_DAKEN_2"
+				},
+				{
+					"id": "PD_DAKEN_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 2,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Mutant",
+					"name": "MUTANT"
+				},
+				{
+					"id": "Controller",
+					"name": "CONTROLLER"
+				},
+				{
+					"id": "Mercenary",
+					"name": "MERCENARY"
+				},
+				{
+					"id": "MercsForMoney",
+					"name": "MERCS FOR MONEY"
 				}
 			]
 		},
@@ -3781,6 +3858,10 @@
 				{
 					"id": "Mercenary",
 					"name": "MERCENARY"
+				},
+				{
+					"id": "MercsForMoney",
+					"name": "MERCS FOR MONEY"
 				}
 			]
 		},
@@ -3923,6 +4004,14 @@
 				{
 					"id": "NewWarrior",
 					"name": "NEW WARRIOR"
+				},
+				{
+					"id": "Mercenary",
+					"name": "MERCENARY"
+				},
+				{
+					"id": "MercsForMoney",
+					"name": "MERCS FOR MONEY"
 				}
 			],
 			"invisibleTraits": [
@@ -5649,6 +5738,10 @@
 					"name": "BIO"
 				},
 				{
+					"id": "Skill",
+					"name": "SKILL"
+				},
+				{
 					"id": "Controller",
 					"name": "CONTROLLER"
 				},
@@ -5659,6 +5752,17 @@
 				{
 					"id": "WebWarrior",
 					"name": "WEB-WARRIOR"
+				},
+				{
+					"id": "SpiderSociety",
+					"name": "SPIDER-SOCIETY"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
 				}
 			]
 		},
@@ -7383,6 +7487,11 @@
 					"id": "Energized",
 					"isEvent": true,
 					"name": "ENERGIZED"
+				},
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
 				}
 			]
 		},
@@ -8038,6 +8147,13 @@
 					"id": "AForce",
 					"name": "A-FORCE"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
+				}
 			]
 		},
 		{
@@ -8113,6 +8229,13 @@
 				{
 					"id": "Xmen",
 					"name": "X-MEN"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
 				}
 			]
 		},
@@ -9784,6 +9907,13 @@
 				{
 					"id": "Marauders",
 					"name": "MARAUDER"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
 				}
 			]
 		},
@@ -11622,6 +11752,13 @@
 					"id": "Marauders",
 					"name": "MARAUDER"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
+				}
 			]
 		},
 		{
@@ -12506,6 +12643,84 @@
 			]
 		},
 		{
+			"id": "OldManLogan",
+			"mission": false,
+			"name": "Old Man Logan",
+			"description": "After a tragic attack on the X-Mansion, Logan vows to put his claws away forever. But fifty years later, a cross country road trip involving gangs, dinosaurs and cannibals teaches him some vows are meant to be broken.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_OldManLogan_d9559148.png",
+			"starItems": [
+				{
+					"id": "SHARD_OLDMANLOGAN"
+				},
+				{
+					"id": "RS_OLDMANLOGAN_1"
+				},
+				{
+					"id": "RS_OLDMANLOGAN_2"
+				},
+				{
+					"id": "RS_OLDMANLOGAN_3"
+				},
+				{
+					"id": "RS_OLDMANLOGAN_4"
+				},
+				{
+					"id": "RS_OLDMANLOGAN_5"
+				},
+				{
+					"id": "RS_OLDMANLOGAN_6"
+				},
+				{
+					"id": "RS_OLDMANLOGAN_7"
+				},
+				{
+					"id": "PD_OLDMANLOGAN_1"
+				},
+				{
+					"id": "PD_OLDMANLOGAN_2"
+				},
+				{
+					"id": "PD_OLDMANLOGAN_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 4,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Mutant",
+					"name": "MUTANT"
+				},
+				{
+					"id": "Controller",
+					"name": "CONTROLLER"
+				},
+				{
+					"id": "Mercenary",
+					"name": "MERCENARY"
+				},
+				{
+					"id": "Xmen",
+					"name": "X-MEN"
+				},
+				{
+					"id": "MercsForMoney",
+					"name": "MERCS FOR MONEY"
+				},
+				{
+					"id": "Legendary",
+					"name": "LEGENDARY"
+				}
+			]
+		},
+		{
 			"id": "OmegaRed",
 			"mission": false,
 			"name": "Omega Red",
@@ -12582,6 +12797,224 @@
 			]
 		},
 		{
+			"id": "PandaPool",
+			"mission": false,
+			"name": "Pandapool",
+			"description": "Cute and cuddly doesn't begin to describe the power of Pandapool. No, really. He's a deadly giant panda with katanas and a grenade launcher. What more do you people want?",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_PandaPool_78bd2983.png",
+			"starItems": [
+				{
+					"id": "SHARD_PANDAPOOL"
+				},
+				{
+					"id": "RS_PANDAPOOL_1"
+				},
+				{
+					"id": "RS_PANDAPOOL_2"
+				},
+				{
+					"id": "RS_PANDAPOOL_3"
+				},
+				{
+					"id": "RS_PANDAPOOL_4"
+				},
+				{
+					"id": "RS_PANDAPOOL_5"
+				},
+				{
+					"id": "RS_PANDAPOOL_6"
+				},
+				{
+					"id": "RS_PANDAPOOL_7"
+				},
+				{
+					"id": "PD_PANDAPOOL_1"
+				},
+				{
+					"id": "PD_PANDAPOOL_2"
+				},
+				{
+					"id": "PD_PANDAPOOL_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Mutant",
+					"name": "MUTANT"
+				},
+				{
+					"id": "Protector",
+					"name": "PROTECTOR"
+				},
+				{
+					"id": "Mercenary",
+					"name": "MERCENARY"
+				},
+				{
+					"id": "MercsForMoney",
+					"name": "MERCS FOR MONEY"
+				}
+			]
+		},
+		{
+			"id": "PeniParker",
+			"mission": false,
+			"name": "Peni Parker",
+			"description": "Co-pilot of the SP//dr robot with her friend, a radioactive psychic spider, Peni Parker energizes her allies while granting them Barrier to cover their backs.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_PeniParker_992f0956.png",
+			"starItems": [
+				{
+					"id": "SHARD_PENIPARKER"
+				},
+				{
+					"id": "RS_PENIPARKER_1"
+				},
+				{
+					"id": "RS_PENIPARKER_2"
+				},
+				{
+					"id": "RS_PENIPARKER_3"
+				},
+				{
+					"id": "RS_PENIPARKER_4"
+				},
+				{
+					"id": "RS_PENIPARKER_5"
+				},
+				{
+					"id": "RS_PENIPARKER_6"
+				},
+				{
+					"id": "RS_PENIPARKER_7"
+				},
+				{
+					"id": "PD_PENIPARKER_1"
+				},
+				{
+					"id": "PD_PENIPARKER_2"
+				},
+				{
+					"id": "PD_PENIPARKER_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "City",
+					"name": "CITY"
+				},
+				{
+					"id": "Skill",
+					"name": "SKILL"
+				},
+				{
+					"id": "Tech",
+					"name": "TECH"
+				},
+				{
+					"id": "Protector",
+					"name": "PROTECTOR"
+				},
+				{
+					"id": "SpiderVerse",
+					"name": "SPIDER-VERSE"
+				},
+				{
+					"id": "SpiderSociety",
+					"name": "SPIDER-SOCIETY"
+				}
+			]
+		},
+		{
+			"id": "PeterBParker",
+			"mission": false,
+			"name": "Peter B. Parker",
+			"description": "An amazing daddy-daughter duo, Peter B. Parker uses his experience to motivate his allies while baby Mayday unleashes pure infant chaos on her enemies!",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_PeterBParker_0a7774ae.png",
+			"starItems": [
+				{
+					"id": "SHARD_PETERBPARKER"
+				},
+				{
+					"id": "RS_PETERBPARKER_1"
+				},
+				{
+					"id": "RS_PETERBPARKER_2"
+				},
+				{
+					"id": "RS_PETERBPARKER_3"
+				},
+				{
+					"id": "RS_PETERBPARKER_4"
+				},
+				{
+					"id": "RS_PETERBPARKER_5"
+				},
+				{
+					"id": "RS_PETERBPARKER_6"
+				},
+				{
+					"id": "RS_PETERBPARKER_7"
+				},
+				{
+					"id": "PD_PETERBPARKER_1"
+				},
+				{
+					"id": "PD_PETERBPARKER_2"
+				},
+				{
+					"id": "PD_PETERBPARKER_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "City",
+					"name": "CITY"
+				},
+				{
+					"id": "Bio",
+					"name": "BIO"
+				},
+				{
+					"id": "Skill",
+					"name": "SKILL"
+				},
+				{
+					"id": "Support",
+					"name": "SUPPORT"
+				},
+				{
+					"id": "SpiderVerse",
+					"name": "SPIDER-VERSE"
+				},
+				{
+					"id": "SpiderSociety",
+					"name": "SPIDER-SOCIETY"
+				}
+			]
+		},
+		{
 			"id": "Phoenix",
 			"mission": false,
 			"name": "Phoenix",
@@ -12654,6 +13087,13 @@
 				{
 					"id": "Xmen",
 					"name": "X-MEN"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
 				}
 			],
 			"summonIds": [
@@ -14525,6 +14965,13 @@
 					"id": "WebWarrior",
 					"name": "WEB-WARRIOR"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
+				}
 			]
 		},
 		{
@@ -14598,6 +15045,13 @@
 				{
 					"id": "Darkhold",
 					"name": "DARKHOLD"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
 				}
 			],
 			"summonByIds": [
@@ -15881,6 +16335,11 @@
 					"id": "United",
 					"isEvent": true,
 					"name": "UNITED"
+				},
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
 				}
 			]
 		},
@@ -15951,6 +16410,13 @@
 				{
 					"id": "TangledWeb",
 					"name": "TANGLED WEB"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
 				}
 			]
 		},
@@ -16028,6 +16494,13 @@
 					"id": "Chargeable",
 					"alwaysInvisible": true
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
+				}
 			]
 		},
 		{
@@ -16087,6 +16560,10 @@
 					"name": "MYSTIC"
 				},
 				{
+					"id": "Skill",
+					"name": "SKILL"
+				},
+				{
 					"id": "Blaster",
 					"name": "BLASTER"
 				},
@@ -16097,6 +16574,91 @@
 				{
 					"id": "TangledWeb",
 					"name": "TANGLED WEB"
+				},
+				{
+					"id": "SpiderSociety",
+					"name": "SPIDER-SOCIETY"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
+				}
+			]
+		},
+		{
+			"id": "SpiderManPavitr",
+			"mission": false,
+			"name": "Spider-Man (Pavitr)",
+			"description": "The fabulously flashy Spider-Man of Mumbattan, Pavitr speeds up his allies with style and uses devastating chain attacks to slow down his enemies.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_SpiderManPavitr_f4510bf7.png",
+			"starItems": [
+				{
+					"id": "SHARD_SPIDERMANPAVITR"
+				},
+				{
+					"id": "RS_SPIDERMANPAVITR_1"
+				},
+				{
+					"id": "RS_SPIDERMANPAVITR_2"
+				},
+				{
+					"id": "RS_SPIDERMANPAVITR_3"
+				},
+				{
+					"id": "RS_SPIDERMANPAVITR_4"
+				},
+				{
+					"id": "RS_SPIDERMANPAVITR_5"
+				},
+				{
+					"id": "RS_SPIDERMANPAVITR_6"
+				},
+				{
+					"id": "RS_SPIDERMANPAVITR_7"
+				},
+				{
+					"id": "PD_SPIDERMANPAVITR_1"
+				},
+				{
+					"id": "PD_SPIDERMANPAVITR_2"
+				},
+				{
+					"id": "PD_SPIDERMANPAVITR_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 2,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "City",
+					"name": "CITY"
+				},
+				{
+					"id": "Bio",
+					"name": "BIO"
+				},
+				{
+					"id": "Skill",
+					"name": "SKILL"
+				},
+				{
+					"id": "Brawler",
+					"name": "BRAWLER"
+				},
+				{
+					"id": "SpiderVerse",
+					"name": "SPIDER-VERSE"
+				},
+				{
+					"id": "SpiderSociety",
+					"name": "SPIDER-SOCIETY"
 				}
 			]
 		},
@@ -16167,6 +16729,13 @@
 				{
 					"id": "WebWarrior",
 					"name": "WEB-WARRIOR"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
 				}
 			]
 		},
@@ -16324,6 +16893,11 @@
 					"id": "MSFOriginal",
 					"isEvent": true,
 					"name": "MSF ORIGINAL"
+				},
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
 				}
 			]
 		},
@@ -16388,8 +16962,19 @@
 					"name": "BLASTER"
 				},
 				{
+					"id": "SpiderVerse",
+					"name": "SPIDER-VERSE"
+				},
+				{
 					"id": "AForce",
 					"name": "A-FORCE"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
 				}
 			]
 		},
@@ -18177,6 +18762,13 @@
 					"id": "Avenger",
 					"name": "AVENGER"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "MarvelMoms",
+					"isEvent": true,
+					"name": "MARVEL MOMS"
+				}
 			]
 		},
 		{
@@ -18620,6 +19212,13 @@
 				{
 					"id": "Avenger",
 					"name": "AVENGER"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "WebSlinger",
+					"isEvent": true,
+					"name": "WEB-SLINGER"
 				}
 			]
 		},
@@ -20223,14 +20822,14 @@
 	"meta": {
 		"version": 1,
 		"hashes": {
-			"events": "967fbaea317fd83b2ae0",
-			"drops": "e65b898f3da684fd9755",
-			"locs": "ab906e8912cb7ddbf335",
-			"nodes": "798589c8f9c68bf2a75f",
-			"chars": "ac34237a2cc24102d0ca",
-			"other": "4dbd3c0d5c656a925d0d",
-			"all": "e2d11b282824fdb905c5"
+			"events": "5d88dba1fd0291473832",
+			"drops": "edf9edbf2f456f5d89c7",
+			"locs": "b2e15a3c03739c21232b",
+			"nodes": "35bf7c69525e01a3aced",
+			"chars": "abe14a58dc070e4cd2bf",
+			"other": "ff1c6c9d66094810004d",
+			"all": "773db6e6cc3d543a848a"
 		},
-		"perTotal": 276
+		"perTotal": 282
 	}
 }
