@@ -29,6 +29,8 @@ print ("Now run mv ./temp/* ./public/characters/")
 
 
 # cd ~/projects/msf/msf_infographics
+# cp ~/projects/msf/new/Config/combat_data/characters.json ~/projects/msf/msf_infographics/data/Config/combat_data/
+
 
 # Pull new characters.json
 
@@ -43,5 +45,6 @@ print ("Now run mv ./temp/* ./public/characters/")
 # python3 scraper.py
 # mv ./temp/* ./public/characters/
 
-# git commit -a
+# git add -A
+# git commit -am "Updated"
 # git push
