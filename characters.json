@@ -5990,6 +5990,72 @@
 			]
 		},
 		{
+			"id": "Guardian",
+			"mission": false,
+			"name": "Guardian",
+			"description": "Founder of the Alpha Flight, James Hudson uses his Battle-suit to dish out punishing attacks to anyone who threatens Canada.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Guardian_1aad8826.png",
+			"starItems": [
+				{
+					"id": "SHARD_GUARDIAN"
+				},
+				{
+					"id": "RS_GUARDIAN_1"
+				},
+				{
+					"id": "RS_GUARDIAN_2"
+				},
+				{
+					"id": "RS_GUARDIAN_3"
+				},
+				{
+					"id": "RS_GUARDIAN_4"
+				},
+				{
+					"id": "RS_GUARDIAN_5"
+				},
+				{
+					"id": "RS_GUARDIAN_6"
+				},
+				{
+					"id": "RS_GUARDIAN_7"
+				},
+				{
+					"id": "PD_GUARDIAN_1"
+				},
+				{
+					"id": "PD_GUARDIAN_2"
+				},
+				{
+					"id": "PD_GUARDIAN_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Tech",
+					"name": "TECH"
+				},
+				{
+					"id": "Brawler",
+					"name": "BRAWLER"
+				},
+				{
+					"id": "AlphaFlight",
+					"name": "ALPHA FLIGHT"
+				}
+			]
+		},
+		{
 			"id": "Gwenom",
 			"mission": false,
 			"name": "Gwenom",
@@ -12491,6 +12557,72 @@
 			]
 		},
 		{
+			"id": "Northstar",
+			"mission": false,
+			"name": "Northstar",
+			"description": "Jean-Paul Beaubier brings his mutant powers of super speed and light generation (as well as an abrasive personality) to Alpha Flight as Northstar!",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Northstar_436fcd0c.png",
+			"starItems": [
+				{
+					"id": "SHARD_NORTHSTAR"
+				},
+				{
+					"id": "RS_NORTHSTAR_1"
+				},
+				{
+					"id": "RS_NORTHSTAR_2"
+				},
+				{
+					"id": "RS_NORTHSTAR_3"
+				},
+				{
+					"id": "RS_NORTHSTAR_4"
+				},
+				{
+					"id": "RS_NORTHSTAR_5"
+				},
+				{
+					"id": "RS_NORTHSTAR_6"
+				},
+				{
+					"id": "RS_NORTHSTAR_7"
+				},
+				{
+					"id": "PD_NORTHSTAR_1"
+				},
+				{
+					"id": "PD_NORTHSTAR_2"
+				},
+				{
+					"id": "PD_NORTHSTAR_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Mutant",
+					"name": "MUTANT"
+				},
+				{
+					"id": "Controller",
+					"name": "CONTROLLER"
+				},
+				{
+					"id": "AlphaFlight",
+					"name": "ALPHA FLIGHT"
+				}
+			]
+		},
+		{
 			"id": "Nova",
 			"mission": false,
 			"name": "Nova",
@@ -14894,6 +15026,72 @@
 				{
 					"id": "Avenger",
 					"name": "AVENGER"
+				}
+			]
+		},
+		{
+			"id": "Sasquatch",
+			"mission": false,
+			"name": "Sasquatch",
+			"description": "Dr. Walter Langkowski attempts to replicate Bruce Banner's Gamma Radiation experiments led to him transforming into the gigantic, furry, super powered Sasquatch!",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Sasquatch_d88fc5f8.png",
+			"starItems": [
+				{
+					"id": "SHARD_SASQUATCH"
+				},
+				{
+					"id": "RS_SASQUATCH_1"
+				},
+				{
+					"id": "RS_SASQUATCH_2"
+				},
+				{
+					"id": "RS_SASQUATCH_3"
+				},
+				{
+					"id": "RS_SASQUATCH_4"
+				},
+				{
+					"id": "RS_SASQUATCH_5"
+				},
+				{
+					"id": "RS_SASQUATCH_6"
+				},
+				{
+					"id": "RS_SASQUATCH_7"
+				},
+				{
+					"id": "PD_SASQUATCH_1"
+				},
+				{
+					"id": "PD_SASQUATCH_2"
+				},
+				{
+					"id": "PD_SASQUATCH_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 2,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Bio",
+					"name": "BIO"
+				},
+				{
+					"id": "Protector",
+					"name": "PROTECTOR"
+				},
+				{
+					"id": "AlphaFlight",
+					"name": "ALPHA FLIGHT"
 				}
 			]
 		},
@@ -17625,6 +17823,10 @@
 				{
 					"id": "Unlimited",
 					"name": "UNLIMITED X-MEN"
+				},
+				{
+					"id": "AlphaFlight",
+					"name": "ALPHA FLIGHT"
 				}
 			],
 			"invisibleTraits": [
@@ -20161,6 +20363,10 @@
 				{
 					"id": "WeaponX",
 					"name": "WEAPON X"
+				},
+				{
+					"id": "AlphaFlight",
+					"name": "ALPHA FLIGHT"
 				}
 			],
 			"invisibleTraits": [
@@ -20310,6 +20516,10 @@
 				{
 					"id": "Xmen",
 					"name": "X-MEN"
+				},
+				{
+					"id": "WeaponX",
+					"name": "WEAPON X"
 				}
 			]
 		},
@@ -20822,14 +21032,14 @@
 	"meta": {
 		"version": 1,
 		"hashes": {
-			"events": "5d88dba1fd0291473832",
-			"drops": "edf9edbf2f456f5d89c7",
-			"locs": "b2e15a3c03739c21232b",
-			"nodes": "35bf7c69525e01a3aced",
-			"chars": "abe14a58dc070e4cd2bf",
-			"other": "ff1c6c9d66094810004d",
-			"all": "773db6e6cc3d543a848a"
+			"events": "21d07e4d69fd569ac259",
+			"drops": "763e6ca464d819d87096",
+			"locs": "67bcb77d299b2627ced9",
+			"nodes": "89ac3afdfc8ae76ec94a",
+			"chars": "257809b621c3299a1b7a",
+			"other": "b0c176cc06c0ddd14661",
+			"all": "cecadd222f996d942930"
 		},
-		"perTotal": 282
+		"perTotal": 285
 	}
 }
