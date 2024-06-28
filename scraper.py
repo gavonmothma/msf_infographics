@@ -1,13 +1,16 @@
+import sys
 import requests
 import json
 
 with open('./characters.json', 'r') as openfile:
   characters = json.load(openfile)
 
+print ('argument list', sys.argv)
+print ('bearer', str(sys.argv[1]))
 headers = {
     'Accept': 'application/json',
     'x-api-key': '17wMKJLRxy3pYDCKG5ciP7VSU45OVumB2biCzzgw',
-    'Authorization': 'Bearer uLMBos9lsl_0c1ce3XhaefOnhcJ8YaY4168FA6G1NVo.7LX3akcwKcsAmy-GXWqFH3YKJvv0ZFrHs5PkLhMSd50',
+    'Authorization': 'Bearer ' + str(sys.argv[1]),
 }
 
 params = {
