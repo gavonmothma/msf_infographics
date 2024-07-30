@@ -1135,6 +1135,68 @@
 			]
 		},
 		{
+			"id": "Ares",
+			"mission": false,
+			"name": "Ares",
+			"description": "The Olympian god of war, Ares revels in violence, bloodshed, and conquest. His thirst for battle allows him to protect his allies by turning his enemy's strengths against them and overwhelming them with sheer brutality.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Ares_d23d50ad.png",
+			"starItems": [
+				{
+					"id": "SHARD_ARES"
+				},
+				{
+					"id": "RS_ARES_1"
+				},
+				{
+					"id": "RS_ARES_2"
+				},
+				{
+					"id": "RS_ARES_3"
+				},
+				{
+					"id": "RS_ARES_4"
+				},
+				{
+					"id": "RS_ARES_5"
+				},
+				{
+					"id": "RS_ARES_6"
+				},
+				{
+					"id": "RS_ARES_7"
+				},
+				{
+					"id": "PD_ARES_1"
+				},
+				{
+					"id": "PD_ARES_2"
+				},
+				{
+					"id": "PD_ARES_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Mystic",
+					"name": "MYSTIC"
+				},
+				{
+					"id": "Protector",
+					"name": "PROTECTOR"
+				}
+			]
+		},
+		{
 			"id": "BaronMordo",
 			"mission": false,
 			"name": "Mordo",
@@ -1506,6 +1568,10 @@
 				{
 					"id": "Legendary",
 					"name": "LEGENDARY"
+				},
+				{
+					"id": "Illuminati",
+					"name": "ILLUMINATI"
 				}
 			]
 		},
@@ -1819,6 +1885,82 @@
 				{
 					"id": "WarDog",
 					"name": "WAR DOG"
+				}
+			],
+			"invisibleTraits": [
+				{
+					"id": "Chargeable",
+					"alwaysInvisible": true
+				}
+			]
+		},
+		{
+			"id": "BlackPantherShuri",
+			"mission": false,
+			"name": "Black Panther (Shuri)",
+			"description": "Following the untimely death of her brother, T'Challa, Shuri synthesized the heart-shaped herb to become the new defender of Wakanda.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_BlackPantherShuri_e4683ca6.png",
+			"starItems": [
+				{
+					"id": "SHARD_BLACKPANTHERSHURI"
+				},
+				{
+					"id": "RS_BLACKPANTHERSHURI_1"
+				},
+				{
+					"id": "RS_BLACKPANTHERSHURI_2"
+				},
+				{
+					"id": "RS_BLACKPANTHERSHURI_3"
+				},
+				{
+					"id": "RS_BLACKPANTHERSHURI_4"
+				},
+				{
+					"id": "RS_BLACKPANTHERSHURI_5"
+				},
+				{
+					"id": "RS_BLACKPANTHERSHURI_6"
+				},
+				{
+					"id": "RS_BLACKPANTHERSHURI_7"
+				},
+				{
+					"id": "PD_BLACKPANTHERSHURI_1"
+				},
+				{
+					"id": "PD_BLACKPANTHERSHURI_2"
+				},
+				{
+					"id": "PD_BLACKPANTHERSHURI_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Mystic",
+					"name": "MYSTIC"
+				},
+				{
+					"id": "Controller",
+					"name": "CONTROLLER"
+				},
+				{
+					"id": "Wakanda",
+					"name": "WAKANDAN"
+				},
+				{
+					"id": "Illuminati",
+					"name": "ILLUMINATI"
 				}
 			],
 			"invisibleTraits": [
@@ -2190,6 +2332,13 @@
 					"id": "Chargeable",
 					"alwaysInvisible": true
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
+				}
 			]
 		},
 		{
@@ -2354,6 +2503,76 @@
 				{
 					"id": "Invader",
 					"name": "INVADER"
+				}
+			]
+		},
+		{
+			"id": "CaptainBritain",
+			"mission": false,
+			"name": "Captain Britain",
+			"description": "With mystical abilities granted to him by Merlin, Brian Braddock channels his self-confidence and multiversal energy to protect the British Isles and his allies.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_CaptainBritain_aa3df149.png",
+			"starItems": [
+				{
+					"id": "SHARD_CAPTAINBRITAIN"
+				},
+				{
+					"id": "RS_CAPTAINBRITAIN_1"
+				},
+				{
+					"id": "RS_CAPTAINBRITAIN_2"
+				},
+				{
+					"id": "RS_CAPTAINBRITAIN_3"
+				},
+				{
+					"id": "RS_CAPTAINBRITAIN_4"
+				},
+				{
+					"id": "RS_CAPTAINBRITAIN_5"
+				},
+				{
+					"id": "RS_CAPTAINBRITAIN_6"
+				},
+				{
+					"id": "RS_CAPTAINBRITAIN_7"
+				},
+				{
+					"id": "PD_CAPTAINBRITAIN_1"
+				},
+				{
+					"id": "PD_CAPTAINBRITAIN_2"
+				},
+				{
+					"id": "PD_CAPTAINBRITAIN_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Mystic",
+					"name": "MYSTIC"
+				},
+				{
+					"id": "Protector",
+					"name": "PROTECTOR"
+				},
+				{
+					"id": "Illuminati",
+					"name": "ILLUMINATI"
+				},
+				{
+					"id": "Epic",
+					"name": "EPIC"
 				}
 			]
 		},
@@ -2799,6 +3018,13 @@
 				{
 					"id": "Chargeable",
 					"alwaysInvisible": true
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -3863,6 +4089,13 @@
 					"id": "MercsForMoney",
 					"name": "MERCS FOR MONEY"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
+				}
 			]
 		},
 		{
@@ -4025,6 +4258,11 @@
 					"id": "MSFOriginal",
 					"isEvent": true,
 					"name": "MSF ORIGINAL"
+				},
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -4347,6 +4585,13 @@
 				{
 					"id": "Xforce",
 					"name": "X-FORCE"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -5767,6 +6012,148 @@
 			]
 		},
 		{
+			"id": "Gladiator",
+			"mission": false,
+			"name": "Gladiator",
+			"description": "Superguardian of the Shi'ar Imperium, Gladiator uses his near limitless might and superhuman feats to protect his allies and the universe from the worst of the worst.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Gladiator_b17d83d2.png",
+			"starItems": [
+				{
+					"id": "SHARD_GLADIATOR"
+				},
+				{
+					"id": "RS_GLADIATOR_1"
+				},
+				{
+					"id": "RS_GLADIATOR_2"
+				},
+				{
+					"id": "RS_GLADIATOR_3"
+				},
+				{
+					"id": "RS_GLADIATOR_4"
+				},
+				{
+					"id": "RS_GLADIATOR_5"
+				},
+				{
+					"id": "RS_GLADIATOR_6"
+				},
+				{
+					"id": "RS_GLADIATOR_7"
+				},
+				{
+					"id": "PD_GLADIATOR_1"
+				},
+				{
+					"id": "PD_GLADIATOR_2"
+				},
+				{
+					"id": "PD_GLADIATOR_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Cosmic",
+					"name": "COSMIC"
+				},
+				{
+					"id": "Bio",
+					"name": "BIO"
+				},
+				{
+					"id": "Protector",
+					"name": "PROTECTOR"
+				},
+				{
+					"id": "Annihilator",
+					"name": "ANNIHILATOR"
+				}
+			]
+		},
+		{
+			"id": "Gorr",
+			"mission": false,
+			"name": "Gorr",
+			"description": "Following the death of his child, Gorr became The God Butcher, slaying countless gods with All-Black, the Necrosword. He controls the battle with powerful attacks that can clear Charged and Battlefield Effects.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Gorr_27c24f7f.png",
+			"starItems": [
+				{
+					"id": "SHARD_GORR"
+				},
+				{
+					"id": "RS_GORR_1"
+				},
+				{
+					"id": "RS_GORR_2"
+				},
+				{
+					"id": "RS_GORR_3"
+				},
+				{
+					"id": "RS_GORR_4"
+				},
+				{
+					"id": "RS_GORR_5"
+				},
+				{
+					"id": "RS_GORR_6"
+				},
+				{
+					"id": "RS_GORR_7"
+				},
+				{
+					"id": "PD_GORR_1"
+				},
+				{
+					"id": "PD_GORR_2"
+				},
+				{
+					"id": "PD_GORR_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Cosmic",
+					"name": "COSMIC"
+				},
+				{
+					"id": "Bio",
+					"name": "BIO"
+				},
+				{
+					"id": "Controller",
+					"name": "CONTROLLER"
+				},
+				{
+					"id": "Annihilator",
+					"name": "ANNIHILATOR"
+				},
+				{
+					"id": "Symbiote",
+					"name": "SYMBIOTE"
+				}
+			],
+			"invisibleTraits": [
+				{
+					"id": "Chargeable",
+					"alwaysInvisible": true
+				}
+			]
+		},
+		{
 			"id": "Graviton",
 			"mission": false,
 			"name": "Graviton",
@@ -6193,6 +6580,13 @@
 					"id": "NewWarrior",
 					"name": "NEW WARRIOR"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
+				}
 			]
 		},
 		{
@@ -6542,6 +6936,80 @@
 				{
 					"id": "Minion",
 					"name": "MINION"
+				}
+			]
+		},
+		{
+			"id": "HankPym",
+			"mission": false,
+			"name": "Hank Pym",
+			"description": "Founding member of the Avengers and the original Ant-Man, Hank Pym uses his genius to change size, command armies of ants, and support his allies.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_HankPym_19180045.png",
+			"starItems": [
+				{
+					"id": "SHARD_HANKPYM"
+				},
+				{
+					"id": "RS_HANKPYM_1"
+				},
+				{
+					"id": "RS_HANKPYM_2"
+				},
+				{
+					"id": "RS_HANKPYM_3"
+				},
+				{
+					"id": "RS_HANKPYM_4"
+				},
+				{
+					"id": "RS_HANKPYM_5"
+				},
+				{
+					"id": "RS_HANKPYM_6"
+				},
+				{
+					"id": "RS_HANKPYM_7"
+				},
+				{
+					"id": "PD_HANKPYM_1"
+				},
+				{
+					"id": "PD_HANKPYM_2"
+				},
+				{
+					"id": "PD_HANKPYM_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Tech",
+					"name": "TECH"
+				},
+				{
+					"id": "Support",
+					"name": "SUPPORT"
+				},
+				{
+					"id": "PymTech",
+					"name": "PYM TECH"
+				},
+				{
+					"id": "Avenger",
+					"name": "AVENGER"
+				},
+				{
+					"id": "Illuminati",
+					"name": "ILLUMINATI"
 				}
 			]
 		},
@@ -7915,6 +8383,10 @@
 					"name": "BIONIC AVENGER"
 				},
 				{
+					"id": "Illuminati",
+					"name": "ILLUMINATI"
+				},
+				{
 					"id": "Legendary",
 					"name": "LEGENDARY"
 				}
@@ -8374,6 +8846,13 @@
 				{
 					"id": "Chargeable",
 					"alwaysInvisible": true
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -11372,6 +11851,10 @@
 				{
 					"id": "FantasticFour",
 					"name": "FANTASTIC FOUR"
+				},
+				{
+					"id": "Illuminati",
+					"name": "ILLUMINATI"
 				}
 			],
 			"eventTraits": [
@@ -12109,6 +12592,11 @@
 					"id": "Energized",
 					"isEvent": true,
 					"name": "ENERGIZED"
+				},
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -12850,6 +13338,13 @@
 					"id": "Legendary",
 					"name": "LEGENDARY"
 				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
+				}
 			]
 		},
 		{
@@ -12995,6 +13490,13 @@
 				{
 					"id": "MercsForMoney",
 					"name": "MERCS FOR MONEY"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -16456,6 +16958,10 @@
 				{
 					"id": "Blaster",
 					"name": "BLASTER"
+				},
+				{
+					"id": "Annihilator",
+					"name": "ANNIHILATOR"
 				}
 			]
 		},
@@ -16538,6 +17044,11 @@
 					"id": "WebSlinger",
 					"isEvent": true,
 					"name": "WEB-SLINGER"
+				},
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -18578,6 +19089,72 @@
 			]
 		},
 		{
+			"id": "ThanosEndgame",
+			"mission": false,
+			"name": "Thanos (Endgame)",
+			"description": "When the Avengers' Time Heist went awry, Thanos was shown a future of his purpose fulfilled. Armed with that knowledge, he stepped into the future to ensure his inevitable destiny.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_ThanosEndgame_83979529.png",
+			"starItems": [
+				{
+					"id": "SHARD_THANOSENDGAME"
+				},
+				{
+					"id": "RS_THANOSENDGAME_1"
+				},
+				{
+					"id": "RS_THANOSENDGAME_2"
+				},
+				{
+					"id": "RS_THANOSENDGAME_3"
+				},
+				{
+					"id": "RS_THANOSENDGAME_4"
+				},
+				{
+					"id": "RS_THANOSENDGAME_5"
+				},
+				{
+					"id": "RS_THANOSENDGAME_6"
+				},
+				{
+					"id": "RS_THANOSENDGAME_7"
+				},
+				{
+					"id": "PD_THANOSENDGAME_1"
+				},
+				{
+					"id": "PD_THANOSENDGAME_2"
+				},
+				{
+					"id": "PD_THANOSENDGAME_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Cosmic",
+					"name": "COSMIC"
+				},
+				{
+					"id": "Skill",
+					"name": "SKILL"
+				},
+				{
+					"id": "Brawler",
+					"name": "BRAWLER"
+				},
+				{
+					"id": "Annihilator",
+					"name": "ANNIHILATOR"
+				}
+			]
+		},
+		{
 			"id": "TheLeader",
 			"mission": false,
 			"name": "The Leader",
@@ -19249,6 +19826,10 @@
 				{
 					"id": "Mythic",
 					"name": "MYTHIC"
+				},
+				{
+					"id": "Annihilator",
+					"name": "ANNIHILATOR"
 				}
 			]
 		},
@@ -20380,6 +20961,11 @@
 					"id": "United",
 					"isEvent": true,
 					"name": "UNITED"
+				},
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -20520,6 +21106,13 @@
 				{
 					"id": "WeaponX",
 					"name": "WEAPON X"
+				}
+			],
+			"eventTraits": [
+				{
+					"id": "PoolPals",
+					"isEvent": true,
+					"name": "POOL PALS"
 				}
 			]
 		},
@@ -20953,6 +21546,10 @@
 				{
 					"id": "Undying",
 					"name": "UNDYING"
+				},
+				{
+					"id": "Epic",
+					"name": "EPIC"
 				}
 			]
 		},
@@ -21019,6 +21616,10 @@
 				{
 					"id": "Undying",
 					"name": "UNDYING"
+				},
+				{
+					"id": "Epic",
+					"name": "EPIC"
 				}
 			],
 			"invisibleTraits": [
@@ -21032,14 +21633,14 @@
 	"meta": {
 		"version": 1,
 		"hashes": {
-			"events": "21d07e4d69fd569ac259",
-			"drops": "763e6ca464d819d87096",
-			"locs": "67bcb77d299b2627ced9",
-			"nodes": "89ac3afdfc8ae76ec94a",
-			"chars": "257809b621c3299a1b7a",
-			"other": "a3a28d16705d6a3bab24",
-			"all": "5cdf7c090d074a785b0e"
+			"events": "9e5febd9a4e9a7a727fa",
+			"drops": "9a3c6df54aa45d0311b1",
+			"locs": "5ece1d663c8b15a6141f",
+			"nodes": "bf42abd189bb0d00d0c5",
+			"chars": "85ee2bb7cf9143202932",
+			"other": "d1e1bde52e6c43d3d468",
+			"all": "0ee1f1aa0d4fa09a1b09"
 		},
-		"perTotal": 285
+		"perTotal": 292
 	}
 }
