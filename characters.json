@@ -10020,6 +10020,10 @@
 				{
 					"id": "WeaponX",
 					"name": "WEAPON X"
+				},
+				{
+					"id": "Orchis",
+					"name": "ORCHIS"
 				}
 			]
 		},
@@ -12971,6 +12975,72 @@
 			]
 		},
 		{
+			"id": "Nimrod",
+			"mission": false,
+			"name": "Nimrod",
+			"description": "The ultimate Sentinel from the future, Nimrod uses his adaptive technology to hunts Mutants using Stealth and Critical Damage.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Nimrod_144f1b34.png",
+			"starItems": [
+				{
+					"id": "SHARD_NIMROD"
+				},
+				{
+					"id": "RS_NIMROD_1"
+				},
+				{
+					"id": "RS_NIMROD_2"
+				},
+				{
+					"id": "RS_NIMROD_3"
+				},
+				{
+					"id": "RS_NIMROD_4"
+				},
+				{
+					"id": "RS_NIMROD_5"
+				},
+				{
+					"id": "RS_NIMROD_6"
+				},
+				{
+					"id": "RS_NIMROD_7"
+				},
+				{
+					"id": "PD_NIMROD_1"
+				},
+				{
+					"id": "PD_NIMROD_2"
+				},
+				{
+					"id": "PD_NIMROD_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Tech",
+					"name": "TECH"
+				},
+				{
+					"id": "Blaster",
+					"name": "BLASTER"
+				},
+				{
+					"id": "Orchis",
+					"name": "ORCHIS"
+				}
+			]
+		},
+		{
 			"id": "Nobu",
 			"mission": false,
 			"name": "Nobu",
@@ -13177,6 +13247,82 @@
 				{
 					"id": "Legendary",
 					"name": "LEGENDARY"
+				}
+			],
+			"invisibleTraits": [
+				{
+					"id": "Chargeable",
+					"alwaysInvisible": true
+				}
+			]
+		},
+		{
+			"id": "Odin",
+			"mission": false,
+			"name": "Odin",
+			"description": "The All-Father, King of Asgard, and protector of the Nine Realms, Odin uses his mystical spear and an ancient energy known as The Odinforce to blast enemies with an onslaught of devastating attacks.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Odin_c27c7498.png",
+			"starItems": [
+				{
+					"id": "SHARD_ODIN"
+				},
+				{
+					"id": "RS_ODIN_1"
+				},
+				{
+					"id": "RS_ODIN_2"
+				},
+				{
+					"id": "RS_ODIN_3"
+				},
+				{
+					"id": "RS_ODIN_4"
+				},
+				{
+					"id": "RS_ODIN_5"
+				},
+				{
+					"id": "RS_ODIN_6"
+				},
+				{
+					"id": "RS_ODIN_7"
+				},
+				{
+					"id": "PD_ODIN_1"
+				},
+				{
+					"id": "PD_ODIN_2"
+				},
+				{
+					"id": "PD_ODIN_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 6,
+			"traits": [
+				{
+					"id": "Hero",
+					"name": "HERO"
+				},
+				{
+					"id": "Cosmic",
+					"name": "COSMIC"
+				},
+				{
+					"id": "Mystic",
+					"name": "MYSTIC"
+				},
+				{
+					"id": "Blaster",
+					"name": "BLASTER"
+				},
+				{
+					"id": "Asgard",
+					"name": "ASGARDIAN"
+				},
+				{
+					"id": "Mythic",
+					"name": "MYTHIC"
 				}
 			],
 			"invisibleTraits": [
@@ -13420,6 +13566,72 @@
 				{
 					"id": "Chargeable",
 					"alwaysInvisible": true
+				}
+			]
+		},
+		{
+			"id": "OmegaSentinel",
+			"mission": false,
+			"name": "Omega Sentinel",
+			"description": "A merciless Orchis soldier, Omega Sentinel is a human who gave her body to technology and soul to the destruction of Mutantkind.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_OmegaSentinel_cbc7c0f5.png",
+			"starItems": [
+				{
+					"id": "SHARD_OMEGASENTINEL"
+				},
+				{
+					"id": "RS_OMEGASENTINEL_1"
+				},
+				{
+					"id": "RS_OMEGASENTINEL_2"
+				},
+				{
+					"id": "RS_OMEGASENTINEL_3"
+				},
+				{
+					"id": "RS_OMEGASENTINEL_4"
+				},
+				{
+					"id": "RS_OMEGASENTINEL_5"
+				},
+				{
+					"id": "RS_OMEGASENTINEL_6"
+				},
+				{
+					"id": "RS_OMEGASENTINEL_7"
+				},
+				{
+					"id": "PD_OMEGASENTINEL_1"
+				},
+				{
+					"id": "PD_OMEGASENTINEL_2"
+				},
+				{
+					"id": "PD_OMEGASENTINEL_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Tech",
+					"name": "TECH"
+				},
+				{
+					"id": "Support",
+					"name": "SUPPORT"
+				},
+				{
+					"id": "Orchis",
+					"name": "ORCHIS"
 				}
 			]
 		},
@@ -15821,6 +16033,10 @@
 				{
 					"id": "Aim",
 					"name": "A.I.M."
+				},
+				{
+					"id": "Orchis",
+					"name": "ORCHIS"
 				}
 			]
 		},
@@ -15892,6 +16108,76 @@
 					"id": "Symbiote",
 					"name": "SYMBIOTE"
 				}
+			]
+		},
+		{
+			"id": "Sentinel",
+			"mission": false,
+			"name": "Sentinel",
+			"description": "A robot created for the purpose of hunting and exterminating Mutants, the Sentinel summons reinforcements to overwhelm their prey.",
+			"portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Sentinel_c523c357.png",
+			"starItems": [
+				{
+					"id": "SHARD_SENTINEL"
+				},
+				{
+					"id": "RS_SENTINEL_1"
+				},
+				{
+					"id": "RS_SENTINEL_2"
+				},
+				{
+					"id": "RS_SENTINEL_3"
+				},
+				{
+					"id": "RS_SENTINEL_4"
+				},
+				{
+					"id": "RS_SENTINEL_5"
+				},
+				{
+					"id": "RS_SENTINEL_6"
+				},
+				{
+					"id": "RS_SENTINEL_7"
+				},
+				{
+					"id": "PD_SENTINEL_1"
+				},
+				{
+					"id": "PD_SENTINEL_2"
+				},
+				{
+					"id": "PD_SENTINEL_3"
+				}
+			],
+			"status": "playable",
+			"unlockStars": 3,
+			"traits": [
+				{
+					"id": "Villain",
+					"name": "VILLAIN"
+				},
+				{
+					"id": "Global",
+					"name": "GLOBAL"
+				},
+				{
+					"id": "Tech",
+					"name": "TECH"
+				},
+				{
+					"id": "Protector",
+					"name": "PROTECTOR"
+				},
+				{
+					"id": "Orchis",
+					"name": "ORCHIS"
+				}
+			],
+			"summonIds": [
+				"Sentinel_Sword",
+				"Sentinel_Gun"
 			]
 		},
 		{
@@ -21633,14 +21919,14 @@
 	"meta": {
 		"version": 1,
 		"hashes": {
-			"events": "ecf05e640ec5f5471058",
-			"drops": "95e73412db6f58490a05",
-			"locs": "ec438f482e4a9a33bf46",
-			"nodes": "d1f391ed4872c6002b37",
-			"chars": "2c236483ce70a42a59a9",
-			"other": "85e239757d193b88451b",
-			"all": "7cc2ef89ad6a7a183a93"
+			"events": "370e19f9b1e5b5a48ebe",
+			"drops": "0912b4fb508fef2316c0",
+			"locs": "58a13dd8c992696e7484",
+			"nodes": "687c5ad9374b345b0fb0",
+			"chars": "76ef2d818efe6c4b1fda",
+			"other": "2c3d4fda450050fa7cff",
+			"all": "eaf0c2b4b8756c91b624"
 		},
-		"perTotal": 292
+		"perTotal": 296
 	}
 }
